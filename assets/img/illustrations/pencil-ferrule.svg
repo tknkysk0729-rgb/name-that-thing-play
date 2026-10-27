@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+<title>鉛筆のイラスト</title>
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#efeadf"/><stop offset="1" stop-color="#ddd3bf"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#3b2f1e" flood-opacity=".28"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#3b2f1e" flood-opacity=".3"/></filter>
+<linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f6f7"/><stop offset=".5" stop-color="#c3c9ce"/><stop offset="1" stop-color="#e4e8ea"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+
+<g filter="url(#sh)" transform="rotate(-20 380 300)">
+<rect x="50" y="250" width="480" height="100" fill="#f2c230"/>
+<rect x="50" y="250" width="480" height="34" fill="#f8d960"/>
+<rect x="50" y="318" width="480" height="32" fill="#d9a41c"/>
+<path d="M50 284 H530 M50 317 H530" stroke="#b8860b" stroke-width="2" opacity=".6"/>
+<path d="M50 250 L -20 300 L 50 350 Z" fill="#f1d6a8"/>
+<path d="M-4 288 L -20 300 L -4 312 Z" fill="#2b2b2b"/>
+<rect x="520" y="248" width="96" height="104" fill="url(#ferr)"/>
+<path d="M544 248 V352 M568 248 V352 M592 248 V352" stroke="#8c9399" stroke-width="3"/>
+<path d="M616 252 H690 a 22 22 0 0 1 22 22 V326 a 22 22 0 0 1 -22 22 H616 Z" fill="#e98fa0"/>
+<rect x="622" y="258" width="82" height="14" rx="7" fill="#f6b9c5" opacity=".8"/>
+</g>
+<defs><linearGradient id="ferr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f7f8"/><stop offset=".35" stop-color="#b8bfc4"/><stop offset=".7" stop-color="#e6e9eb"/><stop offset="1" stop-color="#9aa2a8"/></linearGradient></defs>
+</svg>

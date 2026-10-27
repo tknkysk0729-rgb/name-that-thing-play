@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+<title>包丁のイラスト</title>
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#d9b47b"/><stop offset="1" stop-color="#c9a265"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#3b2f1e" flood-opacity=".28"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#3b2f1e" flood-opacity=".3"/></filter>
+<linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f6f7"/><stop offset=".5" stop-color="#c3c9ce"/><stop offset="1" stop-color="#e4e8ea"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+
+<rect width="800" height="600" fill="#d9b47b"/>
+<path d="M0 20 C 200 6, 500 34, 800 20" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 54 C 200 40, 500 68, 800 54" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 88 C 200 74, 500 102, 800 88" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 122 C 200 108, 500 136, 800 122" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 156 C 200 142, 500 170, 800 156" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 190 C 200 176, 500 204, 800 190" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 224 C 200 210, 500 238, 800 224" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 258 C 200 244, 500 272, 800 258" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 292 C 200 278, 500 306, 800 292" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 326 C 200 312, 500 340, 800 326" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 360 C 200 346, 500 374, 800 360" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 394 C 200 380, 500 408, 800 394" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 428 C 200 414, 500 442, 800 428" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 462 C 200 448, 500 476, 800 462" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 496 C 200 482, 500 510, 800 496" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 530 C 200 516, 500 544, 800 530" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 564 C 200 550, 500 578, 800 564" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/><path d="M0 598 C 200 584, 500 612, 800 598" stroke="#b98d55" stroke-width="2" fill="none" opacity=".5"/>
+<g filter="url(#sh)" transform="rotate(-12 400 300)">
+<path d="M40 276 Q 30 276 30 288 V 322 Q 30 334 40 334 H 232 V 276 Z" fill="#5b3b22"/>
+<path d="M44 284 H 226" stroke="#7a5233" stroke-width="5" stroke-linecap="round"/>
+<circle cx="80" cy="305" r="5" fill="#cfd3d6"/><circle cx="190" cy="305" r="5" fill="#cfd3d6"/>
+<rect x="232" y="268" width="22" height="72" rx="4" fill="#b9bfc4"/>
+<path d="M254 262 L 620 262 Q 684 268 702 322 Q 640 372 560 372 L 254 372 Z" fill="url(#steel)" stroke="#8d969c" stroke-width="3"/>
+<path d="M258 356 L 560 356 Q 626 356 690 326" stroke="#fff" stroke-width="4" fill="none" opacity=".85"/>
+<path d="M258 290 L 640 290" stroke="#a5adb3" stroke-width="2" opacity=".7"/>
+</g>
+</svg>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Name That Thing — 見たことはある。でも、名前は知らない。</title>
+  <meta name="description" content="身のまわりのモノの「あの部分」の名前を当てる4択クイズ。見たことはあるのに名前は知らない、が楽しい。">
+  <meta name="theme-color" content="#faf8f3">
+
+  <!-- Share metadata. Add og:image / og:url once the production URL and a share image exist. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Name That Thing">
+  <meta property="og:description" content="見たことはある。でも、名前は知らない。身近なモノの名前を当てる4択クイズ。">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <button type="button" class="logo" id="logo" aria-label="Name That Thing"></button>
+      <div class="lang" role="group" id="lang"></div>
+    </div>
+  </header>
+
+  <main id="app" class="wrap" tabindex="-1">
+    <noscript>This game needs JavaScript. / このゲームにはJavaScriptが必要です。</noscript>
+  </main>
+
+  <!-- Reserved for a future ad unit. Keep it below the quiz content, never between the question and its choices. -->
+  <aside id="ad-slot" class="ad-slot wrap" hidden></aside>
+
+  <footer class="site-footer">
+    <div class="wrap" id="footer"></div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+<title>メガネのイラスト</title>
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#efe9de"/><stop offset="1" stop-color="#ddd2bf"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#3b2f1e" flood-opacity=".28"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#3b2f1e" flood-opacity=".3"/></filter>
+<linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f6f7"/><stop offset=".5" stop-color="#c3c9ce"/><stop offset="1" stop-color="#e4e8ea"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+
+<g filter="url(#sh)">
+<path d="M178 215 L 78 462" stroke="#2a2522" stroke-width="16" stroke-linecap="round" fill="none"/>
+<path d="M622 215 L 722 462" stroke="#2a2522" stroke-width="16" stroke-linecap="round" fill="none"/>
+<path d="M99 412 Q 92 440 96 470 Q 100 486 112 476" stroke="#b5651d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M701 412 Q 708 440 704 470 Q 700 486 688 476" stroke="#b5651d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M692 420 Q 700 446 696 468" stroke="#e0a55c" stroke-width="7" stroke-linecap="round" fill="none"/>
+<path d="M108 420 Q 100 446 104 468" stroke="#e0a55c" stroke-width="7" stroke-linecap="round" fill="none"/>
+<rect x="170" y="170" width="200" height="160" rx="64" fill="#cfe6f3" fill-opacity=".45" stroke="#2a2522" stroke-width="16"/><path d="M210 205 q 30 -18 70 -6" stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none" opacity=".7"/><rect x="430" y="170" width="200" height="160" rx="64" fill="#cfe6f3" fill-opacity=".45" stroke="#2a2522" stroke-width="16"/><path d="M470 205 q 30 -18 70 -6" stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none" opacity=".7"/>
+<path d="M366 232 Q 400 205 434 232" stroke="#2a2522" stroke-width="14" fill="none" stroke-linecap="round"/>
+<circle cx="372" cy="262" r="6" fill="#d8d2c6"/><circle cx="428" cy="262" r="6" fill="#d8d2c6"/>
+</g>
+</svg>

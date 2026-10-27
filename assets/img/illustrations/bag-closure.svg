@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+<title>食パンの袋とその口を留めるプラスチックの留め具のイラスト</title>
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#e9edf0"/><stop offset="1" stop-color="#d4dbe0"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#3b2f1e" flood-opacity=".28"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#3b2f1e" flood-opacity=".3"/></filter>
+<linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f6f7"/><stop offset=".5" stop-color="#c3c9ce"/><stop offset="1" stop-color="#e4e8ea"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+
+<g filter="url(#sh)">
+<path d="M150 290 Q 150 235 210 232 L 590 232 Q 650 235 650 290 L 650 520 Q 650 548 622 548 L 178 548 Q 150 548 150 520 Z" fill="#f7f4ec" fill-opacity=".92" stroke="#d8d2c2" stroke-width="4"/>
+<path d="M175 300 Q 175 262 215 260 L 585 260 Q 625 262 625 300 L 625 505 Q 625 525 605 525 L 195 525 Q 175 525 175 505 Z" fill="#d9a05b"/>
+<path d="M175 300 Q 175 262 215 260 L 585 260 Q 625 262 625 300 L 625 350 L 175 350 Z" fill="#e8b878"/>
+<path d="M240 300 v200 M320 290 v220 M400 290 v220 M480 290 v220 M560 300 v200" stroke="#c78d45" stroke-width="3" opacity=".55"/>
+<path d="M165 300 Q 165 240 220 236 L 580 236 Q 635 240 635 300" fill="none" stroke="#ffffff" stroke-width="6" opacity=".55"/>
+<path d="M300 236 Q 340 190 372 168 L 428 168 Q 460 190 500 236 Z" fill="#f2efe6" stroke="#d8d2c2" stroke-width="4"/>
+<path d="M330 222 Q 358 196 380 176 M400 224 V172 M470 222 Q 442 196 420 176" stroke="#d3cdbd" stroke-width="3" fill="none"/>
+</g>
+<g filter="url(#sh2)">
+<path d="M335 96 Q 335 80 352 80 L 448 80 Q 465 80 465 96 L 465 150 Q 465 168 448 168 L 428 168 L 428 138 Q 428 128 418 128 L 382 128 Q 372 128 372 138 L 372 168 L 352 168 Q 335 168 335 150 Z" fill="#2c6fd1" stroke="#1d4c93" stroke-width="4" stroke-linejoin="round"/>
+<path d="M350 96 H 450" stroke="#6fa2ee" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+<path d="M386 128 V 168" stroke="#f2efe6" stroke-width="10"/>
+<path d="M414 128 V 168" stroke="#f2efe6" stroke-width="10"/>
+</g>
+</svg>
