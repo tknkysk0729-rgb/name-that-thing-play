@@ -24736,6 +24736,427 @@
         "evidence": "medium",
         "reviewedAt": "2026-10-26"
       }
+    },
+    {
+      "id": "q143",
+      "category": "transport",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "車道と歩道の境などに立てて、車の進入を防ぐ、短い柱は、何と呼ばれるでしょう？",
+        "en": "What is the short post set between road and pavement to keep cars out called?"
+      },
+      "answer": {
+        "ja": "ボラード",
+        "en": "Bollard"
+      },
+      "furigana": {
+        "車止め": "くるまどめ",
+        "歩道": "ほどう",
+        "車道": "しゃどう"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "ボラード",
+          "en": "Bollard"
+        },
+        {
+          "id": "c2",
+          "ja": "ガードパイプ",
+          "en": "Guard pipe",
+          "note": {
+            "ja": "道路のわきに連続して設置される、パイプ状の柵。",
+            "en": "A pipe-shaped fence set continuously beside a road."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "ラバーポール",
+          "en": "Flexible post",
+          "note": {
+            "ja": "車線を分けるために立てる、ゴム製の棒。",
+            "en": "A rubber post set up to divide lanes."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "車止め（くるまどめ）",
+          "en": "Wheel stop",
+          "note": {
+            "ja": "駐車場で、車輪が進み過ぎないよう置く、低い障害物。",
+            "en": "A low block in a car park that stops wheels from rolling too far."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "道路に立てて、車の進入を防ぐための柱。歩行者の安全を守るために使われる。",
+          "en": "A post set on a road to keep vehicles out and protect pedestrians."
+        },
+        "trivia": {
+          "ja": "もとは船をつなぎ留める係船柱の名前。昇降式のライジングボラードもあり、必要な時だけ車の出入りを許す。",
+          "en": "The word originally names the post a ship is moored to. Rising bollards also exist and let vehicles pass only when needed."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/bollard.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": {
+          "ja": "広場に並ぶ、ステンレスのボラード。",
+          "en": "A row of stainless-steel bollards in a plaza."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.56,
+          "cy": 0.6,
+          "rx": 0.3,
+          "ry": 0.24,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Stainless_steel_bollard_SSP150.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Stainless_steel_bollard_SSP150.JPG",
+          "author": "Leda Vannaclip",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Stainless steel bollard SSP150” by Leda Vannaclip, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 2160x1440 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "f4d8dfce6b722bf3eb46fc1e26ea0b32a382dea5",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "ボラード - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%A9%E3%83%BC%E3%83%89",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ボラード - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示"
+        },
+        {
+          "title": "Bollard - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bollard",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Look up bollard in Wiktionary, the free dictionary. Wikimedia Commons has media related to Bollard . Bollard may refer to: Traffic bollards , a short vertical post used for traffic control and security Mooring bollards , a short vertical post used to secure ropes for"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「ボラード」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Bollard",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "ガードパイプの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "ラバーポールの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "車止めの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "街のあちこちで見かける短い柱だが、「ボラード」という名前までは知らない人が多い。",
+        "en": "Short posts are everywhere in town, but many do not know the word 'bollard'."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q147",
+      "category": "building",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "雨どいで、屋根の横の樋から縦の樋へ、水を集めて落とす、じょうごのような部品は、何と呼ばれるでしょう？",
+        "en": "What is the funnel-like part of a rain gutter that collects water from the horizontal gutter and drops it into the vertical one called?"
+      },
+      "answer": {
+        "ja": "集水器（しゅうすいき）",
+        "reading": "しゅうすいき",
+        "en": "Collector head"
+      },
+      "furigana": {
+        "軒樋": "のきどい",
+        "竪樋": "たてどい",
+        "鎖樋": "くさりどい",
+        "集水器": "しゅうすいき",
+        "雨": "あめ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "集水器（しゅうすいき）",
+          "en": "Collector head"
+        },
+        {
+          "id": "c2",
+          "ja": "軒樋（のきどい）",
+          "en": "Eaves gutter",
+          "note": {
+            "ja": "軒下に取り付けて、屋根の水を集めて流す樋。",
+            "en": "The gutter along the eaves that collects roof water."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "竪樋（たてどい）",
+          "en": "Downspout",
+          "note": {
+            "ja": "集めた水を、地面まで縦に流す樋。",
+            "en": "The vertical pipe that carries the water to the ground."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "鎖樋（くさりどい）",
+          "en": "Rain chain",
+          "note": {
+            "ja": "鎖を伝わせて、水を下へ流す樋。",
+            "en": "A chain that guides the water down."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "軒樋に集めた雨水を、竪樋へ落とすために取り付ける、じょうご状の部品。",
+          "en": "A funnel-shaped fitting that drops the rainwater collected in the eaves gutter into the downspout."
+        },
+        "trivia": {
+          "ja": "雨どいは、軒樋・止まり・集水器・竪樋などの部品でできている。「とい」の語は、昔の「戸樋（とひ）」から来ている。",
+          "en": "A rain gutter is made of parts such as the eaves gutter, end stop, collector and downspout. The word 'toi' comes from the old 'tohi'."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/rain-gutter-collector.jpg",
+        "width": 960,
+        "height": 717,
+        "alt": {
+          "ja": "銅の雨どい。軒樋の端に、じょうご状の集水器が付いている。",
+          "en": "A copper rain gutter with a funnel-shaped collector at the end of the eaves gutter."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.66,
+          "cy": 0.2,
+          "rx": 0.09,
+          "ry": 0.12,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Drainspout%2Camadoi%2Ckatori-city%2Cjapan.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Drainspout,amadoi,katori-city,japan.JPG",
+          "author": "katorisi",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "attribution": "“Drainspout,amadoi,katori-city,japan” by katorisi, via Wikimedia Commons, CC BY 3.0",
+          "modifications": "Downscaled from 1200x1600 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "7af7e90a29ecd05e9bd92bcd7f03dbbe30c573f6",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped from a portrait photo. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "雨樋 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E9%9B%A8%E6%A8%8B",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "るようになっている。 樋の構成 [ 編集 ] 雨どい a.軒樋 b.止まり c.集水器 d.エルボ e.呼び樋 f.竪樋 g.合わせ桝 構成部品 [ 編集 ] 樋集水器 - 軒樋などの雨水を集めて縦樋に流すためのじょうごや桝 [ 2 ] 。 樋止め - 雨水が樋から流出するのを防止するために樋の先端に取り付けるプレート [ 2 ] 。「止まり」ともいう。 エルボ 呼び樋 合わせ桝 樋受金物 [ 編集 ] 樋は、樋受金物を介して軒先に釘で、または直接打ち込んで固定する。一般住宅用の樋受金物の素材は、鉄製（ 亜鉛メッキ 仕上げ）が一般的だが、神社仏閣用には 銅 製や ステンレス"
+        },
+        {
+          "title": "Rain_gutter - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rain_gutter",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "guards subsection 4.1 Types of gutter guards 5 See also 6 References 7 External links Toggle the table of contents Rain gutter 39 languages Aragonés العربية Bikol Central Български Brezhoneg Dansk Deutsch Ελληνικά Esperanto Español Suomi Français Galego עברית Bahasa Indonesia Italiano 日本語 한국어 Ripoarisch Lëtzebuergesch Limburgs Македонски മലയാളം Bahasa Melayu Nederlands Norsk bo"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「集水器」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「しゅうすいき」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Collector head",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "軒樋の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "竪樋の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "鎖樋の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "家の軒先で見慣れた部分だが、じょうご状の部品の名前まで知る人は少ない。",
+        "en": "Familiar at every eave, yet few know the funnel-like fitting has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
     }
   ]
 }
