@@ -26022,6 +26022,3468 @@
         "evidence": "medium",
         "reviewedAt": "2026-10-26"
       }
+    },
+    {
+      "id": "q157",
+      "category": "building",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "和室で、ふすまや障子の上の、天井との間にある、彫刻や格子をはめこんだ部分は、何と呼ばれるでしょう？",
+        "en": "What is the carved or latticed panel between the sliding doors and the ceiling of a Japanese room called?"
+      },
+      "answer": {
+        "ja": "欄間（らんま）",
+        "reading": "らんま",
+        "en": "Ranma panel"
+      },
+      "furigana": {
+        "欄間": "らんま",
+        "鴨居": "かもい",
+        "長押": "なげし",
+        "敷居": "しきい",
+        "障子": "しょうじ",
+        "透かし彫り": "すかしぼり",
+        "天井": "てんじょう"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "欄間（らんま）",
+          "en": "Ranma panel"
+        },
+        {
+          "id": "c2",
+          "ja": "鴨居（かもい）",
+          "en": "Kamoi lintel",
+          "note": {
+            "ja": "ふすまや障子の上にある、溝のついた横木。",
+            "en": "The grooved beam above sliding doors."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "長押（なげし）",
+          "en": "Nageshi rail",
+          "note": {
+            "ja": "柱と柱をつなぐ、壁面の横木。",
+            "en": "The horizontal rail that joins pillars along a wall."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "敷居（しきい）",
+          "en": "Shikii sill",
+          "note": {
+            "ja": "ふすまや障子の下にある、溝のついた横木。",
+            "en": "The grooved sill under sliding doors."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "採光・通風・装飾のために、天井と鴨居のあいだに設ける建具。透かし彫りや格子がはめられる。",
+          "en": "A fitting set between the lintel and the ceiling for light, ventilation and decoration, filled with openwork carving or lattice."
+        },
+        "trivia": {
+          "ja": "隣の部屋と風や光を通しながら、見た目も飾る。彫刻の凝った欄間は、家の格を示すものでもあった。",
+          "en": "It lets air and light pass between rooms while decorating them; elaborate carved ranma also signalled a house's standing."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/ranma.jpg",
+        "width": 1280,
+        "height": 854,
+        "alt": {
+          "ja": "金色の彫刻がはめこまれた、豪華な欄間。",
+          "en": "An ornate ranma panel with gilded carving."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.46,
+          "cy": 0.52,
+          "rx": 0.43,
+          "ry": 0.28,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ranma.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ranma.jpg",
+          "author": "Bariston",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Ranma” by Bariston, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 5762x3846 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "dfba63d58f6dfd419ceccc836612c9a5457221e4",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "欄間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%AC%84%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "欄間 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "Ranma_(architectural) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ranma_(architectural)",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from Ranma (architectural) ) Horizontal structural piece separating a door from a window above it For other uses, see Transom (disambiguation) . Door of 10 Downing Street , London, showing a transom separating the door from the fanlight window above Parts of a case"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「欄間」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「らんま」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Ranma panel",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "鴨居の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "長押の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "敷居の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "和室の天井近くにある飾り板は見慣れているが、名前を知る人は少ない。",
+        "en": "The decorative panel near a Japanese ceiling is familiar, yet few know its name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q158",
+      "category": "japan",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "床の間のわきに立つ、いちばん目立つ柱は、何と呼ばれるでしょう？",
+        "en": "What is the most conspicuous post standing beside a tokonoma alcove called?"
+      },
+      "answer": {
+        "ja": "床柱（とこばしら）",
+        "reading": "とこばしら",
+        "en": "Alcove post"
+      },
+      "furigana": {
+        "床柱": "とこばしら",
+        "床框": "とこがまち",
+        "落とし掛け": "おとしがけ",
+        "違い棚": "ちがいだな",
+        "床の間": "とこのま",
+        "柱": "はしら"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "床柱（とこばしら）",
+          "en": "Alcove post"
+        },
+        {
+          "id": "c2",
+          "ja": "床框（とこがまち）",
+          "en": "Floor-edge rail",
+          "note": {
+            "ja": "床の間の床の、前の縁にわたす横木。",
+            "en": "The rail along the front edge of the alcove floor."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "落とし掛け（おとしがけ）",
+          "en": "Lintel beam",
+          "note": {
+            "ja": "床の間の上の小壁の下にかけた、横木。",
+            "en": "The beam under the small wall above the alcove."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "違い棚（ちがいだな）",
+          "en": "Staggered shelves",
+          "note": {
+            "ja": "床の間のわきにある、段違いの棚。",
+            "en": "The offset shelves beside the alcove."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "床の間でいちばん目立つ部材。書院造では角柱が基本で、数寄屋造りでは節のある丸木などを使うこともある。",
+          "en": "The most conspicuous member of the alcove: a square post in shoin style, sometimes a knotty log in sukiya style."
+        },
+        "trivia": {
+          "ja": "床柱には、桐や杉などの銘木や、珍しい丸太が選ばれることが多い。",
+          "en": "Choice timbers such as paulownia or cedar, or unusual logs, are often used for it."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/tokobashira.jpg",
+        "width": 1280,
+        "height": 835,
+        "alt": {
+          "ja": "床の間のわきに立つ、皮つきの丸太の床柱。",
+          "en": "A bark-on log tokobashira standing beside a tokonoma."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.37,
+          "cy": 0.45,
+          "rx": 0.05,
+          "ry": 0.42,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Okuni_house_15.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Okuni_house_15.JPG",
+          "author": "Reggaeman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Okuni house 15” by Reggaeman, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 4229x2759 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "1a023fa0f8d143e25bc7270a01ca7ee80da31cd2",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "「床の間」は俗称とされる [ 2 ] 。 ハレ の空間である客間の一角に造られ、床柱、床框などで構成されている。 掛け軸 や活けた 花 などを飾る場所である。 歴史 [ 編集 ] 掛軸 と 華道 がある床の間。 掛軸を中心に床の間内で、斜めから見た様子。 元来、仏家より出たもので、押板と棚に仏像を置いていたと言われ、これが武家に伝わり仏画や仏具を置く床飾りが広まった [ 3 ] 。 南北朝時代 に付書院や違い棚とともに造られ始めた「押板（おしいた）」は、掛け軸をかける壁に置物や陶器などを展示する机を併合させたもので、その用途をそのままに、近世の茶室建築に造られた「上段」が床"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「床柱」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「とこばしら」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Alcove post",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "床框の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "落とし掛けの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "違い棚の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "和室の床の間のわきの柱に名前があることは、あまり知られていない。",
+        "en": "Few people know the post beside a tokonoma has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q159",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "床の間の上の小壁の下に、架け渡された横木は、何と呼ばれるでしょう？",
+        "en": "What is the horizontal beam spanning under the small wall above a tokonoma called?"
+      },
+      "answer": {
+        "ja": "落とし掛け（おとしがけ）",
+        "reading": "おとしがけ",
+        "en": "Drop rail"
+      },
+      "furigana": {
+        "落とし掛け": "おとしがけ",
+        "床柱": "とこばしら",
+        "床框": "とこがまち",
+        "長押": "なげし",
+        "床の間": "とこのま",
+        "小壁": "こかべ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "落とし掛け（おとしがけ）",
+          "en": "Drop rail"
+        },
+        {
+          "id": "c2",
+          "ja": "床柱（とこばしら）",
+          "en": "Alcove post",
+          "note": {
+            "ja": "床の間のわきに立つ、いちばん目立つ柱。",
+            "en": "The most conspicuous post beside the alcove."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "床框（とこがまち）",
+          "en": "Floor-edge rail",
+          "note": {
+            "ja": "床の間の床の、前の縁にわたす横木。",
+            "en": "The rail along the front edge of the alcove floor."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "長押（なげし）",
+          "en": "Nageshi rail",
+          "note": {
+            "ja": "柱と柱をつなぐ、壁面の横木。",
+            "en": "The horizontal rail joining pillars along a wall."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "床の間や書院窓の、上方の小壁の下に架け渡す横木。ふつう内法長押より上にある。",
+          "en": "A crossbar spanning under the small wall above a tokonoma or study window, usually above the nageshi."
+        },
+        "trivia": {
+          "ja": "桐・杉・赤松などの銘木が使われ、細身の皮付き丸太や竹を用いることもある。",
+          "en": "Fine timber such as paulownia, cedar or red pine is used, and slender bark-on logs or bamboo too."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/otoshigake.jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": {
+          "ja": "床の間の上に架け渡された、落とし掛けの横木。",
+          "en": "The otoshigake crossbeam spanning above a tokonoma."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.62,
+          "cy": 0.14,
+          "rx": 0.25,
+          "ry": 0.05,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Okuni_house_14.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Okuni_house_14.JPG",
+          "author": "Reggaeman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Okuni house 14” by Reggaeman, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 4288x2848 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "5e77cde9a6096d48e9e1cfc9c51b8fe7773ce204",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "、床柱を中心としてその横に床の間や床脇を置く。床の上部に垂れる小壁の下端には、「落し掛け」をつけ、床と畳とに段差がある場合には「床框（とこがまち）」という漆塗りの平行材を付ける。床のゆか板のことを床板という。壁仕上げには砂壁が用いられる。 落し掛け（おとしがけ、落掛け） とは、床の間や書院窓において、上方の小壁の下に架け渡してある横木のこと [ 8 ] 。通常、内法長押（うちのりなげし）より上方にある [ 8 ] 。桐、杉、赤松などの銘木が使われることが多いが、細身の皮付き丸太や竹を用いることもある [ 8 ] 。 床柱（とこばしら） は床の間で最も目立つ部材であり、書院造"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「落とし掛け」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「おとしがけ」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Drop rail",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "床柱の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "床框の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "長押の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "床の間の上の横木に名前があることは、ほとんど知られていない。",
+        "en": "Almost nobody knows the beam above a tokonoma has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q160",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "床の間の、床と畳の段差に付けられる、漆塗りの横材は、何と呼ばれるでしょう？",
+        "en": "What is the lacquered rail fitted at the step between a tokonoma floor and the tatami called?"
+      },
+      "answer": {
+        "ja": "床框（とこがまち）",
+        "reading": "とこがまち",
+        "en": "Floor-edge rail"
+      },
+      "furigana": {
+        "床框": "とこがまち",
+        "落とし掛け": "おとしがけ",
+        "床柱": "とこばしら",
+        "敷居": "しきい",
+        "床の間": "とこのま"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "床框（とこがまち）",
+          "en": "Floor-edge rail"
+        },
+        {
+          "id": "c2",
+          "ja": "落とし掛け（おとしがけ）",
+          "en": "Drop rail",
+          "note": {
+            "ja": "床の間の上の小壁の下に、架け渡す横木。",
+            "en": "The beam under the small wall above the alcove."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "床柱（とこばしら）",
+          "en": "Alcove post",
+          "note": {
+            "ja": "床の間のわきに立つ、いちばん目立つ柱。",
+            "en": "The most conspicuous post beside the alcove."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "敷居（しきい）",
+          "en": "Shikii sill",
+          "note": {
+            "ja": "ふすまや障子の下にある、溝のついた横木。",
+            "en": "The grooved sill under sliding doors."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "床の間の床板と畳との段差に取り付ける、漆塗りの平行材。",
+          "en": "A lacquered parallel member fitted where the alcove floor meets the tatami."
+        },
+        "trivia": {
+          "ja": "床框を使わず、一枚板の押板を置く古い書院もある。",
+          "en": "Some old shoin halls skip the rail and use a single plank instead."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/tokogamachi.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": {
+          "ja": "床の間の床の手前に付く、黒い漆塗りの床框。",
+          "en": "The black lacquered tokogamachi at the front of a tokonoma floor."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.55,
+          "cy": 0.78,
+          "rx": 0.27,
+          "ry": 0.045,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kannonin_Tottori15s5s4380.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kannonin_Tottori15s5s4380.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "attribution": "“Kannonin Tottori15s5s4380” by 663highland, via Wikimedia Commons, CC BY 2.5",
+          "modifications": "Downscaled from 4380x2920 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "a9eb6e2431e8b866d879b8e39beecff0ccb3085a",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "間」は俗称とされる [ 2 ] 。 ハレ の空間である客間の一角に造られ、床柱、床框などで構成されている。 掛け軸 や活けた 花 などを飾る場所である。 歴史 [ 編集 ] 掛軸 と 華道 がある床の間。 掛軸を中心に床の間内で、斜めから見た様子。 元来、仏家より出たもので、押板と棚に仏像を置いていたと言われ、これが武家に伝わり仏画や仏具を置く床飾りが広まった [ 3 ] 。 南北朝時代 に付書院や違い棚とともに造られ始めた「押板（おしいた）」は、掛け軸をかける壁に置物や陶器などを展示する机を併合させたもので、その用途をそのままに、近世の茶室建築に造られた「上段」が床の間と"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「床框」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「とこがまち」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Floor-edge rail",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "落とし掛けの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "床柱の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "敷居の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "床の間の手前の細い横木にも、名前がある。",
+        "en": "Even the slim rail at the front of a tokonoma has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q161",
+      "category": "japan",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "床の間のわきにある、高さの違う板を左右にずらしてかけた棚は、何と呼ばれるでしょう？",
+        "en": "What is the shelf of boards set at different heights beside a tokonoma called?"
+      },
+      "answer": {
+        "ja": "違い棚（ちがいだな）",
+        "reading": "ちがいだな",
+        "en": "Staggered shelves"
+      },
+      "furigana": {
+        "違い棚": "ちがいだな",
+        "付書院": "つけしょいん",
+        "袋戸棚": "ふくろとだな",
+        "床脇": "とこわき",
+        "床の間": "とこのま"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "違い棚（ちがいだな）",
+          "en": "Staggered shelves"
+        },
+        {
+          "id": "c2",
+          "ja": "付書院（つけしょいん）",
+          "en": "Tsuke-shoin",
+          "note": {
+            "ja": "出窓のように張り出した、書見のための机と窓。",
+            "en": "A projecting study desk and window like a bay."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "袋戸棚（ふくろとだな）",
+          "en": "Fukuro-todana",
+          "note": {
+            "ja": "ふすまの戸が付いた、収納の棚。",
+            "en": "A cupboard with sliding-door fronts."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "床脇（とこわき）",
+          "en": "Tokowaki",
+          "note": {
+            "ja": "床の間のわきの、棚などを設ける空間。",
+            "en": "The space beside the alcove that holds shelves."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "床脇に設けられる棚で、2枚の棚板を左右でずらして取り付けたもの。",
+          "en": "A shelf set in the tokowaki, with two boards fitted at staggered heights."
+        },
+        "trivia": {
+          "ja": "「違い棚」には、上下棚や釣り棚などの種類がある。",
+          "en": "Types of chigai-dana include stacked and hanging shelves."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/chigaidana.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": {
+          "ja": "床の間のわきの、段違いの棚(違い棚)。",
+          "en": "The staggered chigai-dana shelves beside a tokonoma."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.79,
+          "cy": 0.42,
+          "rx": 0.16,
+          "ry": 0.09,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shumokukan_washitsu_1_ac_%282%29.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Shumokukan_washitsu_1_ac_(2).jpg",
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Shumokukan washitsu 1 ac (2)” by Asturio Cantabrio, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 6007x3994 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "4625cea977e32ea023148ee87afb9b8b13c72412",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "百科事典『ウィキペディア（Wikipedia）』 床の間 正面奥左に床の間、右に違い棚、床の間左に付け書院の「本勝手」の構え。名古屋城本丸御殿上段の間。 エドワード・モース がスケッチした床の間のある座敷。モースは床の間を日本家屋の精神性の中心と表現した。 床の間 （とこのま）とは、 日本 の 住宅 のうち格式を高めた客間などに設けられる一定の空間 [ 1 ] 。正しくは「 床 （とこ）」で、「床の間」は俗称とされる [ 2 ] 。 ハレ の空間である客間の一角に造られ、床柱、床框などで構成されている。 掛け軸 や活けた 花 などを飾る場所である。 歴史 [ 編集 ] 掛軸"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「違い棚」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ちがいだな」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Staggered shelves",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "付書院の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "袋戸棚の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "床脇の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "座敷の棚の「違い」の意味は、知らない人が多い。",
+        "en": "Many do not know what the 'difference' in chigai-dana refers to."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q162",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "座敷の窓ぎわに、出窓のように張り出した、書見用の机と窓は、何と呼ばれるでしょう？",
+        "en": "What is the projecting desk-and-window like a bay at the edge of a formal room called?"
+      },
+      "answer": {
+        "ja": "付書院（つけしょいん）",
+        "reading": "つけしょいん",
+        "en": "Tsuke-shoin"
+      },
+      "furigana": {
+        "付書院": "つけしょいん",
+        "違い棚": "ちがいだな",
+        "床脇": "とこわき",
+        "欄間": "らんま",
+        "書院": "しょいん"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "付書院（つけしょいん）",
+          "en": "Tsuke-shoin"
+        },
+        {
+          "id": "c2",
+          "ja": "違い棚（ちがいだな）",
+          "en": "Staggered shelves",
+          "note": {
+            "ja": "床の間のわきにある、段違いの棚。",
+            "en": "The offset shelves beside the alcove."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "床脇（とこわき）",
+          "en": "Tokowaki",
+          "note": {
+            "ja": "床の間のわきの、棚などを設ける空間。",
+            "en": "The space beside the alcove that holds shelves."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "欄間（らんま）",
+          "en": "Ranma panel",
+          "note": {
+            "ja": "天井と鴨居のあいだにはめる、透かしの板。",
+            "en": "The openwork panel between lintel and ceiling."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "出窓のように張り出した、明かり障子付きの机。座敷の飾りのひとつ。",
+          "en": "A desk with a bright shoji window projecting like a bay, one of the fittings of a formal room."
+        },
+        "trivia": {
+          "ja": "もとは「出文机（だしふづくえ）」という出窓状の机で、のちに文具を置いて鑑賞する場所になった。",
+          "en": "It began as a bay-window desk called dashi-fuzukue and later became a place to display writing tools."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/tsukeshoin.jpg",
+        "width": 1280,
+        "height": 914,
+        "alt": {
+          "ja": "座敷の窓ぎわに張り出した、障子つきの付書院。",
+          "en": "A tsuke-shoin bay desk with shoji at the window of a formal room."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.8,
+          "cy": 0.45,
+          "rx": 0.14,
+          "ry": 0.4,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Furui_Family_Shoin_05.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Furui_Family_Shoin_05.jpg",
+          "author": "大阪府教育委員会",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "attribution": "“Furui Family Shoin 05” by 大阪府教育委員会, via Wikimedia Commons, Public domain",
+          "modifications": "Downscaled from 2076x1483 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "f74d5a369f1406b17bc1406d443efcb777c00974",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "れが武家に伝わり仏画や仏具を置く床飾りが広まった [ 3 ] 。 南北朝時代 に付書院や違い棚とともに造られ始めた「押板（おしいた）」は、掛け軸をかける壁に置物や陶器などを展示する机を併合させたもので、その用途をそのままに、近世の茶室建築に造られた「上段」が床の間となった。床の間は近世初期の 書院造 、数寄屋風書院をもって完成とされる [ 4 ] 。 厳格な座敷では、床の間、違い棚、付け書院の3要素が揃って正式なものとされ、その配置は、座敷の正面奥の左側に床の間、右側に違い棚、床の間の左の縁側面に奥から手前方向に付け書院が設置されるのが正式で、これを「本勝手」、反対に床の間"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「付書院」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「つけしょいん」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Tsuke-shoin",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "違い棚の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "床脇の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "欄間の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "書院造の座敷の窓ぎわの机に、名前があることは、あまり知られていない。",
+        "en": "Few know the desk at the window of a shoin room has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q163",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "床の間のわきにある、違い棚や袋戸棚が設けられた空間は、何と呼ばれるでしょう？",
+        "en": "What is the space beside a tokonoma that holds staggered shelves and cupboards called?"
+      },
+      "answer": {
+        "ja": "床脇（とこわき）",
+        "reading": "とこわき",
+        "en": "Tokowaki"
+      },
+      "furigana": {
+        "床脇": "とこわき",
+        "付書院": "つけしょいん",
+        "床柱": "とこばしら",
+        "長押": "なげし",
+        "違い棚": "ちがいだな",
+        "袋戸棚": "ふくろとだな"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "床脇（とこわき）",
+          "en": "Tokowaki"
+        },
+        {
+          "id": "c2",
+          "ja": "付書院（つけしょいん）",
+          "en": "Tsuke-shoin",
+          "note": {
+            "ja": "出窓のように張り出した、書見のための机と窓。",
+            "en": "A projecting study desk and window like a bay."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "床柱（とこばしら）",
+          "en": "Alcove post",
+          "note": {
+            "ja": "床の間のわきに立つ、いちばん目立つ柱。",
+            "en": "The most conspicuous post beside the alcove."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "長押（なげし）",
+          "en": "Nageshi rail",
+          "note": {
+            "ja": "柱と柱をつなぐ、壁面の横木。",
+            "en": "The horizontal rail joining pillars along a wall."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "床の間を挟んで、付書院の反対側にある空間。違い棚と袋戸棚が設けられる。",
+          "en": "The space opposite the tsuke-shoin across the alcove, fitted with staggered shelves and cupboards."
+        },
+        "trivia": {
+          "ja": "床の間、付書院、床脇がそろった構えを「本床の間」という。",
+          "en": "An alcove with a tsuke-shoin and tokowaki together is called a hon-tokonoma."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/tokowaki.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": {
+          "ja": "床の間のわきの、棚と戸棚のある床脇。",
+          "en": "The tokowaki beside a tokonoma with its shelf and cupboard."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.16,
+          "cy": 0.32,
+          "rx": 0.16,
+          "ry": 0.3,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Murotsu_Museum_of_Folklore08s5s4272.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Murotsu_Museum_of_Folklore08s5s4272.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "attribution": "“Murotsu Museum of Folklore08s5s4272” by 663highland, via Wikimedia Commons, CC BY 2.5",
+          "modifications": "Downscaled from 4272x2848 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "2e31c84e0495db0f516af4ca0a1bf4c688ddce26",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "1 ] 。 床の構成 [ 編集 ] 本床では、床柱を中心としてその横に床の間や床脇を置く。床の上部に垂れる小壁の下端には、「落し掛け」をつけ、床と畳とに段差がある場合には「床框（とこがまち）」という漆塗りの平行材を付ける。床のゆか板のことを床板という。壁仕上げには砂壁が用いられる。 落し掛け（おとしがけ、落掛け） とは、床の間や書院窓において、上方の小壁の下に架け渡してある横木のこと [ 8 ] 。通常、内法長押（うちのりなげし）より上方にある [ 8 ] 。桐、杉、赤松などの銘木が使われることが多いが、細身の皮付き丸太や竹を用いることもある [ 8 ] 。 床柱（とこば"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「床脇」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「とこわき」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Tokowaki",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "付書院の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "床柱の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "長押の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "床の間のとなりの棚のあるスペースに、名前があることは知られていない。",
+        "en": "Few know the shelved space next to a tokonoma has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q164",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "床脇の違い棚の上にある、ふすまの戸が付いた収納は、何と呼ばれるでしょう？",
+        "en": "What is the cupboard with sliding-door fronts above the shelves in a tokowaki called?"
+      },
+      "answer": {
+        "ja": "天袋（てんぶくろ）",
+        "reading": "てんぶくろ",
+        "en": "Upper cupboard"
+      },
+      "furigana": {
+        "天袋": "てんぶくろ",
+        "地袋": "じぶくろ",
+        "付書院": "つけしょいん",
+        "欄間": "らんま",
+        "違い棚": "ちがいだな",
+        "袋戸棚": "ふくろとだな"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "天袋（てんぶくろ）",
+          "en": "Upper cupboard"
+        },
+        {
+          "id": "c2",
+          "ja": "地袋（じぶくろ）",
+          "en": "Lower cupboard",
+          "note": {
+            "ja": "違い棚の下にある、ふすまの戸が付いた収納。",
+            "en": "The cupboard with sliding doors below the shelves."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "付書院（つけしょいん）",
+          "en": "Tsuke-shoin",
+          "note": {
+            "ja": "出窓のように張り出した、書見のための机と窓。",
+            "en": "A projecting study desk and window like a bay."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "欄間（らんま）",
+          "en": "Ranma panel",
+          "note": {
+            "ja": "天井と鴨居のあいだにはめる、透かしの板。",
+            "en": "The openwork panel between lintel and ceiling."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "袋戸棚のうち、高い位置にある方。ふすまの戸が付く。",
+          "en": "The upper one of the fukuro-todana cupboards; it has sliding fusuma doors."
+        },
+        "trivia": {
+          "ja": "袋戸棚は、高さによって上を天袋、下を地袋と呼ぶ。",
+          "en": "Fukuro-todana cupboards are called tenbukuro above and jibukuro below."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/tenbukuro.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": {
+          "ja": "違い棚の上にある、ふすまの戸が付いた天袋。",
+          "en": "The tenbukuro cupboard above the staggered shelves."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.66,
+          "cy": 0.32,
+          "rx": 0.16,
+          "ry": 0.08,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Shumokukan_washitsu_1_ac_%284%29.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Shumokukan_washitsu_1_ac_(4).jpg",
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Shumokukan washitsu 1 ac (4)” by Asturio Cantabrio, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 5956x3960 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "8cb2aeb73158b67326749418f124595c0d0c72d7",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "床の間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%8A%E3%81%AE%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "れる「違い棚」には「上下棚」や「釣り棚」などがある。袋戸棚は高さによって、上を 天袋 、下を 地袋 という。何れも引き違いの襖戸を付ける。 [ 9 ] 作法 [ 編集 ] 書院造の建築にある「広間」では床の間のある方を「上座」といい、その反対を「下座」という。江戸時代以前の大名屋敷や城郭の御殿において上座のことを「上段」、それ以下を下段や中段などといい、座敷飾りの施された上段は、領主や当主などの主人の部屋とされた [ 2 ] 。 茶室など床の間のある部屋に通された客は、床の間の前に座って、掛軸、香炉、活けた花などを拝見（鑑賞）する作法がある [ 1 ] 。 禁忌 [ 編集"
+        },
+        {
+          "title": "Tokonoma - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tokonoma",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Alcove in Japanese reception rooms A tokonoma with a kakemono and ikebana flower arrangement Detailed view of a tokonoma and aspects of a Japanese room View from the side of a tokonoma Tokonoma at Tenryū-ji A tokonoma ( 床の間 ) , [ 1 ] or simply toko ( 床 ) , [ 2"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「天袋」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「てんぶくろ」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Upper cupboard",
+              "status": "partial",
+              "refs": [
+                1
+              ],
+              "note": "英語版に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "地袋の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "付書院の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "欄間の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "押し入れとは違う、棚の上の小さな戸棚に、天袋という名がある。",
+        "en": "The small cupboard above shelves has its own name, tenbukuro."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q165",
+      "category": "japan",
+      "difficulty": 1,
+      "prompt": {
+        "ja": "昔の日本の台所で、薪をたいて、上に鍋や釜をかけて煮炊きする設備は、何と呼ばれるでしょう？",
+        "en": "What is the facility in an old Japanese kitchen where firewood is burned and pots and kettles are set on top for cooking?"
+      },
+      "answer": {
+        "ja": "竈（かまど）",
+        "reading": "かまど",
+        "en": "Kamado"
+      },
+      "furigana": {
+        "竈": "かまど",
+        "囲炉裏": "いろり",
+        "七輪": "しちりん",
+        "火鉢": "ひばち",
+        "焜炉": "こんろ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "竈（かまど）",
+          "en": "Kamado"
+        },
+        {
+          "id": "c2",
+          "ja": "囲炉裏（いろり）",
+          "en": "Irori",
+          "note": {
+            "ja": "部屋の床に切られた、火をたく四角い炉。",
+            "en": "A square hearth cut into the floor of a room."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "七輪（しちりん）",
+          "en": "Shichirin",
+          "note": {
+            "ja": "炭火を入れて使う、小さな焜炉。",
+            "en": "A small stove that burns charcoal."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "火鉢（ひばち）",
+          "en": "Hibachi",
+          "note": {
+            "ja": "灰を入れ、炭をおこして暖をとる、容器。",
+            "en": "A container with ash and charcoal for warmth."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "煮炊きする際に火を囲う設備。石や土で囲みを作り、上部に鍋や釜をかける。",
+          "en": "A facility that encloses fire for cooking; stone or clay walls surround it and pots or kettles sit on top."
+        },
+        "trivia": {
+          "ja": "囲いがあるので、熱が逃げにくく、高温の炎で調理できる。「へっつい」「クド」などとも呼ばれる。",
+          "en": "The enclosure keeps heat in, so food cooks over a hotter flame. It is also called hettsui or kudo."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/kamado.jpg",
+        "width": 858,
+        "height": 597,
+        "alt": {
+          "ja": "古い民家の土間にある、白い竈（かまど）と鉄の釜。",
+          "en": "A white kamado stove with iron pots on an old farmhouse earthen floor."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.27,
+          "cy": 0.66,
+          "rx": 0.27,
+          "ry": 0.33,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Kamado-M1685.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kamado-M1685.jpg",
+          "author": "Fg2",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "attribution": "“Kamado-M1685” by Fg2, via Wikimedia Commons, Public domain",
+          "modifications": "Downscaled from 1500x1000 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "d90fc6a82b2fb9e470f69e7b3de4a8f00036c282",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped to remove a floor sign. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "竈 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%AB%88",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "かまど - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示"
+        },
+        {
+          "title": "Kamado - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kamado",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "his article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Kamado\" – news · newspapers · books · scholar · JSTOR ( September 2025 ) ( Learn how and when to remove this message ) For other uses, see Kamado (disambiguation) . A traditional kamado in a Japanese museum The 18th-century Merchant's kitchen, stove boiler or"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「竈」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「かまど」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Kamado",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "囲炉裏の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "七輪の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "火鉢の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "昔の台所の写真で見かけるが、名前を知っていても、実物の仕組みまで知る人は少ない。",
+        "en": "Seen in old-kitchen photos, but few know how one works."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q166",
+      "category": "japan",
+      "difficulty": 1,
+      "prompt": {
+        "ja": "城の屋根の大棟の両端にそびえる、魚のような形の飾りは、何と呼ばれるでしょう？",
+        "en": "What are the fish-shaped ornaments at both ends of a castle's main roof ridge called?"
+      },
+      "answer": {
+        "ja": "鯱（しゃちほこ）",
+        "reading": "しゃちほこ",
+        "en": "Shachihoko"
+      },
+      "furigana": {
+        "鯱": "しゃちほこ",
+        "鴟尾": "しび",
+        "鬼瓦": "おにがわら",
+        "懸魚": "げぎょ",
+        "大棟": "おおむね"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "鯱（しゃちほこ）",
+          "en": "Shachihoko"
+        },
+        {
+          "id": "c2",
+          "ja": "鴟尾（しび）",
+          "en": "Shibi",
+          "note": {
+            "ja": "大棟の両端につく、尾のような形の飾り。",
+            "en": "A tail-shaped ornament at each end of the ridge."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "鬼瓦（おにがわら）",
+          "en": "Onigawara",
+          "note": {
+            "ja": "棟の端などにつく、鬼の顔の瓦。",
+            "en": "A roof tile with a demon face at the end of a ridge."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "懸魚（げぎょ）",
+          "en": "Gegyo",
+          "note": {
+            "ja": "破風の下に下がる、魚の形の飾り。",
+            "en": "A fish-shaped ornament hanging under a gable."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "屋根の大棟の両端につける、頭が龍や虎で体が魚の霊獣をかたどった飾り瓦。",
+          "en": "A roof ornament at the ridge ends shaped like a creature with a dragon or tiger head and a fish body."
+        },
+        "trivia": {
+          "ja": "火を防ぐと信じられ、火事のときは水を噴いて火を消すとされる。名古屋城の金の鯱が有名。",
+          "en": "It is believed to ward off fire and to spout water in a blaze. The golden pair at Nagoya Castle is famous."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/shachihoko.jpg",
+        "width": 832,
+        "height": 624,
+        "alt": {
+          "ja": "金色に輝く、鯱の像。",
+          "en": "A golden shachihoko statue."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.5,
+          "rx": 0.4,
+          "ry": 0.45,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Nagoya_Castle_Golden_Shachi-Hoko_Statue01.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_Castle_Golden_Shachi-Hoko_Statue01.jpg",
+          "author": "Gnsin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“Nagoya Castle Golden Shachi-Hoko Statue01” by Gnsin, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Delivered at its original size (832x624), no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "44dca147262418ddc1cd97ff463e1cb5e5e9969a",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "鯱 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E9%AF%B1",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "鯱 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペー"
+        },
+        {
+          "title": "Shachihoko - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shachihoko",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "mons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Japanese mythological creature Shachihoko on the roof of Nagoya Castle A Shachihoko ( 鯱・鯱鉾 ) – or simply Shachi ( 鯱 ) – is a sea monster in Japanese folklore with the head of a dragon or tiger and the body of a carp [ 1 ] covered entirely in black or grey scales. [ 2 ] According to the tale"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「鯱」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「しゃちほこ」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Shachihoko",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "鴟尾の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "鬼瓦の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "懸魚の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "お城の屋根の魚は誰でも見たことがあるが、きちんと名前を言える人は意外と少ない。",
+        "en": "Everyone has seen the fish on castle roofs, but fewer can name them properly."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q167",
+      "category": "japan",
+      "difficulty": 1,
+      "prompt": {
+        "ja": "神社やお寺で、参拝の前に、手や口を清める水をためてある建物は、何と呼ばれるでしょう？",
+        "en": "What is the structure at a shrine or temple holding the water for rinsing hands and mouth before worship called?"
+      },
+      "answer": {
+        "ja": "手水舎（ちょうずや）",
+        "reading": "ちょうずや",
+        "en": "Chozuya"
+      },
+      "furigana": {
+        "手水舎": "ちょうずや",
+        "社務所": "しゃむしょ",
+        "拝殿": "はいでん",
+        "神楽殿": "かぐらでん",
+        "柄杓": "ひしゃく",
+        "参拝": "さんぱい"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "手水舎（ちょうずや）",
+          "en": "Chozuya"
+        },
+        {
+          "id": "c2",
+          "ja": "社務所（しゃむしょ）",
+          "en": "Shamusho",
+          "note": {
+            "ja": "神社の事務や、お守りの授与をする建物。",
+            "en": "The office building that handles shrine business and charms."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "拝殿（はいでん）",
+          "en": "Haiden",
+          "note": {
+            "ja": "参拝者がお参りをする、神社の建物。",
+            "en": "The hall where worshippers pray."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "神楽殿（かぐらでん）",
+          "en": "Kaguraden",
+          "note": {
+            "ja": "神楽を奉納するための、建物。",
+            "en": "The hall where kagura dances are offered."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "参拝の前に、手や口を水で清めるための施設。柄杓で水をくんで使う。",
+          "en": "A facility for purifying hands and mouth with water before worship; water is taken with a ladle."
+        },
+        "trivia": {
+          "ja": "「ちょうず」は「てみず」が変化した言葉。「てみずや」とも読む。",
+          "en": "'Chozu' comes from 'temizu'; the building can also be read temizuya."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/chozuya.jpg",
+        "width": 1280,
+        "height": 691,
+        "alt": {
+          "ja": "竹の筧から水が落ちる、柄杓の並ぶ手水舎。",
+          "en": "A chozuya with ladles lined up beneath a bamboo spout."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.55,
+          "rx": 0.45,
+          "ry": 0.4,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Chozuya_at_Meiji-jingu.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chozuya_at_Meiji-jingu.jpg",
+          "author": "Ray Tsang, Flickr user saturnism",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "attribution": "“Chozuya at Meiji-jingu” by Ray Tsang, Flickr user saturnism, via Wikimedia Commons, CC BY-SA 2.0",
+          "modifications": "Downscaled from 2048x1536 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "38659c4e8b750ec5e4d2ef5d7a3aa288406bdb8d",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped to remove a wooden sign. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "手水舎 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%89%8B%E6%B0%B4%E8%88%8E",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ログイン 目次 サイドバーに移動 非表示 ページ先頭 1 作法 2 歴史 3 手水舎 手水舎サブセクションを切り替えます 3.1 花手水 4 水を用いない手水 5 その他の手水 6 出典 7 関連項目 8 外部リンク 目次の表示・非表示を切り替え 手水 13 個の言語版 Bikol Central English Español فارسی Français Bahasa Indonesia Italiano 한국어 Occitan Română Русский Simple English 中文 リンクを編集 ページ ノート 日本語 閲覧 編集 履歴を表示 ツール ツー"
+        },
+        {
+          "title": "Chōzuya - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ch%C5%8Dzuya",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "his article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Chōzuya\" – news · newspapers · books · scholar · JSTOR ( December 2019 ) ( Learn how and when to remove this message ) Chōzu-ya at rural Make-jinja A sign (read right-to-left) explains how to do chōzu . Inside a pavilion, performing chōzu Chōzu-ya or temizu-ya"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「手水舎」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ちょうずや」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Chozuya",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "社務所の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "拝殿の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "神楽殿の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "神社に行けば必ず通るが、建物の名前までは知らない人も多い。",
+        "en": "Everyone passes it at a shrine, but many do not know the building's name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q168",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "神社やお寺の、柱と柱をつなぐ、虹のようにゆるやかに反った梁は、何と呼ばれるでしょう？",
+        "en": "What is the beam joining two pillars in a shrine or temple that curves gently like a rainbow called?"
+      },
+      "answer": {
+        "ja": "虹梁（こうりょう）",
+        "reading": "こうりょう",
+        "en": "Koryo beam"
+      },
+      "furigana": {
+        "虹梁": "こうりょう",
+        "蟇股": "かえるまた",
+        "木鼻": "きばな",
+        "組物": "くみもの",
+        "梁": "はり"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "虹梁（こうりょう）",
+          "en": "Koryo beam"
+        },
+        {
+          "id": "c2",
+          "ja": "蟇股（かえるまた）",
+          "en": "Frog-leg block",
+          "note": {
+            "ja": "梁の上にのる、カエルの股のような形の部材。",
+            "en": "A frog-leg-shaped member sitting on a beam."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "木鼻（きばな）",
+          "en": "Beam-end carving",
+          "note": {
+            "ja": "梁や貫の端が柱から突き出た、彫刻。",
+            "en": "The carved end of a beam projecting from a pillar."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "組物（くみもの）",
+          "en": "Bracket set",
+          "note": {
+            "ja": "柱の上に組んで、屋根を支える部材。",
+            "en": "Bracket sets built atop pillars to hold the roof."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "社寺建築で、柱の上にかけ渡す、弓なりに反った梁。装飾が彫られることが多い。",
+          "en": "A gently arched beam spanning between pillars in shrine and temple architecture, often carved."
+        },
+        "trivia": {
+          "ja": "名前は、虹のように反った形から。蟇股や木鼻などと並んで、社寺建築の見どころになる。",
+          "en": "The name comes from its rainbow curve. With frog-leg blocks and kibana it is a highlight of temple architecture."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/koryo.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "社殿の内部に渡された、反りのある虹梁。",
+          "en": "An arched koryo beam inside a shrine hall."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.3,
+          "cy": 0.4,
+          "rx": 0.28,
+          "ry": 0.15,
+          "rotate": -10.0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Inside_of_prayroom.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Inside_of_prayroom.jpg",
+          "author": "野路耿一",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Inside of prayroom” by 野路耿一, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 2323x1742 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "e7ad61803d3667ff782125116f2c45053fef06c9",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "虹梁 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%99%B9%E6%A2%81",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "虹梁 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "欄間 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%AC%84%E9%96%93",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "欄間は、日本の建築様式にみられる建具の一種である。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「虹梁」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「こうりょう」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Koryo beam",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "蟇股の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "木鼻の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "組物の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "お寺や神社の天井近くの曲がった梁は見慣れているが、名前を知る人は少ない。",
+        "en": "The curved beams near temple ceilings are familiar, but few know their name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q169",
+      "category": "building",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "鳥居で、2本の柱をつなぎ、柱を固定する、笠木や島木の下の横木は、何と呼ばれるでしょう？",
+        "en": "What is the horizontal beam of a torii under the kasagi and shimaki, joining and fixing the two pillars, called?"
+      },
+      "answer": {
+        "ja": "貫（ぬき）",
+        "reading": "ぬき",
+        "en": "Nuki"
+      },
+      "furigana": {
+        "貫": "ぬき",
+        "笠木": "かさぎ",
+        "島木": "しまぎ",
+        "額束": "がくづか",
+        "木鼻": "きばな",
+        "鳥居": "とりい"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "貫（ぬき）",
+          "en": "Nuki"
+        },
+        {
+          "id": "c2",
+          "ja": "笠木（かさぎ）",
+          "en": "Kasagi",
+          "note": {
+            "ja": "鳥居のいちばん上の横木。",
+            "en": "The topmost beam of a torii."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "島木（しまぎ）",
+          "en": "Shimagi",
+          "note": {
+            "ja": "笠木の下にそえられた、2段目の横木。",
+            "en": "The second beam fitted under the kasagi."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "額束（がくづか）",
+          "en": "Gakuzuka",
+          "note": {
+            "ja": "貫の中央に立てて、額をかける短い柱。",
+            "en": "The short post at the middle of the nuki holding the plaque."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "鳥居の2本の柱を貫いて、柱を固定する横木。柱から外側へ出た部分を木鼻と呼ぶ。",
+          "en": "The horizontal member passing through a torii's pillars and fixing them; the part sticking out of a pillar is called kibana."
+        },
+        "trivia": {
+          "ja": "貫は、くさびで柱に固定されることが多い。笠木・島木・貫と、鳥居の横木には、それぞれ名前がある。",
+          "en": "The nuki is often held by wedges. The kasagi, shimaki and nuki: each horizontal member of a torii has its own name."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/nuki.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": {
+          "ja": "大鳥居。柱をつなぐ貫が見える。",
+          "en": "A great torii with its nuki crossbeam joining the pillars."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.4,
+          "rx": 0.2,
+          "ry": 0.05,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Omiwa-jinja_ootorii.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Omiwa-jinja_ootorii.JPG",
+          "author": "Saigen Jiro",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "attribution": "“Omiwa-jinja ootorii” by Saigen Jiro, via Wikimedia Commons, CC0",
+          "modifications": "Downscaled from 6016x4000 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "3770e8b6442fbb5cf7b94db1a54b786e2f1f2d6c",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "鳥居 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B3%A5%E5%B1%85",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "）、2層の水平材とする場合に上層の笠木に接して 島木 （しまぎ）を渡す。その下に貫（ぬき）を入れて柱を固定したのが一般的な鳥居の構造である。貫が柱から外側へ出ている部分を 木鼻 とよぶ。他に、貫と笠木の間に 額束 （がくづか。額柱ともいう）を建てることがあり、柱下部に 亀腹 （ 饅頭 ともいう）を施したり、掘立であれば 根巻き （ 藁座 ともいう）や 根巻き石 （ 台座 ともいう）を施すことがある [ 24 ] 。島木と柱の間に 台輪 （だいわ）という円形の保護材をつける例もあり、柱と貫の交差部分に 楔 が打たれている例もある [ 24 ] 。柱が下方で広がるように斜めに立"
+        },
+        {
+          "title": "Torii - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Torii",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "wo vertical pillars ( hashira ( 柱 ) ) topped by a horizontal lintel ( kasagi ( 笠木 ) ) and kept together by a tie-beam ( nuki ( 貫 ) ). [ 1 ] The pillars may have a slight inward inclination called uchikorobi ( 内転び ) or just korobi ( 転び ) . Its parts are always straight. Parts and ornamentations [ edit ] Torii parts and ornamentations Torii may be unpainted or painted vermilion a"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「貫」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ぬき」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Nuki",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "笠木の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "島木の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "額束の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "鳥居の横木が複数あることは分かっても、それぞれの名前までは知られていない。",
+        "en": "People see the torii's several beams but rarely know each name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q170",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "五重塔のてっぺんにある、炎のような透かし彫りの飾りは、何と呼ばれるでしょう？",
+        "en": "What is the flame-like openwork ornament at the top of a five-storied pagoda called?"
+      },
+      "answer": {
+        "ja": "水煙（すいえん）",
+        "reading": "すいえん",
+        "en": "Suien"
+      },
+      "furigana": {
+        "水煙": "すいえん",
+        "九輪": "くりん",
+        "請花": "うけばな",
+        "伏鉢": "ふせばち",
+        "五重塔": "ごじゅうのとう",
+        "相輪": "そうりん"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "水煙（すいえん）",
+          "en": "Suien"
+        },
+        {
+          "id": "c2",
+          "ja": "九輪（くりん）",
+          "en": "Kurin",
+          "note": {
+            "ja": "相輪にある、9つの輪が重なった部分。",
+            "en": "The part of the finial made of nine stacked rings."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "請花（うけばな）",
+          "en": "Ukebana",
+          "note": {
+            "ja": "相輪の、蓮の花の形をした飾り台。",
+            "en": "The lotus-shaped base ornament of the finial."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "伏鉢（ふせばち）",
+          "en": "Fusebachi",
+          "note": {
+            "ja": "相輪の下の方の、鉢を伏せた形の部分。",
+            "en": "The inverted-bowl part at the base of the finial."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "相輪の上部につく、火炎の形の透かし彫り。火を嫌って、「水」の字を使って名づけられた。",
+          "en": "An openwork flame-shaped ornament on the upper sorin; it was named with the character for water because fire is feared."
+        },
+        "trivia": {
+          "ja": "水煙は、お釈迦様が火葬されたことをあらわすともいう。薬師寺東塔の水煙は特に有名。",
+          "en": "It is also said to represent the Buddha's cremation. The suien of Yakushi-ji's east pagoda is especially famous."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/suien.jpg",
+        "width": 1280,
+        "height": 712,
+        "alt": {
+          "ja": "五重塔の頂上にある、炎のような水煙。",
+          "en": "The flame-like suien ornament at the top of a pagoda."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.49,
+          "cy": 0.55,
+          "rx": 0.17,
+          "ry": 0.3,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Japanese_pagoda_finial.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Japanese_pagoda_finial.jpg",
+          "author": "Urashimataro",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Japanese pagoda finial” by Urashimataro, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 2832x4256 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "92ec222bec4d7eec65c9e7b9960dfccf89f69b79",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped from a portrait photo. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "相輪 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E8%BC%AA",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ためと言われている。 相輪の構造 [ 編集 ] 飛天 が配された 薬師寺 東塔の水煙（模型） 上から順に 宝珠： 仏舎利 （釈迦の骨）が納められる。 竜車：奈良時代から平安時代の高貴な者の乗り物 水煙：火炎の透し彫り。火は、木造の建築物が火災に繋がるため嫌われ、水煙と呼ばれる。お釈迦様が火葬されたことをあらわす。 九輪（宝輪）： 五智如来 と 四菩薩 を表す。9つの輪からなる [ 注釈 1 ] 。 受花（請花）：飾り台。蓮華の花。 伏鉢（覆鉢）：鉢を伏せた形をした盛り土形の墓、 ストゥーパ 形。お墓を表している。 露盤：伏鉢の土台。 宝珠は仏舎利が納められるため、最も重要と"
+        },
+        {
+          "title": "五重塔 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E9%87%8D%E5%A1%94",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "五重塔は、仏塔の一種で、相輪を頂く。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「水煙」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「すいえん」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Suien",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "九輪の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "請花の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "伏鉢の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "五重塔の一番上の飾りに、火を嫌って「水」の字が使われていることは、意外と知られていない。",
+        "en": "Few know the top ornament of a pagoda uses the character for water because fire is feared."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q171",
+      "category": "japan",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "五重塔の頂上にある相輪で、9つの輪が重なった部分は、何と呼ばれるでしょう？",
+        "en": "What is the part of a pagoda's finial made of nine stacked rings called?"
+      },
+      "answer": {
+        "ja": "九輪（くりん）",
+        "reading": "くりん",
+        "en": "Kurin"
+      },
+      "furigana": {
+        "九輪": "くりん",
+        "水煙": "すいえん",
+        "請花": "うけばな",
+        "伏鉢": "ふせばち",
+        "相輪": "そうりん",
+        "五重塔": "ごじゅうのとう"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "九輪（くりん）",
+          "en": "Kurin"
+        },
+        {
+          "id": "c2",
+          "ja": "水煙（すいえん）",
+          "en": "Suien",
+          "note": {
+            "ja": "相輪の上部につく、炎の形の透かし彫り。",
+            "en": "The flame-shaped openwork on the upper finial."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "請花（うけばな）",
+          "en": "Ukebana",
+          "note": {
+            "ja": "相輪の、蓮の花の形をした飾り台。",
+            "en": "The lotus-shaped base ornament of the finial."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "伏鉢（ふせばち）",
+          "en": "Fusebachi",
+          "note": {
+            "ja": "相輪の下の方の、鉢を伏せた形の部分。",
+            "en": "The inverted-bowl part at the base of the finial."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "相輪の中心にある、9つの輪が重なった部分。宝輪ともいう。",
+          "en": "The part at the centre of a sorin made of nine stacked rings, also called horin."
+        },
+        "trivia": {
+          "ja": "九輪は、五智如来と四菩薩を表すとされる。",
+          "en": "The nine rings are said to represent the five wisdom Buddhas and four bodhisattvas."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/kurin.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "塔の頂上の相輪。9つの輪が重なる九輪。",
+          "en": "A pagoda finial with its stack of nine rings (kurin)."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.49,
+          "cy": 0.45,
+          "rx": 0.07,
+          "ry": 0.3,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sourin.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sourin.jpg",
+          "author": "Myoshikizan_Anrakuji_04.JPG: Reggaeman\nderivative work: Urashimataro (talk)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Sourin” by Myoshikizan_Anrakuji_04.JPG: Reggaeman\nderivative work: Urashimataro, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1364x1023 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "6139e3273f1a536a50beef9bcc77f287b2951dd9",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "相輪 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E8%BC%AA",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "が火災に繋がるため嫌われ、水煙と呼ばれる。お釈迦様が火葬されたことをあらわす。 九輪（宝輪）： 五智如来 と 四菩薩 を表す。9つの輪からなる [ 注釈 1 ] 。 受花（請花）：飾り台。蓮華の花。 伏鉢（覆鉢）：鉢を伏せた形をした盛り土形の墓、 ストゥーパ 形。お墓を表している。 露盤：伏鉢の土台。 宝珠は仏舎利が納められるため、最も重要とされる。 なお、中心を貫く棒は「擦」（または「刹管」）と呼ばれる。 また、仏舎利は塔の中に安置されていることもある。 多宝塔の相輪 [ 編集 ] 多宝塔の相輪 （ 安楽寺 多宝塔） 多宝塔 の相輪は多層塔のものと多少異なる。 下から露盤"
+        },
+        {
+          "title": "五重塔 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E9%87%8D%E5%A1%94",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "五重塔は、仏塔の一種で、相輪を頂く。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「九輪」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「くりん」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Kurin",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "水煙の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "請花の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "伏鉢の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "塔のてっぺんの輪が9つあることは、数えたことがないと気づかない。",
+        "en": "Unless you count, you may never notice the nine rings at the top of a pagoda."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q172",
+      "category": "japan",
+      "difficulty": 1,
+      "prompt": {
+        "ja": "石灯籠で、火袋の屋根になる部分は、何と呼ばれるでしょう？",
+        "en": "What is the part of a stone lantern that serves as the roof over the fire box called?"
+      },
+      "answer": {
+        "ja": "笠（かさ）",
+        "reading": "かさ",
+        "en": "Roof cap"
+      },
+      "furigana": {
+        "笠": "かさ",
+        "竿": "さお",
+        "基礎": "きそ",
+        "中台": "ちゅうだい",
+        "火袋": "ひぶくろ",
+        "石灯籠": "いしどうろう"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "笠（かさ）",
+          "en": "Roof cap"
+        },
+        {
+          "id": "c2",
+          "ja": "竿（さお）",
+          "en": "Shaft",
+          "note": {
+            "ja": "もっとも長い、柱の部分。",
+            "en": "The longest, pillar-like part."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "基礎（きそ）",
+          "en": "Base",
+          "note": {
+            "ja": "最下部の、足になる部分。",
+            "en": "The lowest part that serves as the foot."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "中台（ちゅうだい）",
+          "en": "Mid-platform",
+          "note": {
+            "ja": "火袋を支える部分。",
+            "en": "The part that supports the fire box."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "石灯籠の火袋の屋根にあたる部分。六角形や四角形が多く、円形もある。",
+          "en": "The part of a stone lantern that roofs the fire box; usually hexagonal or square, sometimes round."
+        },
+        "trivia": {
+          "ja": "笠の角には、「わらび手」という飾りがつくことがある。",
+          "en": "The corners of the roof sometimes carry a decoration called warabite."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/toro-kasa.jpg",
+        "width": 1280,
+        "height": 383,
+        "alt": {
+          "ja": "苔むした石灯籠の笠。",
+          "en": "The mossy roof caps of stone lanterns."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.6,
+          "cy": 0.66,
+          "rx": 0.12,
+          "ry": 0.12,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Kasuga-taisha30bs4592.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kasuga-taisha30bs4592.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "attribution": "“Kasuga-taisha30bs4592” by 663highland, via Wikimedia Commons, CC BY 2.5",
+          "modifications": "Downscaled from 4592x3056 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "fdf6fb07ea5dcea35f233d7c09e17ad302ae80ae",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped to remove inscriptions. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "石灯籠 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E7%81%AF%E7%B1%A0",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "[ 編集 ] 各部の名称 [ 編集 ] 上からの各部の名称 宝珠（ 擬宝珠 ） 笠の頂上に載る 玉ねぎ 状のもの。 笠 火袋の 屋根 になる部分。 六角形 や四角形が主流であるが雪見型の円形などもある。多角形の場合は宝珠の下部分から角部分に向かって線が伸び、突端にわらび手という 装飾 が施されることもある。 火袋 灯火が入る部分で灯籠の主役部分である。この部分だけは省略することができない。装飾目的の場合は火をともすことは無いが、実用性が求められる場合には 火 や 電気 等により明りがともされる。 中台 火袋を支える部分で最下部の基礎と対照的な形をとる。蓮弁や格狭間という装飾"
+        },
+        {
+          "title": "相輪 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E8%BC%AA",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "相輪は、仏塔の頂上に立つ飾りである。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「笠」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「かさ」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Roof cap",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "竿の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "基礎の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "中台の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "石灯籠のそれぞれの部分に名前があることは、あまり知られていない。",
+        "en": "Few know every part of a stone lantern has its own name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
     }
   ]
 }
