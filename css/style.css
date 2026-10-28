@@ -290,3 +290,53 @@ rt { font-family: var(--sans); font-size: .5em; font-weight: 400; letter-spacing
 .prompt:has(ruby), .facts dd:has(ruby), .others li:has(ruby), .choice .label:has(ruby) { line-height: 1.95; }
 .answer-main:has(ruby) { line-height: 1.7; }
 @media (max-width: 420px) { .others li span:has(ruby) { padding-top: .45em; } }
+
+/* ---------- game modes ---------- */
+.modes-head { margin: 8px 0 12px; font-family: var(--serif); font-size: 1.15rem; text-align: center; }
+.modes { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.mode-card {
+  display: grid; gap: 6px; padding: 16px; background: var(--surface);
+  border: 1.5px solid var(--line-strong); border-radius: var(--radius);
+}
+.mode-card.is-main { border-color: var(--ink); }
+.mode-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.mode-head h3 { margin: 0; font-size: 1.05rem; line-height: 1.4; overflow-wrap: anywhere; }
+.mode-count { flex: none; font-size: .85rem; font-weight: 700; color: var(--accent); }
+.mode-rule { margin: 0; font-size: .92rem; line-height: 1.55; }
+.mode-feature { margin: 0; font-size: .82rem; color: var(--muted); }
+.mode-record { margin: 0; font-size: .85rem; font-weight: 700; }
+.mode-unavailable { margin: 0; font-size: .85rem; color: var(--ng); }
+.mode-card .btn { margin-top: 6px; min-height: 52px; font-size: 1rem; }
+.mode-card .btn:disabled { opacity: .45; cursor: not-allowed; }
+.mode-timerule { margin: 16px 0 0; font-size: .8rem; line-height: 1.6; color: var(--muted); }
+
+.mode-badge {
+  display: inline-block; margin: 0 0 8px; padding: 3px 10px; border-radius: 999px;
+  background: var(--ink); color: #fff; font-size: .78rem; font-weight: 700; letter-spacing: .02em;
+}
+.status { gap: 10px; flex-wrap: wrap; }
+.status .remain { font-weight: 400; color: var(--muted); }
+.timer { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink); }
+.timer-note { margin: 8px 0 0; font-size: .78rem; color: var(--muted); }
+
+.time-result { margin-top: 6px; }
+.time-big { margin: 10px 0 0; font-family: var(--serif); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.time-note { margin: 4px 0 0; font-size: .85rem; color: var(--muted); }
+.time-note.warn { color: var(--ng); }
+.badge-best {
+  display: inline-block; margin: 8px 0 0; padding: 4px 12px; border-radius: 999px;
+  background: var(--ok-bg); color: var(--ok); font-weight: 700; font-size: .9rem;
+}
+.result.is-clear h2 { color: var(--accent); font-size: 1.6rem; }
+.result.is-clear .score-ring { background: conic-gradient(var(--ok) 100%, var(--line) 0); box-shadow: 0 0 0 6px var(--ok-bg); }
+.missed {
+  margin: 20px 0 4px; padding: 14px; text-align: left; background: var(--surface);
+  border: 1.5px solid var(--line-strong); border-radius: var(--radius);
+}
+.missed .review-head { margin-top: 0; }
+.frame-mini { margin: 8px 0; border-radius: 10px; overflow: hidden; background: var(--line); }
+.frame-mini img { display: block; width: 100%; height: auto; }
+.missed .answer-main { margin: 2px 0 0; }
+.missed .answer-sub { margin: 0; }
+.missed .picked { margin: 8px 0 0; font-size: .9rem; color: var(--ng); }
+.missed .trivia { margin: 8px 0 0; font-size: .9rem; line-height: 1.6; }

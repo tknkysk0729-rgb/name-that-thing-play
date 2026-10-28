@@ -23036,6 +23036,2084 @@
         "evidence": "medium",
         "reviewedAt": "2026-10-26"
       }
+    },
+    {
+      "id": "q131",
+      "category": "stationery",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "カッターナイフの刃にある、切れ味が落ちた先を折り取るために入った、斜めの筋は、何と呼ばれるでしょう？",
+        "en": "What is the diagonal groove on a utility knife blade, where the dull tip is snapped off, called?"
+      },
+      "answer": {
+        "ja": "折り筋（おりすじ）",
+        "reading": "おりすじ",
+        "en": "Snap line"
+      },
+      "furigana": {
+        "折り筋": "おりすじ",
+        "刃先": "はさき",
+        "刃渡り": "はわたり",
+        "峰": "みね",
+        "刃": "は",
+        "筋": "すじ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "折り筋（おりすじ）",
+          "en": "Snap line"
+        },
+        {
+          "id": "c2",
+          "ja": "刃先（はさき）",
+          "en": "Blade tip",
+          "note": {
+            "ja": "物を切る、先端の鋭い部分。",
+            "en": "The sharp end that does the cutting."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "刃渡り（はわたり）",
+          "en": "Blade length",
+          "note": {
+            "ja": "刃の、先から根元までの長さ。",
+            "en": "The length of the blade from tip to base."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "峰（みね）",
+          "en": "Blade back",
+          "note": {
+            "ja": "刃の、切れない側の背の部分。",
+            "en": "The blunt back side of the blade."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "刃にあらかじめ付けられた筋。切れなくなった先をここで折り取ると、新しい刃先が出る。",
+          "en": "A groove pre-cut into the blade. Snapping off the dull end there reveals a fresh edge."
+        },
+        "trivia": {
+          "ja": "折る刃式カッターナイフは、板チョコの割れ目からヒントを得て考案された。ブランド名のOLFAも「折る刃」から来ている。",
+          "en": "The snap-off knife was inspired by a chocolate bar's break lines. The brand name OLFA comes from the Japanese for 'snap-off blade'."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "カッターの刃の折り筋がはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Snap-off_blade_-_01.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
+          },
+          {
+            "file": "OLFA_L-1_and_NT_L-550.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
+          },
+          {
+            "file": "L-1_and_180Black_-_OLFA.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
+          },
+          {
+            "file": "カッターナイフ2.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
+          },
+          {
+            "file": "Various_cutter_knives.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
+          }
+        ],
+        "aiPrompt": "Photorealistic macro photo, landscape 4:3, no text: a snap-off utility knife blade with its diagonal snap grooves visible."
+      },
+      "references": [
+        {
+          "title": "カッターナイフ - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%83%E3%82%BF%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%95",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "退社し、 オルファ株式会社 を創業し独立して実業する。これは鋼製の刃にあらかじめ折り筋を付けておき、刃先が磨耗した場合にはそれを折り取ることで新たな鋭い刃先を作り出す方法。現在では一般用のカッターナイフの多くがこの方式を採っている。刃は小型刃、大型刃といったオルファのサイズ（刃幅サイズ9mm、18mm、角度59° の折れ線 [ 5 ] ）は デファクトスタンダード となっており（ JIS などの デジュリスタンダード はない）、他社類似製品もオルファに合わせた刃のサイズで発売されている。 現在、日本市場の シェア 約60%をオルファのカッターナイフが占めており、海外100か"
+        },
+        {
+          "title": "Utility_knife - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utility_knife",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "r to a hook blade, but has a more elongated hook on only one side. Suitable for cutting out details and forming shapes. Snap-off utility knife [ edit ] OLFA retractable utlity knife with snap-off blade Another type of utility knife is a snap-off utility knife that contains a long, segmented blade that slides out from it. As the endmost edge becomes dull, it can be broken off th"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「折り筋」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「おりすじ」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Snap line",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "刃先の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "刃渡りの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "峰の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "カッターは誰でも使うが、刃にある筋の名前を知っている人は少ない。",
+        "en": "Everyone has used a cutter, but few know the groove on the blade has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q132",
+      "category": "transport",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "駅のホームの端に敷かれた、点のブロックの内側にそえられた1本の線は、何と呼ばれるでしょう？",
+        "en": "What is the single line placed on the inner side of the dotted blocks at a station platform edge called?"
+      },
+      "answer": {
+        "ja": "内方線（ないほうせん）",
+        "reading": "ないほうせん",
+        "en": "Inner line"
+      },
+      "furigana": {
+        "内方線": "ないほうせん",
+        "白線": "はくせん",
+        "線状": "せんじょう",
+        "警告": "けいこく",
+        "点状": "てんじょう"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "内方線（ないほうせん）",
+          "en": "Inner line"
+        },
+        {
+          "id": "c2",
+          "ja": "白線（はくせん）",
+          "en": "White line",
+          "note": {
+            "ja": "ホームの端の、線路側を示す白い線。",
+            "en": "The white line along the platform edge on the track side."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "線状ブロック（せんじょうブロック）",
+          "en": "Line block",
+          "note": {
+            "ja": "進む方向を示す、線状の突起のブロック。",
+            "en": "A block with raised lines that shows the direction to walk."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "警告ブロック（けいこくブロック）",
+          "en": "Warning block",
+          "note": {
+            "ja": "危険や注意を点の突起で知らせるブロック。",
+            "en": "A block with raised dots that warns of danger."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "ホームの内側を示すために、点状ブロックに加えられた1本線。線のある側が、安全なホームの内側。",
+          "en": "A single line added to the dotted blocks to mark the inner, safe side of the platform."
+        },
+        "trivia": {
+          "ja": "視覚障害者が内側と外側を区別できずに転落する危険があるため加えられた。2014年のJIS改訂で盛り込まれた。",
+          "en": "It was added because blind passengers could not tell inside from outside and might fall off. It was included in the 2014 JIS revision."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "ホームの端の点状ブロックと内方線がはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Platform_end_marker.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
+          },
+          {
+            "file": "Screen_door_aonami_line.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
+          },
+          {
+            "file": "Tenji-block.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
+          },
+          {
+            "file": "省スペース型点字ブロック.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: the edge of a station platform with yellow dotted tactile blocks and a single line on the inner side."
+      },
+      "references": [
+        {
+          "title": "点字ブロック - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%82%B9%E5%AD%97%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "内に転落してしまうという危険性があるとして、点ブロックの内側に安全側を示すホーム内方線として1本線を加えたブロックが用いられている。このホームの内側に1本線を追加した点状のブロックは「鉄軌道駅プラットホーム縁端警告用内方表示ブロック」と呼ばれ、ガイドライン化ののち、2014年のJIS T 9251改訂で盛り込まれた [ 1 ] 。バリアフリー新法施行後に開業した新規路線等、プラットホーム建設時から ホームドア が設置されている駅ではホームドアによって安全性が確保されているため、ホームの線を示す目的での点字ブロック設置は省略され、乗降口を示す点ブロックがホームドア開口部に設置"
+        },
+        {
+          "title": "Tactile_paving - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tactile_paving",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "extured ground surface indicators found at roadsides (such as at curb cuts ), by and on stairs , and on railway station platforms, to assist pedestrians who are visually impaired . Tactile warnings provide a very distinctive surface pattern of truncated domes, cones or bars, detectable by a long cane or underfoot, which are used to alert the vision-impaired of approaching stree"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「内方線」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ないほうせん」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Inner line",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "白線の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "線状ブロックの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "警告ブロックの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "駅で毎日踏んでいる線だが、その向きに意味があることは意外と知られていない。",
+        "en": "People step on it daily, but few know the line's side has a meaning."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q133",
+      "category": "daily",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "パソコンやACアダプターのケーブルの途中にある、黒い筒状のふくらみは、何と呼ばれるでしょう？",
+        "en": "What is the black cylindrical bulge partway along a computer or adapter cable called?"
+      },
+      "answer": {
+        "ja": "フェライトコア",
+        "en": "Ferrite core"
+      },
+      "furigana": {
+        "磁性体": "じせいたい"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "フェライトコア",
+          "en": "Ferrite core"
+        },
+        {
+          "id": "c2",
+          "ja": "ケーブルクリップ",
+          "en": "Cable clip",
+          "note": {
+            "ja": "配線をまとめて固定する、留め具。",
+            "en": "A fastener that holds cables together."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "ストレインリリーフ",
+          "en": "Strain relief",
+          "note": {
+            "ja": "プラグの根元で、コードの折れや断線を防ぐ部分。",
+            "en": "The part at a plug's base that prevents the cord from kinking or breaking."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "コネクタハウジング",
+          "en": "Connector shell",
+          "note": {
+            "ja": "端子を覆う、プラグの外側のカバー。",
+            "en": "The outer cover of a plug that surrounds its contacts."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "フェライトでできた磁性体。ケーブルに通して、機器から出入りする高周波ノイズをおさえる。",
+          "en": "A magnetic part made of ferrite, fitted to a cable to suppress high-frequency noise entering or leaving a device."
+        },
+        "trivia": {
+          "ja": "ケーブルを何周か巻き付けると、ノイズをおさえる効果が高まるとされる。USBケーブルなどに付いていることが多い。",
+          "en": "Winding the cable several turns through it is said to improve the effect. It is common on USB and similar cables."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "ケーブルに付いたフェライトコアがはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Cable_end.JPG",
+            "foundOn": "commons search: ferrite core cable"
+          },
+          {
+            "file": "Ferrite_clamp-on.jpg",
+            "foundOn": "commons Category:Ferrite_beads"
+          },
+          {
+            "file": "Ferrite_bead.jpg",
+            "foundOn": "commons Category:Ferrite_beads"
+          },
+          {
+            "file": "Ferritkerndrossel.jpg",
+            "foundOn": "commons search: ferrite core cable"
+          },
+          {
+            "file": "A_collection_of_Snap-On_-_Clamp-on_ferrite_beads.jpg",
+            "foundOn": "commons Category:Ferrite_beads"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a black cylindrical ferrite core clamped on a computer cable."
+      },
+      "references": [
+        {
+          "title": "フェライトコア - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A7%E3%83%A9%E3%82%A4%E3%83%88%E3%82%B3%E3%82%A2",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "フェライトコア - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動"
+        },
+        {
+          "title": "Ferrite_bead - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferrite_bead",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "cts of the article. ( June 2020 ) ( Learn how and when to remove this message ) A ferrite bead at the end of a Mini USB cable A ferrite bead – also called a ferrite block , ferrite core , ferrite ring , EMI filter , or ferrite choke [ 1 ] [ 2 ] – is a type of choke that suppresses high-frequency electronic noise in electronic circuits. Ferrite beads employ high-frequency curren"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「フェライトコア」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Ferrite core",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "ケーブルクリップの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "ストレインリリーフの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "コネクタハウジングの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "ケーブルに付いた黒い筒は誰でも見ているが、ノイズを防ぐ部品だと知る人は少ない。",
+        "en": "Everyone has seen the black tube on a cable, but few know it blocks noise."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q134",
+      "category": "building",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "ドアの上部に付いている、開けたドアをゆっくり自動で閉める装置は、何と呼ばれるでしょう？",
+        "en": "What is the device at the top of a door that closes an opened door slowly and automatically called?"
+      },
+      "answer": {
+        "ja": "ドアクローザー",
+        "en": "Door closer"
+      },
+      "furigana": {
+        "開き戸": "ひらきど",
+        "扉": "とびら"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "ドアクローザー",
+          "en": "Door closer"
+        },
+        {
+          "id": "c2",
+          "ja": "ドアストッパー",
+          "en": "Door stopper",
+          "note": {
+            "ja": "ドアが閉まらないよう、開いたまま止める部品。",
+            "en": "A part that keeps a door from closing."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "ドアチェーン",
+          "en": "Door chain",
+          "note": {
+            "ja": "少しだけ開けた状態で、ドアを止めるくさり。",
+            "en": "A chain that holds the door open only a crack."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "ドアスコープ",
+          "en": "Door viewer",
+          "note": {
+            "ja": "ドアに付いた、外をのぞくための小さなレンズ。",
+            "en": "A small lens in a door for looking outside."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "開き戸に付けて、開けた扉を自動で閉める装置。ばねで閉じる力をため、オイルの粘りで動きを遅くする。",
+          "en": "A device on a hinged door that closes it automatically. A spring stores the closing force and oil damping slows the movement."
+        },
+        "trivia": {
+          "ja": "閉じる直前は動きがゆっくりになり、指を挟みにくい。閉まる速さは、4段階ほどに調整できる。",
+          "en": "It slows near the end of closing so fingers are less likely to be caught, and the speeds can be set in about four stages."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "ドア上部のドアクローザーがはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Door5779.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/ドアクローザー"
+          },
+          {
+            "file": "Door_closer_20170214.jpg",
+            "foundOn": "commons Category:Door_closers"
+          },
+          {
+            "file": "Door_closer_1.jpg",
+            "foundOn": "commons Category:Door_closers"
+          },
+          {
+            "file": "Door_closer.jpg",
+            "foundOn": "commons Category:Door_closers"
+          },
+          {
+            "file": "A_door_closer_by_Dorma_in_the_UK.jpg",
+            "foundOn": "commons Category:Door_closers"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a door closer mounted at the top of a door with its arm, seen from slightly below."
+      },
+      "references": [
+        {
+          "title": "ドアクローザー - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%A2%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B6%E3%83%BC",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ドアクローザ - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非"
+        },
+        {
+          "title": "Door_closer - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Door_closer",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ecurity 4.4 Noise control 4.5 Privacy 4.6 Hygiene 5 See also 6 References 7 External links Toggle the table of contents Door closer 14 languages Dansk Deutsch فارسی Suomi Français Magyar 日本語 한국어 Lietuvių Nederlands Norsk bokmål Русский Svenska 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What l"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「ドアクローザー」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Door closer",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "ドアストッパーの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "ドアチェーンの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "ドアスコープの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "玄関やトイレのドアの上にある四角い箱は毎日見ているが、名前を知る人は少ない。",
+        "en": "The box above entrance and toilet doors is seen daily, yet few people know its name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q135",
+      "category": "daily",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "電柱の側面に、一定の間隔で突き出ている短いボルトは、何と呼ばれるでしょう？",
+        "en": "What are the short bolts sticking out at intervals from the side of a utility pole called?"
+      },
+      "answer": {
+        "ja": "足場ボルト",
+        "reading": "あしばボルト",
+        "en": "Climbing bolts"
+      },
+      "furigana": {
+        "足場": "あしば",
+        "支線": "しせん",
+        "引込線": "ひきこみせん",
+        "柱上変圧器": "ちゅうじょうへんあつき",
+        "電柱": "でんちゅう",
+        "昇": "のぼ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "足場ボルト",
+          "en": "Climbing bolts"
+        },
+        {
+          "id": "c2",
+          "ja": "支線（しせん）",
+          "en": "Guy wire",
+          "note": {
+            "ja": "電柱を斜めに支えて、倒れにくくするワイヤー。",
+            "en": "A wire that braces a pole at an angle so it does not fall."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "引込線（ひきこみせん）",
+          "en": "Service drop",
+          "note": {
+            "ja": "電柱から家や建物へ、電気を引き込む線。",
+            "en": "The line that brings power from a pole into a building."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "柱上変圧器（ちゅうじょうへんあつき）",
+          "en": "Pole transformer",
+          "note": {
+            "ja": "高い電圧を、家庭で使う電圧に下げる装置。",
+            "en": "A device that steps high voltage down to household voltage."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "作業員が電柱に昇り降りするときの足場にするボルト。電柱に一定の間隔で設けられている。",
+          "en": "Bolts that workers use as footholds to climb a pole, set at regular intervals."
+        },
+        "trivia": {
+          "ja": "木製だった時代は釘を打っていたため、「足場釘」とも呼ばれる。電力会社に頼めば、一定の高さまで外してもらえる。",
+          "en": "In the age of wooden poles nails were driven in, hence the name 'ashiba-kugi'. A power company can remove them up to a certain height on request."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "電柱の足場ボルトが並んで見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Touhoku_denryoku_denntyu.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/電柱"
+          },
+          {
+            "file": "Touhoku_denryoku_denntyu1.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/電柱"
+          },
+          {
+            "file": "Maststeigeisen.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/電柱"
+          },
+          {
+            "file": "Denchuu_mokusei.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/電柱"
+          },
+          {
+            "file": "Dencyuu(bloen)01.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/電柱"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a concrete utility pole with a row of climbing bolts sticking out of its side."
+      },
+      "references": [
+        {
+          "title": "電柱 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E6%9F%B1",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "販売している業者がある。 電柱には昇り降りをするための 足場 となる ボルト （足場ボルト）が一定間隔で設けられている。このため、電柱を伝って高層階に侵入する 泥棒 も少なくないと言われているが、電力会社などに頼めば任意の部分までの足場ボルトは外してもらえる。木製だった時代には 釘 を打っていたことから「足場釘」とも呼ばれる [ 19 ] 。 コンクリート柱は骨組みに鉄筋を使用した中空構造であり、型枠に鉄骨をセットしコンクリートを注入することで製作する。そのさい型枠ごと一分間に140回転ほど回転させ遠心力をかけることで中空構造を形成する（遠心形成）。10分ほど遠心力をかける"
+        },
+        {
+          "title": "Utility_pole - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utility_pole",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "at is ~ 0.002 in (0.05 mm) thin. As with all the other non-wood poles, FRC poles cannot be mounted with the traditional climbing hardware of hooks and gaffs. FRC poles can be pre-drilled by the manufacturer, or holes can be drilled on site. Attachments using lag bolts, teeth, nails, and staples are unacceptable for FRC poles. Through-bolts are used instead of lag bolts for maxi"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「足場ボルト」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「あしばボルト」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Climbing bolts",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "支線の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "引込線の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "柱上変圧器の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "電柱は毎日見ているが、あの出っ張りが昇るための足場だとは知らない人が多い。",
+        "en": "People see poles daily but many do not realise the bumps are footholds for climbing."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q138",
+      "category": "japan",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "神社の本殿や境内のまわりを囲む、石や木でできた垣は、何と呼ばれるでしょう？",
+        "en": "What is the fence of stone or wood surrounding a shrine's main hall or precincts called?"
+      },
+      "answer": {
+        "ja": "玉垣（たまがき）",
+        "reading": "たまがき",
+        "en": "Tamagaki"
+      },
+      "furigana": {
+        "玉垣": "たまがき",
+        "築地塀": "ついじべい",
+        "生け垣": "いけがき",
+        "透塀": "すきべい",
+        "神社": "じんじゃ",
+        "本殿": "ほんでん",
+        "境内": "けいだい"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "玉垣（たまがき）",
+          "en": "Tamagaki"
+        },
+        {
+          "id": "c2",
+          "ja": "築地塀（ついじべい）",
+          "en": "Tsuijibei",
+          "note": {
+            "ja": "土を突き固めて作った、屋根付きの塀。",
+            "en": "A roofed wall made of pounded earth."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "生け垣（いけがき）",
+          "en": "Hedge",
+          "note": {
+            "ja": "木を並べて植えて作った、垣。",
+            "en": "A fence made of planted shrubs."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "透塀（すきべい）",
+          "en": "Sukibei",
+          "note": {
+            "ja": "すき間をあけて作られた、格子状の塀。",
+            "en": "A lattice-like wall built with gaps."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "神社や神域の周囲にめぐらされる垣。瑞垣（みずがき）ともいう。",
+          "en": "A fence set around a shrine or sacred ground. Also called mizugaki."
+        },
+        "trivia": {
+          "ja": "玉垣の柱には、奉納した人や団体の名前が彫られていることが多い。",
+          "en": "Pillars of a tamagaki are often carved with the names of donors."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "神社を囲む玉垣がはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Tachibanajinjya_06c0859x.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/玉垣"
+          },
+          {
+            "file": "Owari_Oomiwa_Shrine_honden.jpeg",
+            "foundOn": "ja.wikipedia.org/wiki/玉垣"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: stone tamagaki posts and rails around a shrine, trees behind."
+      },
+      "references": [
+        {
+          "title": "玉垣 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%8E%89%E5%9E%A3",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "玉垣 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "Tamagaki - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tamagaki",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "o sidebar hide From Wikipedia, the free encyclopedia Type of fence This article is about the fence. For other uses, see Tamagaki (disambiguation) . A shrine surrounded by a tamagaki A tamagaki ( 玉垣 ) is a fence surrounding a Japanese Shinto shrine , a sacred area or an imperial palace. [ 1 ] Believed to have been initially just a brushwood barrier of trees, tamagaki have since"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「玉垣」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「たまがき」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Tamagaki",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "築地塀の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "生け垣の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "透塀の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "神社で見慣れた石の柵だが、「玉垣」という名前を知る人は少ない。",
+        "en": "A familiar stone fence at shrines, yet few know it is called a tamagaki."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q139",
+      "category": "transport",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "自転車の車輪で、スポークの端にあって、ねじ込み具合でスポークの張りを調整する、小さな部品は、何と呼ばれるでしょう？",
+        "en": "What is the small part at the end of a bicycle spoke that adjusts its tension as it is screwed in called?"
+      },
+      "answer": {
+        "ja": "ニップル",
+        "en": "Spoke nipple"
+      },
+      "furigana": {
+        "振れ取り": "ふれとり"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "ニップル",
+          "en": "Spoke nipple"
+        },
+        {
+          "id": "c2",
+          "ja": "ハブ",
+          "en": "Hub",
+          "note": {
+            "ja": "車輪の中心にある部分。",
+            "en": "The central part of a wheel."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "バルブ",
+          "en": "Valve",
+          "note": {
+            "ja": "タイヤに空気を入れる口。",
+            "en": "The mouth through which a tyre is inflated."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "リムテープ",
+          "en": "Rim tape",
+          "note": {
+            "ja": "リムの内側に貼り、チューブを守る帯。",
+            "en": "A strip inside the rim that protects the inner tube."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "ワイヤースポークの端にねじ込む、特別な形のナット。締め具合でスポークの張りを調整する。",
+          "en": "A special nut screwed onto the end of a wire spoke. Tightening or loosening it adjusts the spoke's tension."
+        },
+        "trivia": {
+          "ja": "ニップルを回して各スポークの張りと長さを細かく調整し、車輪の真円度を出す作業を「振れ取り」と呼ぶ。",
+          "en": "Turning the nipples to fine-tune each spoke so the wheel runs true is called 'furetori' (truing)."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "自転車のホイールのリムにあるスポークニップルがはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Bicycle_spoke_nipple.jpg",
+            "foundOn": "commons Category:Spoke_nipples"
+          },
+          {
+            "file": "Speichennippel.jpg",
+            "foundOn": "commons Category:Spoke_nipples"
+          },
+          {
+            "file": "Bicycle_spoke_nipples.jpg",
+            "foundOn": "commons Category:Spoke_nipples"
+          },
+          {
+            "file": "Laufrad-campa-vento.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/スポーク"
+          }
+        ],
+        "aiPrompt": "Photorealistic macro photo, landscape 4:3, no text: spoke nipples at the rim of a bicycle wheel."
+      },
+      "references": [
+        {
+          "title": "スポーク - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9D%E3%83%BC%E3%82%AF",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ワイヤー・スポーク 3.2.1 ワイヤー・スポークの配置 3.2.2 スポーク・ニップル 3.2.3 規格 3.2.4 金属製スポーク 3.2.5 繊維製スポーク 3.2.6 その他小分類 4 註 5 関連項目 目次の表示・非表示を切り替え スポーク 33 個の言語版 Aragonés العربية Azərbaycanca Žemaitėška Български Čeština Чӑвашла Dansk Deutsch English Esperanto Español Eesti Euskara فارسی Français Gàidhlig Bahasa Ind"
+        },
+        {
+          "title": "Spoke - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spoke",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "strong and long-lasting end product. Tensioned spokes are usually attached to the rim or sometimes the hub with a spoke nipple . The other end is commonly peened into a disk or uncommonly bent into a \"Z\" to keep it from pulling through its hole in the hub. The bent version has the advantage of replacing a broken spoke in a rear bicycle wheel without having to remove the rear ge"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「ニップル」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Spoke nipple",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "ハブの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "バルブの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "リムテープの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "自転車の車輪の縁にある小さな金具は、毎日目にしても、名前を知らない人が多い。",
+        "en": "Many people see the little fittings on a wheel rim daily without knowing their name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q130",
+      "category": "stationery",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "認印の側面にある、上下を間違えないための小さなくぼみや印は、何と呼ばれるでしょう？",
+        "en": "What is the small notch or mark on the side of a personal seal that shows which way is up called?"
+      },
+      "answer": {
+        "ja": "アタリ",
+        "en": "Atari mark"
+      },
+      "furigana": {
+        "認印": "みとめいん",
+        "印面": "いんめん",
+        "印影": "いんえい",
+        "印鈕": "いんちゅう",
+        "印鑑": "いんかん"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "アタリ",
+          "en": "Atari mark"
+        },
+        {
+          "id": "c2",
+          "ja": "印面",
+          "en": "Seal face",
+          "note": {
+            "ja": "文字を彫った、朱肉をつけて押す側の面。",
+            "en": "The carved face that is inked and pressed."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "印影",
+          "en": "Seal print",
+          "note": {
+            "ja": "紙に押して残った、印の跡。",
+            "en": "The mark left on paper when the seal is pressed."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "印鈕（いんちゅう）",
+          "en": "Seal knob",
+          "note": {
+            "ja": "角型の印章などの、つまみの部分。",
+            "en": "The grip part of a square seal."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "印鑑の上下を確かめるための目印。側面のくぼみや、埋め込まれた突起で示される。",
+          "en": "A guide mark for telling a seal's top from its bottom, shown as a notch or an embedded bump on its side."
+        },
+        "trivia": {
+          "ja": "「サグリ」「座繰り」などとも呼ばれる。上下を取り違えて押して、印影が崩れるのを防ぐ。",
+          "en": "It is also called saguri or zaguri. It prevents pressing the seal upside down and spoiling the print."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "認印の側面のアタリ(くぼみ)がはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Inkan.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/印鑑"
+          },
+          {
+            "file": "Signature_seal_2025-04-17.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/印鑑"
+          },
+          {
+            "file": "Seal_with_round_handle_2025-04-07.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/印鑑"
+          },
+          {
+            "file": "Wooden_seals_2025-05-15.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/印鑑"
+          },
+          {
+            "file": "Titanium-stamps.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/印鑑"
+          }
+        ],
+        "aiPrompt": "Photorealistic macro photo, landscape 4:3, no text: the side of a cylindrical personal seal with a small orientation notch, soft light."
+      },
+      "references": [
+        {
+          "title": "印鑑 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8D%B0%E9%91%91",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "） 角型の印章などのツマミの部分。 指付（ゆびつき）・座繰り（ざぐり）・サグリ・アタリ 印の上下を確認するために認印などの印章の側面に付けられた窪み。認印の場合契約を再考する時間の確保のため敢えて設けられてないこともある [ 30 ] 。 押印・捺印・押捺・調印 印章を用いて紙面に印影を残すこと（但し捺印には、その押された印影の意味あり）。両者は法律上は「押印」 [ 31 ] であるが 手形法 八十二条には「本法ニ於テ署名トアルハ記名捺印ヲ含ム」とあり例外もある。（当用漢字制定前は捺印が一般的 [ 32 ] ）法令上は「記名押印する affix the name and s"
+        },
+        {
+          "title": "Seal_(East_Asia) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seal_(East_Asia)",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "Qu Leilei, Chinese Calligraphy . Cico Books Ltd.: London, 2002. Wang Jia-nan; Cai Xiaoli and Young, Dawn; The Complete Oriental Painting Course: A structured, practical guide to painting skills and techniques of China and the Far East . Quarto Publishing plc. and Aurum Press: London, 1997. Wren, Christopher S. Chinese Chops: A Signature in Stone Archived 2017-11-28 at the Wayb"
+        },
+        {
+          "title": "印鑑のアタリとは - マイナビニュース",
+          "url": "https://news.mynavi.jp/article/20211122-2171787/",
+          "publisher": "マイナビニュース",
+          "type": "media",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "印鑑の上下を見分ける目印を「アタリ」と呼び、業界では「サグリ」とも呼ぶ。"
+        },
+        {
+          "title": "印鑑のアタリとは - DocuSign",
+          "url": "https://www.docusign.com/ja-jp/blog/what-is-inkan-atari",
+          "publisher": "DocuSign",
+          "type": "other",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "アタリは、印鑑の上下を間違えないように付けられた印である。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「アタリ」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Atari mark",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "印面の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "印影の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "印鈕の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "毎日のように使う印鑑だが、側面のくぼみに名前があることは、あまり知られていない。",
+        "en": "People use seals all the time, yet few know the notch on the side has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q136",
+      "category": "building",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "ビルの外壁などにある、消防隊がポンプ車から消火用の水を送り込む、金属の接続口は、何と呼ばれるでしょう？",
+        "en": "What is the metal connection on a building's wall where the fire brigade feeds water in from a pump truck called?"
+      },
+      "answer": {
+        "ja": "送水口（そうすいこう）",
+        "reading": "そうすいこう",
+        "en": "Fire dept. connection"
+      },
+      "furigana": {
+        "消防隊": "しょうぼうたい",
+        "送水口": "そうすいこう",
+        "消火栓": "しょうかせん",
+        "放水口": "ほうすいこう",
+        "接続口": "せつぞくぐち"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "送水口（そうすいこう）",
+          "en": "Fire dept. connection"
+        },
+        {
+          "id": "c2",
+          "ja": "消火栓（しょうかせん）",
+          "en": "Fire hydrant",
+          "note": {
+            "ja": "道路などにあり、消火用の水を取り出す設備。",
+            "en": "Equipment on streets from which water for firefighting is drawn."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "放水口（ほうすいこう）",
+          "en": "Landing valve",
+          "note": {
+            "ja": "各階にある、消防隊がホースをつなぐ水の出口。",
+            "en": "The outlet on each floor where firefighters attach hoses."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "スプリンクラーヘッド",
+          "en": "Sprinkler head",
+          "note": {
+            "ja": "火事の熱で作動して、水をまく噴出口。",
+            "en": "A nozzle that opens in the heat of a fire and sprays water."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "建物の外にあり、ポンプ車から加圧された消火用の水を建物の配管へ送り込む接続口。",
+          "en": "A connection outside a building that feeds pressurised water from a pump truck into the building's piping."
+        },
+        "trivia": {
+          "ja": "高い建物では、消防隊が各階の放水口まで水を送れるよう、送水口から配管が通っている。ふつう接続口が2つある。",
+          "en": "In tall buildings pipes lead from it up to each floor's outlets so firefighters can use water there. It usually has two sockets."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "建物の外壁の送水口がはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Renketsu5382.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/連結送水管"
+          },
+          {
+            "file": "送水口_20200527.jpg",
+            "foundOn": "commons search: 送水口"
+          },
+          {
+            "file": "送水口_色分け_(2941008116).jpg",
+            "foundOn": "commons search: 送水口"
+          },
+          {
+            "file": "Firefighting_plumbing_In01.JPG",
+            "foundOn": "ja.wikipedia.org/wiki/連結送水管"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a wall-mounted fire brigade inlet with two brass sockets, seen from the front."
+      },
+      "references": [
+        {
+          "title": "連結送水管 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E9%80%81%E6%B0%B4%E7%AE%A1",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "せつび）についてもあわせて述べる。 連結送水管 [ 編集 ] スタンド式送水口 送水口壁面埋込式、右2つ 消防隊専用栓とも呼ばれ、外部からの消火活動が困難な、7階建て以上の建物、または5~6階建てでかつ延べ床面積が6,000 m 2 以上の建物、もしくは面積1,000m 2 以上の 地下街 に設けられる。 送水口、送水配管、放水口で構成され、 ポンプ車 より加圧された消火用水を送水口から放水口へ送水する。 送水口 - ポンプ車が容易に接近できる場所に、床面からの高さ50cm~1mの位置に設けられる。スタンド式と壁面埋込式とがあり、接続口が2つある双口型が用いられる。 送水配"
+        },
+        {
+          "title": "連結送水管の設置基準 - 札幌市消防局",
+          "url": "https://www.city.sapporo.jp/shobo/yobo/jorei/documents/081-53jyo.pdf",
+          "publisher": "札幌市消防局",
+          "type": "government",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "送水口は、消防ポンプ自動車のホースを結合して送水する部分で、消防ポンプ自動車が容易に接近できる位置に設ける。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「送水口」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「そうすいこう」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Fire dept. connection",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "消火栓の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "放水口の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "スプリンクラーヘッドの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "ビルの壁にある赤い丸い口は、街でよく見るが、何のためかを知る人は少ない。",
+        "en": "The round red sockets on building walls are common, but few know what they are for."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q137",
+      "category": "building",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "雨戸を開けたときに、戸がしまわれる、窓のわきの箱のような部分は、何と呼ばれるでしょう？",
+        "en": "What is the box-like part beside a window where the rain shutters are stored when opened called?"
+      },
+      "answer": {
+        "ja": "戸袋（とぶくろ）",
+        "reading": "とぶくろ",
+        "en": "Shutter pocket"
+      },
+      "furigana": {
+        "雨戸": "あまど",
+        "戸袋": "とぶくろ",
+        "雨樋": "あまどい",
+        "軒天": "のきてん",
+        "袖壁": "そでかべ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "戸袋（とぶくろ）",
+          "en": "Shutter pocket"
+        },
+        {
+          "id": "c2",
+          "ja": "雨樋（あまどい）",
+          "en": "Rain gutter",
+          "note": {
+            "ja": "屋根の雨水を集めて、地面へ流す管。",
+            "en": "A channel that collects roof rainwater and carries it down."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "軒天（のきてん）",
+          "en": "Soffit",
+          "note": {
+            "ja": "軒の裏側の、天井のように見える部分。",
+            "en": "The underside of the eaves that looks like a ceiling."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "袖壁（そでかべ）",
+          "en": "Wing wall",
+          "note": {
+            "ja": "窓や出入口のわきに設けられた、短い壁。",
+            "en": "A short wall beside a window or doorway."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "引き戸を開けたときに、戸が複数枚しまわれる場所。外からも内からも、戸が見えない袋状のものが多い。",
+          "en": "The place where sliding doors are stored when opened. Often a bag-like space where the doors cannot be seen from inside or outside."
+        },
+        "trivia": {
+          "ja": "昔の戸袋は、戸を引き出す口がちょうど鳥の出入り口になるため、スズメなどが巣を作ることがある。",
+          "en": "In old tobukuro the opening for the doors suits birds, so sparrows sometimes nest in them."
+        }
+      },
+      "image": null,
+      "release": {
+        "status": "hold",
+        "reason": "image-pending",
+        "priority": "A",
+        "note": "窓のわきの戸袋がはっきり見える写真。",
+        "imageCandidates": [
+          {
+            "file": "Rakusui-en_the_amado_and_the_tobukuro_Hakata-ku_Fukuoka_20241121_162219.jpg",
+            "foundOn": "commons search: 戸袋"
+          },
+          {
+            "file": "旧豊田佐助邸戸袋.jpg",
+            "foundOn": "commons search: 戸袋"
+          },
+          {
+            "file": "Shōfū-an_the_tobukuro_and_shōji_of_the_hiroma_Chūō-ku_Fukuoka_20241209_160503.jpg",
+            "foundOn": "commons search: 戸袋"
+          },
+          {
+            "file": "Rear_of_an_Ordinary_Home_(4788335530).jpg",
+            "foundOn": "commons search: 戸袋"
+          },
+          {
+            "file": "Nagasaki-Dejima-1739.jpg",
+            "foundOn": "ja.wikipedia.org/wiki/戸袋"
+          }
+        ],
+        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: the wooden tobukuro box beside a window of a Japanese house, with rain shutters."
+      },
+      "references": [
+        {
+          "title": "戸袋 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%A2%8B",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "戸袋 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "tobukuro 戸袋 - JAANUS",
+          "url": "https://projects.mcah.columbia.edu/jaanus/record/tobukuro",
+          "publisher": "JAANUS (Columbia University)",
+          "type": "academic",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "戸袋は、雨戸を開けたときに収納しておく設備である。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「戸袋」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「とぶくろ」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Shutter pocket",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "雨樋の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "軒天の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "袖壁の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "pending",
+          "note": "No picture yet; the marker is set when the picture is attached."
+        }
+      },
+      "difficultyReason": {
+        "ja": "日本の家でよく見る窓のわきの箱だが、名前を知らない人は多い。雨戸のない海外では、あまり見られない。",
+        "en": "A box seen beside windows on Japanese houses, yet many do not know its name. It is rare abroad, where houses have no rain shutters."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
     }
   ]
 }

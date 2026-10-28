@@ -1,4 +1,5 @@
-import { createGame, markSeen, playableQuestions, DEFAULT_ROUND_SIZE } from './game.js';
+import { createGame, markSeen, playableQuestions, DEFAULT_ROUND_SIZE, MODES, modeAvailability } from './game.js';
+import { applyPlay, normalizeRecords } from './records.js';
 import { LANGS, createTranslator, detectLanguage } from './i18n.js';
 import { load, save } from './storage.js';
 import { createApp } from './ui.js';
@@ -47,20 +48,38 @@ async function boot() {
       getLang: () => lang,
       setLang: (code) => { lang = code; save('lang', code); },
       shareFn: share,
-      onRoundStart: () => {
+      getRecords: () => normalizeRecords(load('records', null)),
+      onRoundStart: (modeId = 'normal') => {
         if (forced) {
           const game = createGame([forced], { count: 1 });
           forced = null;
           game.single = true;
           return game;
         }
+        if (modeId !== 'normal') {
+          // Time attack / survival: a fresh random draw of distinct questions, never padded with repeats.
+          const mode = MODES[modeId];
+          if (!mode || !modeAvailability(modeId, pool.length).ok) return createGame([], { count: 0, mode: modeId });
+          return createGame(pool, { count: mode.count, mode: modeId });
+        }
         return createGame(pool, { count: DEFAULT_ROUND_SIZE, seenIds: load('seen', []) });
       },
-      onRoundEnd: (game) => game.single || save('seen', markSeen(
-        load('seen', []),
-        game.results.map((r) => r.questionId),
-        pool.length,
-      )),
+      onRoundEnd: (game, stats) => {
+        if (game.single) return null;
+        if (game.mode !== 'normal') {
+          // only a game that really ran to its end is recorded (all questions answered, or a survival game over)
+          const full = game.results.length === MODES[game.mode].count;
+          const over = MODES[game.mode].suddenDeath && game.results.some((r) => !r.correct);
+          if (!full && !over) return null;
+          const { records, flags } = applyPlay(load('records', null), {
+            mode: game.mode, total: stats.total, correct: stats.correct, timeMs: stats.timeMs, cleared: stats.cleared,
+          });
+          save('records', records);
+          return flags;
+        }
+        save('seen', markSeen(load('seen', []), game.results.map((r) => r.questionId), pool.length));
+        return null;
+      },
     });
     app.render();
     if (forced) app.startRound();
