@@ -25157,6 +25157,871 @@
         "evidence": "medium",
         "reviewedAt": "2026-10-26"
       }
+    },
+    {
+      "id": "q148",
+      "category": "daily",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "ガスコンロで、鍋ややかんを載せて支える、金属の台は、何と呼ばれるでしょう？",
+        "en": "What is the metal stand on a gas hob that holds pots and kettles called?"
+      },
+      "answer": {
+        "ja": "五徳（ごとく）",
+        "reading": "ごとく",
+        "en": "Pot support"
+      },
+      "furigana": {
+        "五徳": "ごとく",
+        "汁受け皿": "しるうけざら",
+        "台枠": "だいわく",
+        "鍋": "なべ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "五徳（ごとく）",
+          "en": "Pot support"
+        },
+        {
+          "id": "c2",
+          "ja": "バーナー",
+          "en": "Burner",
+          "note": {
+            "ja": "ガスを燃やして、炎を出す部分。",
+            "en": "The part that burns the gas and makes the flame."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "汁受け皿（しるうけざら）",
+          "en": "Drip tray",
+          "note": {
+            "ja": "ふきこぼれた汁を、受けるための皿。",
+            "en": "A tray that catches spills."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "台枠（だいわく）",
+          "en": "Hob frame",
+          "note": {
+            "ja": "バーナーのまわりを囲い、調理物を支える枠。",
+            "en": "The frame around the burner that supports the cookware."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "鍋などの調理器具が炎をじゃましないよう、安定して支える器具。ガスコンロでは、バーナーの上に置かれる。",
+          "en": "A support that holds cookware steadily without blocking the flame, set over the burner of a gas hob."
+        },
+        "trivia": {
+          "ja": "五徳は、囲炉裏で鍋ややかんを支える道具としても古くから使われた。名前は、もとは5つの徳を備えるという意味とされる。",
+          "en": "The gotoku has long been used over hearths to hold pots and kettles. Its name is said to refer to five virtues."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/gotoku.jpg",
+        "width": 998,
+        "height": 422,
+        "alt": {
+          "ja": "ガスコンロのバーナーを囲む、黒い鉄の五徳。",
+          "en": "Black iron pot stands (gotoku) around the burners of a gas hob."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.45,
+          "cy": 0.55,
+          "rx": 0.2,
+          "ry": 0.4,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Builtin_Cooker.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Builtin_Cooker.JPG",
+          "author": "Matthew.eyes",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“Builtin Cooker” by Matthew.eyes, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1439x948 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "54591c100b43fbed20efd94ec4665bff4f04abaa",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped to the cooktop surface; small product stickers remain visible. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "ガスコンロ - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%82%B3%E3%83%B3%E3%83%AD",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "務用には原始的な機構のモデルも残る。 台所用のガス焜炉の焜炉部分は、バーナー、 五徳 （ごとく）、台枠を組み合わせたものである [ 10 ] 。バーナーはガスを燃焼させる部分で、バーナーヘッドが分離しているものが多い [ 10 ] 。五徳は鍋等の調理器具が燃焼を妨げることなく、かつ熱効率の最も良い位置で安定して使用できるようにするため支持する器具である [ 10 ] 。また、台枠はバーナーの周囲で過熱が生じたり燃焼が不安定にならないようにするためのもので、調理物を安全に支えるだけの強度と耐熱性を要する [ 10 ] 。かつては天板に大きく穴を開け抉れた汁受け皿を載せ、バーナ"
+        },
+        {
+          "title": "五徳 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E5%BE%B3",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "五徳（ごとく）は、鍋などの調理器具を載せて支える器具である。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「五徳」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ごとく」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Pot support",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "バーナーの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "汁受け皿の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "台枠の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "毎日使うコンロの上の金属の台は、名前を知らない人が多い。",
+        "en": "Many people use the metal stand on their hob daily without knowing its name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q151",
+      "category": "food",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "アジの体の側面に並んでいる、とげ状のかたいウロコは、何と呼ばれるでしょう？",
+        "en": "What are the hard, spiny scales along the side of a horse mackerel called?"
+      },
+      "answer": {
+        "ja": "ぜいご（稜鱗）",
+        "reading": "ぜいご",
+        "en": "Lateral scutes"
+      },
+      "furigana": {
+        "稜鱗": "りょうりん",
+        "鰓蓋": "さいがい",
+        "臀鰭": "しりびれ",
+        "背鰭": "せびれ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "ぜいご（稜鱗）",
+          "en": "Lateral scutes"
+        },
+        {
+          "id": "c2",
+          "ja": "鰓蓋（さいがい）",
+          "en": "Gill cover",
+          "note": {
+            "ja": "えらをおおう、ふた。",
+            "en": "The flap that covers the gills."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "臀鰭（しりびれ）",
+          "en": "Anal fin",
+          "note": {
+            "ja": "おなかの後ろにある、ひれ。",
+            "en": "The fin on the belly toward the tail."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "背鰭（せびれ）",
+          "en": "Dorsal fin",
+          "note": {
+            "ja": "背中にある、ひれ。",
+            "en": "The fin on the back."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "アジの側面の線上に並ぶ、とげ状のウロコ。「ぜんご」とも呼ばれ、稜鱗（りょうりん）が正式な名前。",
+          "en": "Spiny scales along the lateral line of an aji. Also called 'zengo'; the formal name is ryorin."
+        },
+        "trivia": {
+          "ja": "マアジには、ぜいごが69〜73個並ぶ。調理のときは、包丁で取り除く。",
+          "en": "A Japanese horse mackerel has 69 to 73 of them. Cooks remove them with a knife."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/aji-zeigo.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "水槽を泳ぐアジ。体の側面に、ぜいごが並んでいる。",
+          "en": "A horse mackerel in an aquarium with the row of scutes along its side."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.61,
+          "cy": 0.44,
+          "rx": 0.14,
+          "ry": 0.055,
+          "rotate": -10.0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Trachurus_japonicus_Suma_1.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Trachurus_japonicus_Suma_1.jpg",
+          "author": "Totti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Trachurus japonicus Suma 1” by Totti, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 3597x2698 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "9e5865330d3ddcb847e7784ed0e44219cfcb9077",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "マアジ - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A2%E3%82%B8",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "まで直走する。この側線上には全体にわたって稜鱗（りょうりん：俗称「 ぜんご 」「ぜいご」）と呼ばれる 棘 状の 鱗 が69-73個並ぶ。臀鰭の前端部には2本の棘条がある。鰓蓋（さいがい、えらぶた）上縁には1つの黒色斑がある。口内では両顎・口蓋骨・鋤骨（じょこつ）・舌に細歯がある。背側は緑黒色で腹側は銀白色、中間域は 金色 である [ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] 。 体色 と体型は、浅海の岩礁域に定着する「居つき型（瀬付き群）」と、外洋を 回遊 する「回遊型（沖合回遊群）」で異なる。居つき型は全体的に黄色みが強く、体高が高い。一方、「回"
+        },
+        {
+          "title": "Japanese_jack_mackerel - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_jack_mackerel",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "s and fins are developed, and the body is elongated to around 10 – 13 cm. [ 13 ] [ 14 ] Throughout the juvenile stages, scutes and scales fully develop as well as rays on the pectoral and caudal fins until reaching full maturity at around 60 days after hatching and reaching an average length of around 35 cm. [ 2 ] [ 13 ] Feeding [ edit ] As a juvenile, the Japanese jack mackere"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「ぜいご」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ぜいご」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Lateral scutes",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "鰓蓋の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "臀鰭の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "背鰭の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "アジを食べる人は多いが、ウロコのとげに「ぜいご」という名前があることは、あまり知られていない。",
+        "en": "Many eat aji, but few know the spiny scales are called zeigo."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q155",
+      "category": "japan",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "仏像の眉間（みけん）にある、丸い出っぱりや宝石の飾りは、何と呼ばれるでしょう？",
+        "en": "What is the round bump or jewel on a Buddha statue's forehead between the eyebrows called?"
+      },
+      "answer": {
+        "ja": "白毫（びゃくごう）",
+        "reading": "びゃくごう",
+        "en": "Urna"
+      },
+      "furigana": {
+        "眉間": "みけん",
+        "白毫": "びゃくごう",
+        "螺髪": "らほつ",
+        "肉髻": "にくけい",
+        "光背": "こうはい"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "白毫（びゃくごう）",
+          "en": "Urna"
+        },
+        {
+          "id": "c2",
+          "ja": "螺髪（らほつ）",
+          "en": "Curls",
+          "note": {
+            "ja": "仏像の頭に並ぶ、右巻きに丸まった髪の毛。",
+            "en": "The right-curling locks of hair covering the head of a Buddha."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "肉髻（にくけい）",
+          "en": "Ushnisha",
+          "note": {
+            "ja": "頭のてっぺんの、盛り上がった部分。",
+            "en": "The raised bump at the top of the head."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "光背（こうはい）",
+          "en": "Halo",
+          "note": {
+            "ja": "仏像の背後にある、光を表す飾り。",
+            "en": "The ornament behind a statue that represents radiance."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "仏の眉間にあるとされる、白く長い毛。右巻きに丸まっていて、光を放つとされる。仏像では、丸い膨らみや宝石で表される。",
+          "en": "A long white hair said to grow between the eyebrows of a Buddha, curled to the right and shining. Statues show it as a round bump or an inlaid jewel."
+        },
+        "trivia": {
+          "ja": "白毫は、伸ばすと1丈5尺（約4.5メートル）あるとされる。如来と菩薩に付けられ、明王などには付けない。",
+          "en": "Stretched out the hair is said to be 1 jo 5 shaku (about 4.5 m). It is given to nyorai and bodhisattvas, not to myo-o."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/byakugo.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "鎌倉の大仏。眉間に白毫がある。",
+          "en": "The Great Buddha of Kamakura with the urna between the eyebrows."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.1,
+          "rx": 0.07,
+          "ry": 0.07,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/20260420_Gro%C3%9Fer_Buddha_von_Kamakura_03%2C_Kanagawa%2C_Japan_anagoria.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:20260420_Gro%C3%9Fer_Buddha_von_Kamakura_03,_Kanagawa,_Japan_anagoria.jpg",
+          "author": "Anagoria",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“20260420 Großer Buddha von Kamakura 03, Kanagawa, Japan anagoria” by Anagoria, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 12000x9000 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "f803f1fe0a8907898f1526b3c10486ff01f91631",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "白毫 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%AF%AB",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "白毫 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "螺髪 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%9E%BA%E9%AB%AA",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "額の毛は白毫と呼ぶ。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「白毫」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「びゃくごう」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Urna",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "螺髪の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "肉髻の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "光背の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "大仏の額にある丸いものは誰でも見たことがあるが、名前を知る人は少ない。",
+        "en": "Everyone has seen the round dot on a great Buddha's brow, yet few know its name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q156",
+      "category": "japan",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "大仏の頭にびっしり並んでいる、丸く巻いた粒のような髪の毛は、何と呼ばれるでしょう？",
+        "en": "What are the tight, round curls of hair covering a great Buddha's head called?"
+      },
+      "answer": {
+        "ja": "螺髪（らほつ）",
+        "reading": "らほつ",
+        "en": "Curls (rahotsu)"
+      },
+      "furigana": {
+        "螺髪": "らほつ",
+        "白毫": "びゃくごう",
+        "肉髻": "にくけい",
+        "光背": "こうはい",
+        "大仏": "だいぶつ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "螺髪（らほつ）",
+          "en": "Curls (rahotsu)"
+        },
+        {
+          "id": "c2",
+          "ja": "白毫（びゃくごう）",
+          "en": "Urna (white hair)",
+          "note": {
+            "ja": "眉間にあるとされる、白く長い毛。",
+            "en": "The long white hair said to grow between the eyebrows."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "肉髻（にくけい）",
+          "en": "Ushnisha bump",
+          "note": {
+            "ja": "頭のてっぺんの、盛り上がった部分。",
+            "en": "The raised bump at the top of the head."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "光背（こうはい）",
+          "en": "Halo",
+          "note": {
+            "ja": "仏像の背後にある、光を表す飾り。",
+            "en": "The ornament behind a statue that represents radiance."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "仏像の頭に現れている、右巻きに丸まった髪の毛。三十二相八十種好のひとつ。",
+          "en": "The right-curling hair shown on a Buddha statue's head, one of the 32 marks and 80 minor signs."
+        },
+        "trivia": {
+          "ja": "螺髪の数は決まっておらず、東大寺の大仏は492個、飛鳥大仏は700個、鎌倉大仏は656個とされる。",
+          "en": "The number is not fixed: the Tōdai-ji Buddha has 492, the Asuka Buddha 700 and the Kamakura Buddha 656."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/rahotsu.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "東大寺の大仏の頭。丸く巻いた螺髪が並ぶ。",
+          "en": "The head of the Great Buddha at Tōdai-ji with its rows of tight curls."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.6,
+          "cy": 0.3,
+          "rx": 0.3,
+          "ry": 0.2,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Todaiji06.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Todaiji06.JPG",
+          "author": "Mass Ave 975",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Todaiji06” by Mass Ave 975, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 3168x4752 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "9a4d46a4bd61fbdfa5ef92ea206d225a3d930c78",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped from a portrait photo. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "螺髪 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%9E%BA%E9%AB%AA",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "螺髪 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "白毫 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%AF%AB",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "螺髪は、仏像の丸まった髪の毛の名称。"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「螺髪」",
+              "status": "confirmed",
+              "refs": [
+                0,
+                1
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「らほつ」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Curls (rahotsu)",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "英語版の読んだ範囲に対応する語がない。一般的な訳語。"
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "白毫の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "肉髻の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "光背の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "大仏の頭のぶつぶつは誰でも見たことがあるが、「螺髪」という名前は意外と知られていない。",
+        "en": "Everyone has seen the bumps on a great Buddha's head, yet the name 'rahotsu' is not widely known."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
     }
   ]
 }
