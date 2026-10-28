@@ -23103,35 +23103,39 @@
           "en": "The snap-off knife was inspired by a chocolate bar's break lines. The brand name OLFA comes from the Japanese for 'snap-off blade'."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "カッターの刃の折り筋がはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Snap-off_blade_-_01.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
-          },
-          {
-            "file": "OLFA_L-1_and_NT_L-550.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
-          },
-          {
-            "file": "L-1_and_180Black_-_OLFA.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
-          },
-          {
-            "file": "カッターナイフ2.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
-          },
-          {
-            "file": "Various_cutter_knives.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/カッターナイフ"
-          }
-        ],
-        "aiPrompt": "Photorealistic macro photo, landscape 4:3, no text: a snap-off utility knife blade with its diagonal snap grooves visible."
+      "image": {
+        "src": "assets/img/q/snap-off-line.jpg",
+        "width": 845,
+        "height": 526,
+        "alt": {
+          "ja": "OLFAのカッターナイフの替え刃。刃に等間隔の折り筋が入っている。",
+          "en": "Snap-off utility knife blades with evenly spaced snap lines."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.4,
+          "rx": 0.46,
+          "ry": 0.3,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Snap-off_blade_-_01.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Snap-off_blade_-_01.jpg",
+          "author": "Quercus acuta",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Snap-off blade - 01” by Quercus acuta, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 3796x2135 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "9f59e8445ee3bcd639e09e80083f9db4a7413b72",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. OLFA lettering at the right end of the blades is cropped out. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -23232,8 +23236,8 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
@@ -23315,31 +23319,39 @@
           "en": "It was added because blind passengers could not tell inside from outside and might fall off. It was included in the 2014 JIS revision."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "ホームの端の点状ブロックと内方線がはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Platform_end_marker.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
-          },
-          {
-            "file": "Screen_door_aonami_line.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
-          },
-          {
-            "file": "Tenji-block.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
-          },
-          {
-            "file": "省スペース型点字ブロック.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/点字ブロック"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: the edge of a station platform with yellow dotted tactile blocks and a single line on the inner side."
+      "image": {
+        "src": "assets/img/q/inner-line-block.jpg",
+        "width": 960,
+        "height": 720,
+        "alt": {
+          "ja": "駅のホームの端に並ぶ黄色い点状ブロックと、その内側の1本線のブロック。",
+          "en": "Yellow dotted tactile blocks at a platform edge with the single-line block on the inner side."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.68,
+          "rx": 0.47,
+          "ry": 0.08,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Platform_end_marker.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Platform_end_marker.jpg",
+          "author": "Ichitaro (named by Wikimedia Commons from the uploader's copyright claim)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“Platform end marker” by Ichitaro, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1024x768 to 960 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "cbcc4586313886b397f016792cc936b90a475d69",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Author named by Wikimedia Commons from the uploader's copyright claim (no machine-readable author field). originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -23439,8 +23451,8 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
@@ -23517,35 +23529,39 @@
           "en": "Winding the cable several turns through it is said to improve the effect. It is common on USB and similar cables."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "ケーブルに付いたフェライトコアがはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Cable_end.JPG",
-            "foundOn": "commons search: ferrite core cable"
-          },
-          {
-            "file": "Ferrite_clamp-on.jpg",
-            "foundOn": "commons Category:Ferrite_beads"
-          },
-          {
-            "file": "Ferrite_bead.jpg",
-            "foundOn": "commons Category:Ferrite_beads"
-          },
-          {
-            "file": "Ferritkerndrossel.jpg",
-            "foundOn": "commons search: ferrite core cable"
-          },
-          {
-            "file": "A_collection_of_Snap-On_-_Clamp-on_ferrite_beads.jpg",
-            "foundOn": "commons Category:Ferrite_beads"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a black cylindrical ferrite core clamped on a computer cable."
+      "image": {
+        "src": "assets/img/q/ferrite-core.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "ACアダプターのケーブルの途中にある、黒い筒状のフェライトコア。",
+          "en": "A black cylindrical ferrite core partway along an adapter cable."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.54,
+          "cy": 0.56,
+          "rx": 0.14,
+          "ry": 0.17,
+          "rotate": -25.0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ferrite_bead.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ferrite_bead.jpg",
+          "author": "Santeri Viinamäki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Ferrite bead” by Santeri Viinamäki, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 3648x2736 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "59c83596c34ef406deb4c5bbf82f1161b47b9986",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -23639,8 +23655,8 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
@@ -23718,35 +23734,39 @@
           "en": "It slows near the end of closing so fingers are less likely to be caught, and the speeds can be set in about four stages."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "ドア上部のドアクローザーがはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Door5779.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/ドアクローザー"
-          },
-          {
-            "file": "Door_closer_20170214.jpg",
-            "foundOn": "commons Category:Door_closers"
-          },
-          {
-            "file": "Door_closer_1.jpg",
-            "foundOn": "commons Category:Door_closers"
-          },
-          {
-            "file": "Door_closer.jpg",
-            "foundOn": "commons Category:Door_closers"
-          },
-          {
-            "file": "A_door_closer_by_Dorma_in_the_UK.jpg",
-            "foundOn": "commons Category:Door_closers"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a door closer mounted at the top of a door with its arm, seen from slightly below."
+      "image": {
+        "src": "assets/img/q/door-closer.jpg",
+        "width": 1280,
+        "height": 961,
+        "alt": {
+          "ja": "赤いドアの上部に付いた、アームつきのドアクローザー。",
+          "en": "A door closer with its arm mounted above a red door."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.7,
+          "cy": 0.42,
+          "rx": 0.3,
+          "ry": 0.27,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Door_closer_20170214.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Door_closer_20170214.jpg",
+          "author": "Santeri Viinamäki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Door closer 20170214” by Santeri Viinamäki, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 4592x3448 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "0c6dcd3ad429863da84a422b1e4ba9d1811c562f",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -23840,226 +23860,13 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
         "ja": "玄関やトイレのドアの上にある四角い箱は毎日見ているが、名前を知る人は少ない。",
         "en": "The box above entrance and toilet doors is seen daily, yet few people know its name."
-      },
-      "review": {
-        "seenBefore": "high",
-        "nameUnknown": "high",
-        "imageIdentifiable": "high",
-        "guessable": "low",
-        "surprise": "medium",
-        "evidence": "medium",
-        "reviewedAt": "2026-10-26"
-      }
-    },
-    {
-      "id": "q135",
-      "category": "daily",
-      "difficulty": 2,
-      "prompt": {
-        "ja": "電柱の側面に、一定の間隔で突き出ている短いボルトは、何と呼ばれるでしょう？",
-        "en": "What are the short bolts sticking out at intervals from the side of a utility pole called?"
-      },
-      "answer": {
-        "ja": "足場ボルト",
-        "reading": "あしばボルト",
-        "en": "Climbing bolts"
-      },
-      "furigana": {
-        "足場": "あしば",
-        "支線": "しせん",
-        "引込線": "ひきこみせん",
-        "柱上変圧器": "ちゅうじょうへんあつき",
-        "電柱": "でんちゅう",
-        "昇": "のぼ"
-      },
-      "choices": [
-        {
-          "id": "c1",
-          "ja": "足場ボルト",
-          "en": "Climbing bolts"
-        },
-        {
-          "id": "c2",
-          "ja": "支線（しせん）",
-          "en": "Guy wire",
-          "note": {
-            "ja": "電柱を斜めに支えて、倒れにくくするワイヤー。",
-            "en": "A wire that braces a pole at an angle so it does not fall."
-          }
-        },
-        {
-          "id": "c3",
-          "ja": "引込線（ひきこみせん）",
-          "en": "Service drop",
-          "note": {
-            "ja": "電柱から家や建物へ、電気を引き込む線。",
-            "en": "The line that brings power from a pole into a building."
-          }
-        },
-        {
-          "id": "c4",
-          "ja": "柱上変圧器（ちゅうじょうへんあつき）",
-          "en": "Pole transformer",
-          "note": {
-            "ja": "高い電圧を、家庭で使う電圧に下げる装置。",
-            "en": "A device that steps high voltage down to household voltage."
-          }
-        }
-      ],
-      "correctChoiceId": "c1",
-      "explanation": {
-        "usage": {
-          "ja": "作業員が電柱に昇り降りするときの足場にするボルト。電柱に一定の間隔で設けられている。",
-          "en": "Bolts that workers use as footholds to climb a pole, set at regular intervals."
-        },
-        "trivia": {
-          "ja": "木製だった時代は釘を打っていたため、「足場釘」とも呼ばれる。電力会社に頼めば、一定の高さまで外してもらえる。",
-          "en": "In the age of wooden poles nails were driven in, hence the name 'ashiba-kugi'. A power company can remove them up to a certain height on request."
-        }
-      },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "電柱の足場ボルトが並んで見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Touhoku_denryoku_denntyu.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/電柱"
-          },
-          {
-            "file": "Touhoku_denryoku_denntyu1.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/電柱"
-          },
-          {
-            "file": "Maststeigeisen.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/電柱"
-          },
-          {
-            "file": "Denchuu_mokusei.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/電柱"
-          },
-          {
-            "file": "Dencyuu(bloen)01.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/電柱"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a concrete utility pole with a row of climbing bolts sticking out of its side."
-      },
-      "references": [
-        {
-          "title": "電柱 - Wikipedia (ja)",
-          "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E6%9F%B1",
-          "publisher": "Wikipedia",
-          "type": "encyclopedia",
-          "accessMethod": "direct",
-          "accessedAt": "2026-10-26",
-          "supports": "販売している業者がある。 電柱には昇り降りをするための 足場 となる ボルト （足場ボルト）が一定間隔で設けられている。このため、電柱を伝って高層階に侵入する 泥棒 も少なくないと言われているが、電力会社などに頼めば任意の部分までの足場ボルトは外してもらえる。木製だった時代には 釘 を打っていたことから「足場釘」とも呼ばれる [ 19 ] 。 コンクリート柱は骨組みに鉄筋を使用した中空構造であり、型枠に鉄骨をセットしコンクリートを注入することで製作する。そのさい型枠ごと一分間に140回転ほど回転させ遠心力をかけることで中空構造を形成する（遠心形成）。10分ほど遠心力をかける"
-        },
-        {
-          "title": "Utility_pole - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Utility_pole",
-          "publisher": "Wikipedia",
-          "type": "encyclopedia",
-          "accessMethod": "direct",
-          "accessedAt": "2026-10-26",
-          "supports": "at is ~ 0.002 in (0.05 mm) thin. As with all the other non-wood poles, FRC poles cannot be mounted with the traditional climbing hardware of hooks and gaffs. FRC poles can be pre-drilled by the manufacturer, or holes can be drilled on site. Attachments using lag bolts, teeth, nails, and staples are unacceptable for FRC poles. Through-bolts are used instead of lag bolts for maxi"
-        }
-      ],
-      "verification": {
-        "fact": {
-          "status": "verified",
-          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
-          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
-          "verifiedAt": "2026-10-26",
-          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
-          "claims": [
-            {
-              "field": "answer.ja",
-              "claim": "答えは「足場ボルト」",
-              "status": "confirmed",
-              "refs": [
-                0
-              ]
-            },
-            {
-              "field": "answer.reading",
-              "claim": "読みは「あしばボルト」",
-              "status": "partial",
-              "refs": [
-                0
-              ],
-              "note": "出典の本文に振り仮名がない。一般的な読み。"
-            },
-            {
-              "field": "answer.en",
-              "claim": "英語表記 Climbing bolts",
-              "status": "confirmed",
-              "refs": [
-                1
-              ]
-            },
-            {
-              "field": "explanation.usage",
-              "claim": "用法の説明",
-              "status": "partial",
-              "refs": [
-                0
-              ],
-              "note": "出典の記述にもとづく要約。"
-            },
-            {
-              "field": "explanation.trivia",
-              "claim": "豆知識",
-              "status": "partial",
-              "refs": [
-                0
-              ],
-              "note": "出典の記述を要約し、一般的な説明を補った。"
-            },
-            {
-              "field": "choices.c2",
-              "claim": "支線の説明",
-              "status": "confirmed",
-              "refs": [
-                0
-              ]
-            },
-            {
-              "field": "choices.c3",
-              "claim": "引込線の説明",
-              "status": "partial",
-              "refs": [
-                0
-              ],
-              "note": "読んだ出典の本文に語がない。一般的な定義。"
-            },
-            {
-              "field": "choices.c4",
-              "claim": "柱上変圧器の説明",
-              "status": "confirmed",
-              "refs": [
-                0
-              ]
-            }
-          ]
-        },
-        "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
-        }
-      },
-      "difficultyReason": {
-        "ja": "電柱は毎日見ているが、あの出っ張りが昇るための足場だとは知らない人が多い。",
-        "en": "People see poles daily but many do not realise the bumps are footholds for climbing."
       },
       "review": {
         "seenBefore": "high",
@@ -24138,23 +23945,39 @@
           "en": "Pillars of a tamagaki are often carved with the names of donors."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "神社を囲む玉垣がはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Tachibanajinjya_06c0859x.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/玉垣"
-          },
-          {
-            "file": "Owari_Oomiwa_Shrine_honden.jpeg",
-            "foundOn": "ja.wikipedia.org/wiki/玉垣"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: stone tamagaki posts and rails around a shrine, trees behind."
+      "image": {
+        "src": "assets/img/q/tamagaki.jpg",
+        "width": 960,
+        "height": 720,
+        "alt": {
+          "ja": "神社の参道のわきに続く、白い石の玉垣。",
+          "en": "A white stone tamagaki fence beside a shrine approach."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.82,
+          "cy": 0.86,
+          "rx": 0.17,
+          "ry": 0.08,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Tachibanajinjya_06c0859x.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tachibanajinjya_06c0859x.jpg",
+          "author": "ISAKA Yoji (cory)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“Tachibanajinjya 06c0859x” by ISAKA Yoji, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1024x768 to 960 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "d7e24b03cf62875c0d360d27de4c7cd24b3b7097",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -24256,8 +24079,8 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
@@ -24334,31 +24157,39 @@
           "en": "Turning the nipples to fine-tune each spoke so the wheel runs true is called 'furetori' (truing)."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "自転車のホイールのリムにあるスポークニップルがはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Bicycle_spoke_nipple.jpg",
-            "foundOn": "commons Category:Spoke_nipples"
-          },
-          {
-            "file": "Speichennippel.jpg",
-            "foundOn": "commons Category:Spoke_nipples"
-          },
-          {
-            "file": "Bicycle_spoke_nipples.jpg",
-            "foundOn": "commons Category:Spoke_nipples"
-          },
-          {
-            "file": "Laufrad-campa-vento.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/スポーク"
-          }
-        ],
-        "aiPrompt": "Photorealistic macro photo, landscape 4:3, no text: spoke nipples at the rim of a bicycle wheel."
+      "image": {
+        "src": "assets/img/q/spoke-nipple.jpg",
+        "width": 800,
+        "height": 600,
+        "alt": {
+          "ja": "金色の自転車用スポークニップル2個。",
+          "en": "Two golden bicycle spoke nipples."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.48,
+          "cy": 0.5,
+          "rx": 0.36,
+          "ry": 0.38,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bicycle_spoke_nipples.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bicycle_spoke_nipples.jpg",
+          "author": "Rado bladteth Rzeznicki",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "attribution": "“Bicycle spoke nipples” by Rado bladteth Rzeznicki, via Wikimedia Commons, Public domain",
+          "modifications": "Delivered at its original size (800x600), no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "8c681c84d8ca4d9c43ee432259850e9ccc9f5051",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
       },
       "references": [
         {
@@ -24450,234 +24281,13 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
         "ja": "自転車の車輪の縁にある小さな金具は、毎日目にしても、名前を知らない人が多い。",
         "en": "Many people see the little fittings on a wheel rim daily without knowing their name."
-      },
-      "review": {
-        "seenBefore": "high",
-        "nameUnknown": "high",
-        "imageIdentifiable": "high",
-        "guessable": "low",
-        "surprise": "medium",
-        "evidence": "medium",
-        "reviewedAt": "2026-10-26"
-      }
-    },
-    {
-      "id": "q130",
-      "category": "stationery",
-      "difficulty": 2,
-      "prompt": {
-        "ja": "認印の側面にある、上下を間違えないための小さなくぼみや印は、何と呼ばれるでしょう？",
-        "en": "What is the small notch or mark on the side of a personal seal that shows which way is up called?"
-      },
-      "answer": {
-        "ja": "アタリ",
-        "en": "Atari mark"
-      },
-      "furigana": {
-        "認印": "みとめいん",
-        "印面": "いんめん",
-        "印影": "いんえい",
-        "印鈕": "いんちゅう",
-        "印鑑": "いんかん"
-      },
-      "choices": [
-        {
-          "id": "c1",
-          "ja": "アタリ",
-          "en": "Atari mark"
-        },
-        {
-          "id": "c2",
-          "ja": "印面",
-          "en": "Seal face",
-          "note": {
-            "ja": "文字を彫った、朱肉をつけて押す側の面。",
-            "en": "The carved face that is inked and pressed."
-          }
-        },
-        {
-          "id": "c3",
-          "ja": "印影",
-          "en": "Seal print",
-          "note": {
-            "ja": "紙に押して残った、印の跡。",
-            "en": "The mark left on paper when the seal is pressed."
-          }
-        },
-        {
-          "id": "c4",
-          "ja": "印鈕（いんちゅう）",
-          "en": "Seal knob",
-          "note": {
-            "ja": "角型の印章などの、つまみの部分。",
-            "en": "The grip part of a square seal."
-          }
-        }
-      ],
-      "correctChoiceId": "c1",
-      "explanation": {
-        "usage": {
-          "ja": "印鑑の上下を確かめるための目印。側面のくぼみや、埋め込まれた突起で示される。",
-          "en": "A guide mark for telling a seal's top from its bottom, shown as a notch or an embedded bump on its side."
-        },
-        "trivia": {
-          "ja": "「サグリ」「座繰り」などとも呼ばれる。上下を取り違えて押して、印影が崩れるのを防ぐ。",
-          "en": "It is also called saguri or zaguri. It prevents pressing the seal upside down and spoiling the print."
-        }
-      },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "認印の側面のアタリ(くぼみ)がはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Inkan.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/印鑑"
-          },
-          {
-            "file": "Signature_seal_2025-04-17.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/印鑑"
-          },
-          {
-            "file": "Seal_with_round_handle_2025-04-07.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/印鑑"
-          },
-          {
-            "file": "Wooden_seals_2025-05-15.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/印鑑"
-          },
-          {
-            "file": "Titanium-stamps.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/印鑑"
-          }
-        ],
-        "aiPrompt": "Photorealistic macro photo, landscape 4:3, no text: the side of a cylindrical personal seal with a small orientation notch, soft light."
-      },
-      "references": [
-        {
-          "title": "印鑑 - Wikipedia (ja)",
-          "url": "https://ja.wikipedia.org/wiki/%E5%8D%B0%E9%91%91",
-          "publisher": "Wikipedia",
-          "type": "encyclopedia",
-          "accessMethod": "direct",
-          "accessedAt": "2026-10-26",
-          "supports": "） 角型の印章などのツマミの部分。 指付（ゆびつき）・座繰り（ざぐり）・サグリ・アタリ 印の上下を確認するために認印などの印章の側面に付けられた窪み。認印の場合契約を再考する時間の確保のため敢えて設けられてないこともある [ 30 ] 。 押印・捺印・押捺・調印 印章を用いて紙面に印影を残すこと（但し捺印には、その押された印影の意味あり）。両者は法律上は「押印」 [ 31 ] であるが 手形法 八十二条には「本法ニ於テ署名トアルハ記名捺印ヲ含ム」とあり例外もある。（当用漢字制定前は捺印が一般的 [ 32 ] ）法令上は「記名押印する affix the name and s"
-        },
-        {
-          "title": "Seal_(East_Asia) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Seal_(East_Asia)",
-          "publisher": "Wikipedia",
-          "type": "encyclopedia",
-          "accessMethod": "direct",
-          "accessedAt": "2026-10-26",
-          "supports": "Qu Leilei, Chinese Calligraphy . Cico Books Ltd.: London, 2002. Wang Jia-nan; Cai Xiaoli and Young, Dawn; The Complete Oriental Painting Course: A structured, practical guide to painting skills and techniques of China and the Far East . Quarto Publishing plc. and Aurum Press: London, 1997. Wren, Christopher S. Chinese Chops: A Signature in Stone Archived 2017-11-28 at the Wayb"
-        },
-        {
-          "title": "印鑑のアタリとは - マイナビニュース",
-          "url": "https://news.mynavi.jp/article/20211122-2171787/",
-          "publisher": "マイナビニュース",
-          "type": "media",
-          "accessMethod": "direct",
-          "accessedAt": "2026-10-26",
-          "supports": "印鑑の上下を見分ける目印を「アタリ」と呼び、業界では「サグリ」とも呼ぶ。"
-        },
-        {
-          "title": "印鑑のアタリとは - DocuSign",
-          "url": "https://www.docusign.com/ja-jp/blog/what-is-inkan-atari",
-          "publisher": "DocuSign",
-          "type": "other",
-          "accessMethod": "direct",
-          "accessedAt": "2026-10-26",
-          "supports": "アタリは、印鑑の上下を間違えないように付けられた印である。"
-        }
-      ],
-      "verification": {
-        "fact": {
-          "status": "verified",
-          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
-          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
-          "verifiedAt": "2026-10-26",
-          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
-          "claims": [
-            {
-              "field": "answer.ja",
-              "claim": "答えは「アタリ」",
-              "status": "confirmed",
-              "refs": [
-                0,
-                2,
-                3
-              ]
-            },
-            {
-              "field": "answer.en",
-              "claim": "英語表記 Atari mark",
-              "status": "confirmed",
-              "refs": [
-                1
-              ]
-            },
-            {
-              "field": "explanation.usage",
-              "claim": "用法の説明",
-              "status": "partial",
-              "refs": [
-                0
-              ],
-              "note": "出典の記述にもとづく要約。"
-            },
-            {
-              "field": "explanation.trivia",
-              "claim": "豆知識",
-              "status": "partial",
-              "refs": [
-                0
-              ],
-              "note": "出典の記述を要約し、一般的な説明を補った。"
-            },
-            {
-              "field": "choices.c2",
-              "claim": "印面の説明",
-              "status": "confirmed",
-              "refs": [
-                0
-              ]
-            },
-            {
-              "field": "choices.c3",
-              "claim": "印影の説明",
-              "status": "confirmed",
-              "refs": [
-                0
-              ]
-            },
-            {
-              "field": "choices.c4",
-              "claim": "印鈕の説明",
-              "status": "confirmed",
-              "refs": [
-                0
-              ]
-            }
-          ]
-        },
-        "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
-        }
-      },
-      "difficultyReason": {
-        "ja": "毎日のように使う印鑑だが、側面のくぼみに名前があることは、あまり知られていない。",
-        "en": "People use seals all the time, yet few know the notch on the side has a name."
       },
       "review": {
         "seenBefore": "high",
@@ -24754,31 +24364,39 @@
           "en": "In tall buildings pipes lead from it up to each floor's outlets so firefighters can use water there. It usually has two sockets."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "建物の外壁の送水口がはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Renketsu5382.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/連結送水管"
-          },
-          {
-            "file": "送水口_20200527.jpg",
-            "foundOn": "commons search: 送水口"
-          },
-          {
-            "file": "送水口_色分け_(2941008116).jpg",
-            "foundOn": "commons search: 送水口"
-          },
-          {
-            "file": "Firefighting_plumbing_In01.JPG",
-            "foundOn": "ja.wikipedia.org/wiki/連結送水管"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: a wall-mounted fire brigade inlet with two brass sockets, seen from the front."
+      "image": {
+        "src": "assets/img/q/fire-inlet.jpg",
+        "width": 800,
+        "height": 363,
+        "alt": {
+          "ja": "建物の壁にある、鎖のついた2つの金属の接続口(送水口)。",
+          "en": "Two chained metal sockets on a building wall (a fire brigade inlet)."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.32,
+          "rx": 0.3,
+          "ry": 0.3,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/%E9%80%81%E6%B0%B4%E5%8F%A3_20200527.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:%E9%80%81%E6%B0%B4%E5%8F%A3_20200527.jpg",
+          "author": "円周率３パーセント",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“送水口 20200527” by 円周率３パーセント, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 5333x3000 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "15f52e2ab5522a2c8a69d9c2ebff51435b1de434",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped to remove the plate lettering. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -24882,8 +24500,8 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
@@ -24965,35 +24583,39 @@
           "en": "In old tobukuro the opening for the doors suits birds, so sparrows sometimes nest in them."
         }
       },
-      "image": null,
-      "release": {
-        "status": "hold",
-        "reason": "image-pending",
-        "priority": "A",
-        "note": "窓のわきの戸袋がはっきり見える写真。",
-        "imageCandidates": [
-          {
-            "file": "Rakusui-en_the_amado_and_the_tobukuro_Hakata-ku_Fukuoka_20241121_162219.jpg",
-            "foundOn": "commons search: 戸袋"
-          },
-          {
-            "file": "旧豊田佐助邸戸袋.jpg",
-            "foundOn": "commons search: 戸袋"
-          },
-          {
-            "file": "Shōfū-an_the_tobukuro_and_shōji_of_the_hiroma_Chūō-ku_Fukuoka_20241209_160503.jpg",
-            "foundOn": "commons search: 戸袋"
-          },
-          {
-            "file": "Rear_of_an_Ordinary_Home_(4788335530).jpg",
-            "foundOn": "commons search: 戸袋"
-          },
-          {
-            "file": "Nagasaki-Dejima-1739.jpg",
-            "foundOn": "ja.wikipedia.org/wiki/戸袋"
-          }
-        ],
-        "aiPrompt": "Photorealistic photo, landscape 4:3, no text: the wooden tobukuro box beside a window of a Japanese house, with rain shutters."
+      "image": {
+        "src": "assets/img/q/tobukuro.jpg",
+        "width": 1280,
+        "height": 956,
+        "alt": {
+          "ja": "引き戸のわきにある、板張りの戸袋。",
+          "en": "A boarded tobukuro beside a sliding door."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.64,
+          "cy": 0.5,
+          "rx": 0.16,
+          "ry": 0.47,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Rakusui-en_the_amado_and_the_tobukuro_Hakata-ku_Fukuoka_20241121_162219.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rakusui-en_the_amado_and_the_tobukuro_Hakata-ku_Fukuoka_20241121_162219.jpg",
+          "author": "Hirho",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "“Rakusui-en the amado and the tobukuro Hakata-ku Fukuoka 20241121 162219” by Hirho, via Wikimedia Commons, CC BY-SA 4.0",
+          "modifications": "Downscaled from 3000x4000 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "b7ce4ef222cb49a0d011fa327f57b5086d25e909",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation. Cropped from a portrait photo. originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
       },
       "references": [
         {
@@ -25097,8 +24719,8 @@
           ]
         },
         "marker": {
-          "status": "pending",
-          "note": "No picture yet; the marker is set when the picture is attached."
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
         }
       },
       "difficultyReason": {
