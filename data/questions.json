@@ -21322,6 +21322,1720 @@
         "evidence": "medium",
         "reviewedAt": "2026-10-26"
       }
+    },
+    {
+      "id": "q121",
+      "category": "building",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "城の石垣の角で、長い石と短い石を交互に積み重ねて角を強くする積み方は、何と呼ばれるでしょう？",
+        "en": "What is the way of stacking long and short stones alternately at a castle wall's corner to strengthen it called?"
+      },
+      "answer": {
+        "ja": "算木積み（さんぎづみ）",
+        "reading": "さんぎづみ",
+        "en": "Sangi-zumi"
+      },
+      "furigana": {
+        "算木積み": "さんぎづみ",
+        "石垣": "いしがき",
+        "布積み": "ぬのづみ",
+        "乱積み": "らんづみ",
+        "打込接": "うちこみはぎ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "算木積み（さんぎづみ）",
+          "en": "Sangi-zumi"
+        },
+        {
+          "id": "c2",
+          "ja": "布積み（ぬのづみ）",
+          "en": "Nuno-zumi",
+          "note": {
+            "ja": "石を横に水平な目地でそろえて積む方法。",
+            "en": "Laying stones in level, horizontal courses."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "乱積み（らんづみ）",
+          "en": "Ran-zumi",
+          "note": {
+            "ja": "大きさの違う石を不規則に組み合わせる方法。",
+            "en": "Fitting stones of different sizes together irregularly."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "打込接（うちこみはぎ）",
+          "en": "Uchikomi-hagi",
+          "note": {
+            "ja": "石の面を少し加工して、すき間を小さくする方法。",
+            "en": "Shaping the stone faces slightly to make the gaps small."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "石垣の角に、直方体の石を互い違いに積み、短い面に角脇石を積む技法。",
+          "en": "A technique of stacking rectangular stones alternately at the corner, with side stones on the short faces."
+        },
+        "trivia": {
+          "ja": "「算木」は、計算に使った道具の形が似ていることから。角が強くなるので、高い石垣でも崩れにくい。",
+          "en": "The name comes from the similarity to the counting rods used for calculation. It strengthens the corner so tall walls resist collapse."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/sangi-zumi.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": {
+          "ja": "城の石垣の角。長い石と短い石が交互に積まれている。",
+          "en": "The corner of a castle stone wall, with long and short stones stacked alternately."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.545,
+          "cy": 0.55,
+          "rx": 0.07,
+          "ry": 0.28,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_stone_wall_of_Nijo-jo.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_stone_wall_of_Nijo-jo.jpg",
+          "author": "Tomomarusan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“The stone wall of Nijo-jo” by Tomomarusan, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1600x1200 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "25fbc68b8130202601a206a3478a66bb2de5e0c9",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "石垣 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "直方体 の石を直角の面に互い違いに配置し、短辺になる部分に角脇石を積む技法を 算木積 という。この算木という語は、東アジアで使われた計算用具の 算木 から来ており、形状が似ていたことが由来とされる。大坂城などに見られる。 また一番下部の石は、 礎石 (英語：cornerstone)と呼ばれ、建築において最初に置かれ、建築の起点となる重要な石であり装飾的な加工や記録などが施される。 作庭における石垣 [ 編集 ] 石垣が庭の仕切りになっている場合、 庭 の一部として活用される。乾燥するので日本では マツバギク やマンネングサなどを植える例が多い。山間部の湿気の多いところでは"
+        },
+        {
+          "title": "Japanese_castle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_castle",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": ", was destroyed in the atomic bombing , and was rebuilt in 1958 as a museum, though it does retain many of its original stone walls. [ 2 ] The character for castle, ' 城 ', is pronounced shiro (its kun'yomi ) when used as a standalone word. However, when attached to another word (such as in the name of a particular castle), it is read as jō (its Chinese-derived on'yomi ). Thus,"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「算木積み」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文で語を確認できなかった。"
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「さんぎづみ」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Sangi-zumi",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "布積みの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "乱積みの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "打込接の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "城の石垣は誰でも見たことがあるが、角の石の積み方に名前があることは、あまり知られていない。",
+        "en": "Everyone has seen castle walls, but few know the corner stacking has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q122",
+      "category": "nature",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "カエデやトネリコのように、プロペラのような羽をもち、風に乗って飛ぶ果実は、何と呼ばれるでしょう？",
+        "en": "What is the fruit with a propeller-like wing that rides the wind, as on maples and ashes, called?"
+      },
+      "answer": {
+        "ja": "翼果（よくか）",
+        "reading": "よくか",
+        "en": "Samara"
+      },
+      "furigana": {
+        "翼果": "よくか",
+        "痩果": "そうか",
+        "蒴果": "さくか",
+        "堅果": "けんか"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "翼果（よくか）",
+          "en": "Samara"
+        },
+        {
+          "id": "c2",
+          "ja": "痩果（そうか）",
+          "en": "Achene",
+          "note": {
+            "ja": "タンポポなどにみられる、硬い皮の1つの種子の果実。",
+            "en": "A one-seeded dry fruit with a hard skin, as on a dandelion."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "蒴果（さくか）",
+          "en": "Capsule",
+          "note": {
+            "ja": "熟すと割れて、中の種子を出す果実。",
+            "en": "A dry fruit that splits open when ripe to release its seeds."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "堅果（けんか）",
+          "en": "Nut",
+          "note": {
+            "ja": "ドングリのように、硬い殻をもつ果実。",
+            "en": "A fruit with a hard shell, like an acorn."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "果皮の一部が平たい翼になった果実。風に乗って、親木から離れた場所へ種子を運ぶ。",
+          "en": "A fruit whose wall grows into a flat wing, carrying the seed on the wind away from the parent tree."
+        },
+        "trivia": {
+          "ja": "カエデの果実は、2つの翼が対になっていて、回りながらゆっくり落ちる。",
+          "en": "A maple's fruit has a pair of wings and falls slowly while spinning."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/samara.jpg",
+        "width": 800,
+        "height": 600,
+        "alt": {
+          "ja": "黒い背景に浮かぶ、2枚の翼をもつカエデの翼果。",
+          "en": "A maple samara with its two wings against a black background."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.55,
+          "rx": 0.47,
+          "ry": 0.45,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Acer_pseudoplatanus5_ies.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Acer_pseudoplatanus5_ies.jpg",
+          "author": "Frank Vincentz",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“Acer pseudoplatanus5 ies” by Frank Vincentz, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Delivered at its original size (800x700), cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "afd16a2ee970670d755136e3581788ef4ff72943",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "翼果 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%BF%BC%E6%9E%9C",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "翼果 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "Samara_(fruit) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Samara_(fruit)",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "e to sidebar hide From Wikipedia, the free encyclopedia Non-opening dry fruit with a flattened wing For other uses, see Samara (disambiguation) . Vine maple ( Acer circinatum ) Samara of Combretum zeyheri A samara ( / s ə ˈ m ɑːr ə / , UK also: / ˈ s æ m ər ə / ) [ 1 ] is a winged achene , [ 2 ] a type of fruit in which a flattened wing of fibrous, papery tissue develops from t"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「翼果」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「よくか」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Samara",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "痩果の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "蒴果の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "堅果の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "落ちてくる羽つきの実はよく見かけるが、果実の種類としての名前は、あまり知られていない。",
+        "en": "People often see winged fruits spin down but seldom know the fruit type's name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q123",
+      "category": "japan",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "茶室の庭にあり、しゃがんで手を清める、低い手水鉢（ちょうずばち）のことを、何と呼ぶでしょう？",
+        "en": "What is the low washbasin in a tea garden, where one crouches to cleanse the hands, called?"
+      },
+      "answer": {
+        "ja": "蹲踞（つくばい）",
+        "reading": "つくばい",
+        "en": "Tsukubai"
+      },
+      "furigana": {
+        "蹲踞": "つくばい",
+        "手水鉢": "ちょうずばち",
+        "釣瓶": "つるべ",
+        "水琴窟": "すいきんくつ",
+        "鹿威し": "ししおどし"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "蹲踞（つくばい）",
+          "en": "Tsukubai"
+        },
+        {
+          "id": "c2",
+          "ja": "釣瓶（つるべ）",
+          "en": "Tsurube",
+          "note": {
+            "ja": "井戸の水をくむための桶。",
+            "en": "A bucket for drawing water from a well."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "水琴窟（すいきんくつ）",
+          "en": "Suikinkutsu",
+          "note": {
+            "ja": "地中の水音を響かせる仕掛け。",
+            "en": "A device that echoes dripping water from underground."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "鹿威し（ししおどし）",
+          "en": "Shishi-odoshi",
+          "note": {
+            "ja": "竹筒に水がたまると音を立てる仕掛け。",
+            "en": "A bamboo tube that clacks when it fills with water."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "茶室に入る前に手を清めるために、庭に置かれた手水鉢。しゃがむ姿勢から名がついた。",
+          "en": "A washbasin set in the garden for cleansing the hands before entering the tea room. The name comes from the crouching posture."
+        },
+        "trivia": {
+          "ja": "蹲踞は、前石・湯桶石・手燭石などの石が、手水鉢を囲んで置かれる。",
+          "en": "A tsukubai has stones such as a front stone and lamp stones arranged around the basin."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/tsukubai.jpg",
+        "width": 960,
+        "height": 720,
+        "alt": {
+          "ja": "縁側のそばに置かれた、石の蹲踞と竹の筧。",
+          "en": "A stone tsukubai with a bamboo spout beside a veranda."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.55,
+          "cy": 0.6,
+          "rx": 0.2,
+          "ry": 0.2,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Tsukubai_Rengeji_%28Kyoto%2C_Sakyo-ku%29.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tsukubai_Rengeji_(Kyoto,_Sakyo-ku).jpg",
+          "author": "user:KMR",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“Tsukubai Rengeji (Kyoto, Sakyo-ku)” by user:KMR, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1024x768 to 960 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "2c29baa086fc7a1f7aeb579c09961db8b545f25b",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "蹲踞 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%B9%B2%E8%B8%9E",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "蹲踞 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示 ペ"
+        },
+        {
+          "title": "Tsukubai - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tsukubai",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ta item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Traditional Japanese ritual washbasin The tsukubai at Ryōan-ji temple in Kyoto Tsukubai types: A) placed at the \"edge of the sea\" and B) placed in the \"center of the sea\" In Japan, a tsukubai ( 蹲踞 ) is a washbasin provided at the entrance to a holy place for visitors to purify themselves by the ritual"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「蹲踞」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「つくばい」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Tsukubai",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "釣瓶の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "水琴窟の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "鹿威しの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "寺や庭園で見かけるが、しゃがんで使う手水鉢の名前までは知らない人が多い。",
+        "en": "Seen at temples and gardens, but few know the name of the basin used while crouching."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q124",
+      "category": "transport",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "ロードバイクなどで、後輪のギアの間でチェーンを動かして、変速させる部品は、何と呼ばれるでしょう？",
+        "en": "What part of a road bike moves the chain across the rear gears to change speed?"
+      },
+      "answer": {
+        "ja": "リアディレイラー",
+        "en": "Rear derailleur"
+      },
+      "furigana": {
+        "後輪": "こうりん",
+        "変速": "へんそく"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "リアディレイラー",
+          "en": "Rear derailleur"
+        },
+        {
+          "id": "c2",
+          "ja": "ブレーキキャリパー",
+          "en": "Brake caliper",
+          "note": {
+            "ja": "リムやディスクをはさんで止める部品。",
+            "en": "A part that clamps the rim or disc to stop."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "クランクアーム",
+          "en": "Crank arm",
+          "note": {
+            "ja": "ペダルをつけて、足の力を伝える腕。",
+            "en": "The arm that carries the pedal and passes on leg power."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "スプロケット",
+          "en": "Sprocket",
+          "note": {
+            "ja": "後輪にある、ギアの歯車。",
+            "en": "The gear wheel on the rear hub."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "後輪のスプロケットの間でチェーンをかけ替えて、変速させる装置。",
+          "en": "A device that moves the chain between rear sprockets to change gear."
+        },
+        "trivia": {
+          "ja": "ディレイラーは、フランス語の「脱線させる」から来た言葉。チェーンをわざと脱線させて、別のギアに移す。",
+          "en": "The word comes from the French for 'to derail'. It deliberately derails the chain onto another gear."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/rear-derailleur.jpg",
+        "width": 960,
+        "height": 715,
+        "alt": {
+          "ja": "後輪のギアの横についた、シマノのリアディレイラー。",
+          "en": "A Shimano rear derailleur beside the rear gears."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.52,
+          "cy": 0.55,
+          "rx": 0.32,
+          "ry": 0.42,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Shimano_xt_rear_derailleur.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Shimano_xt_rear_derailleur.jpg",
+          "author": "C. Corleis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "“Shimano xt rear derailleur” by C. Corleis, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 1119x1356 to 1280 px wide by Wikimedia's thumbnail service, cropped to a landscape window, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "9233b9847139a570cb9bb6184db7456a72321283",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "ディレイラー - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4%E3%83%A9%E3%83%BC",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "動 非表示 出典: フリー百科事典『ウィキペディア（Wikipedia）』 （ ディレイラー から転送） この記事は 検証可能 な 参考文献や出典 が全く示されていないか、不十分です。 出典を追加 して記事の信頼性向上にご協力ください。 （ このテンプレートの使い方 ） 出典検索 ? : \"変速機\" 自転車 – ニュース · 書籍 · スカラー · CiNii · J-STAGE · NDL · dlib.jp · ジャパンサーチ · TWL ( 2019年6月 ) 本項では 自転車 における 変速機 （へんそくき）について解説する。自転車においては操作機構も含めて説明する"
+        },
+        {
+          "title": "Derailleur_gears - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Derailleur_gears",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from Derailleur gears ) Variable-ratio transmission system commonly used on bicycles Not to be confused with Derail . This article's lead section may be too short to adequately summarize the key points . Please consider expanding the lead to provide an accessible o"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「リアディレイラー」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Rear derailleur",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "ブレーキキャリパーの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "クランクアームの説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "スプロケットの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "自転車のギアの横にぶら下がる複雑な部品だが、名前は意外と知られていない。",
+        "en": "A complicated part dangling beside the gears, but its name is not widely known."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q126",
+      "category": "building",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "鳥居で、いちばん上の笠木（かさぎ）の下にそえられている、もう1段の水平の材は、何と呼ばれるでしょう？",
+        "en": "What is the second horizontal beam fitted under the topmost kasagi of a torii called?"
+      },
+      "answer": {
+        "ja": "島木（しまぎ）",
+        "reading": "しまぎ",
+        "en": "Shimaki"
+      },
+      "furigana": {
+        "島木": "しまぎ",
+        "笠木": "かさぎ",
+        "鳥居": "とりい",
+        "額束": "がくづか",
+        "楔": "くさび",
+        "亀腹": "かめばら",
+        "貫": "ぬき"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "島木（しまぎ）",
+          "en": "Shimaki"
+        },
+        {
+          "id": "c2",
+          "ja": "額束（がくづか）",
+          "en": "Gakuzuka",
+          "note": {
+            "ja": "貫の中央に立てて、額をかける短い柱。",
+            "en": "A short post at the centre of the nuki that holds the plaque."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "楔（くさび）",
+          "en": "Kusabi",
+          "note": {
+            "ja": "貫を柱に固定する、くさび形の木片。",
+            "en": "Wedge-shaped wood that fixes the nuki to the pillar."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "亀腹（かめばら）",
+          "en": "Kamebara",
+          "note": {
+            "ja": "柱の根元をおおう、まるい基礎の部分。",
+            "en": "A rounded base that covers the foot of the pillar."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "鳥居の笠木の下にそえられた、2段目の水平材。",
+          "en": "The second horizontal beam fitted under the kasagi of a torii."
+        },
+        "trivia": {
+          "ja": "笠木と島木は、上向きに反ったものがある。これを「反り増し」と呼ぶ。",
+          "en": "The kasagi and shimaki may curve upward, which is called sorimashi."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/shimaki.jpg",
+        "width": 960,
+        "height": 640,
+        "alt": {
+          "ja": "森の参道に立つ木造の鳥居。上部の横木が二段に重なっている。",
+          "en": "A wooden torii on a forest approach, its top beam in two layers."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.18,
+          "rx": 0.32,
+          "ry": 0.07,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tokyo_Meiji_Shrine_Torii.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Meiji_Shrine_Torii.jpg",
+          "author": "Taken by Fanghong",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "attribution": "“Tokyo Meiji Shrine Torii” by Taken by Fanghong, via Wikimedia Commons, CC BY 2.5",
+          "modifications": "Downscaled from 1024x683 to 960 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "4e0a44ac4c3717be113243993f4653437f677720",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "鳥居 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B3%A5%E5%B1%85",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "2本の柱の上に 笠木 （かさぎ）、2層の水平材とする場合に上層の笠木に接して 島木 （しまぎ）を渡す。その下に貫（ぬき）を入れて柱を固定したのが一般的な鳥居の構造である。貫が柱から外側へ出ている部分を 木鼻 とよぶ。他に、貫と笠木の間に 額束 （がくづか。額柱ともいう）を建てることがあり、柱下部に 亀腹 （ 饅頭 ともいう）を施したり、掘立であれば 根巻き （ 藁座 ともいう）や 根巻き石 （ 台座 ともいう）を施すことがある [ 24 ] 。島木と柱の間に 台輪 （だいわ）という円形の保護材をつける例もあり、柱と貫の交差部分に 楔 が打たれている例もある [ 24 ]"
+        },
+        {
+          "title": "Torii - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Torii",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ra-gū for example has a white and red one. The kasagi may be reinforced underneath by a second horizontal lintel called shimaki or shimagi ( 島木 ) . [ 21 ] The kasagi and the shimaki may have an upward curve called sorimashi ( 反り増し ) . [ 22 ] The nuki is often held in place by wedges ( kusabi ( 楔 ) ). The kusabi in many cases are purely ornamental. At the center of the nuki ther"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「島木」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「しまぎ」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Shimaki",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "額束の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "楔の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "亀腹の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "鳥居の形は誰でも知っているが、上の横木が二段になっていて、それぞれ名前があることまでは知られていない。",
+        "en": "Everyone knows a torii's shape, but few know the top beam has two layers, each with its own name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q127",
+      "category": "building",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "城の屋根の斜面にちょこんと乗った、三角形の飾りの屋根は、何と呼ばれるでしょう？",
+        "en": "What is the small triangular decorative gable perched on the slope of a castle roof called?"
+      },
+      "answer": {
+        "ja": "千鳥破風（ちどりはふ）",
+        "reading": "ちどりはふ",
+        "en": "Chidori-hafu"
+      },
+      "furigana": {
+        "千鳥破風": "ちどりはふ",
+        "唐破風": "からはふ",
+        "入母屋破風": "いりもやはふ",
+        "向拝": "ごはい",
+        "破風": "はふ"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "千鳥破風（ちどりはふ）",
+          "en": "Chidori-hafu"
+        },
+        {
+          "id": "c2",
+          "ja": "唐破風（からはふ）",
+          "en": "Kara-hafu",
+          "note": {
+            "ja": "曲線をえがいた、丸みのある破風。",
+            "en": "A curved, rounded gable."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "入母屋破風（いりもやはふ）",
+          "en": "Irimoya-hafu",
+          "note": {
+            "ja": "入母屋造の屋根の、上部の三角形の面。",
+            "en": "The triangular upper face of a hip-and-gable roof."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "向拝（ごはい）",
+          "en": "Gohai",
+          "note": {
+            "ja": "社寺の正面に張り出した、庇のある部分。",
+            "en": "The projecting canopied front of a shrine or temple."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "屋根の平側に、部分的な切妻の屋根をつけてできた破風。屋根の飾りとして、城や神社に見られる。",
+          "en": "A gable made by adding a partial gabled roof on the roof's flat side, used as decoration on castles and shrines."
+        },
+        "trivia": {
+          "ja": "千鳥破風は、平安時代ごろから現れ、安土桃山時代の城郭で広く使われた。",
+          "en": "Chidori-hafu appeared around the Heian period and spread in castle architecture of the Azuchi-Momoyama period."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/chidori-hafu.jpg",
+        "width": 1280,
+        "height": 886,
+        "alt": {
+          "ja": "名古屋城の天守。屋根に三角形の破風がいくつも乗っている。",
+          "en": "Nagoya Castle's keep with several triangular gables on its roofs."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.58,
+          "cy": 0.43,
+          "rx": 0.09,
+          "ry": 0.08,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/NagoyaCastleTower.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NagoyaCastleTower.jpg",
+          "author": "Markus Leupold-Löwenthal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "“NagoyaCastleTower” by Markus Leupold-Löwenthal, via Wikimedia Commons, CC BY-SA 3.0",
+          "modifications": "Downscaled from 3439x2380 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "54acf751be5aaa7d0972f055aa88757c5d7fd521",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "破風 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%A0%B4%E9%A2%A8",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "例が日本の 神社建築 や 城郭建築 に見られる。日本では 平安時代 ごろ以降に 千鳥破風 や 唐破風 が現れ、 室町時代 末期から 安土桃山時代 にかけての時期に、 神社建築 の 権現造 や城郭建築の 天守 のように複数の破風を組み合わせるデザインが考え出された [ 1 ] 。 日本の一般 住宅 の 妻壁 部分には、下見板張などの板壁や モルタル 、 漆喰 塗籠などの 塗壁 で仕上げられ、 鼻母屋 には破風板や化粧板金が付けられるが、城郭建築や寺院建築の妻壁には、木連 格子 や漆喰、または、豕扠首（いのこさす）などの化粧材を見せることもある。幅の広い破風板に漆喰や 黒漆 な"
+        },
+        {
+          "title": "Japanese_castle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_castle",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "was quite distinct from styles or influences seen in Shintō shrines, Buddhist temples, or Japanese homes. The intricate gables and windows are a fine example of this. On those occasions when a castle was infiltrated or invaded by enemy forces, the central keep served as the last bastion of refuge, and a point from which counter-attacks and attempts to retake the castle could be"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「千鳥破風」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「ちどりはふ」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Chidori-hafu",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "唐破風の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "入母屋破風の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "向拝の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "お城の屋根の三角の飾りは見慣れているが、種類ごとに名前があることは知られていない。",
+        "en": "People know the triangles on castle roofs but not that each kind has a name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q128",
+      "category": "daily",
+      "difficulty": 3,
+      "prompt": {
+        "ja": "道路の分かれ目や合流部にある、白い斜線で描かれた、車が入らない三角形のゾーンは、何と呼ばれるでしょう？",
+        "en": "What is the white-striped zone at a road junction or merge that cars should not enter called?"
+      },
+      "answer": {
+        "ja": "導流帯（どうりゅうたい）",
+        "reading": "どうりゅうたい",
+        "en": "Zebra zone"
+      },
+      "furigana": {
+        "導流帯": "どうりゅうたい",
+        "路側帯": "ろそくたい",
+        "停止線": "ていしせん",
+        "安全地帯": "あんぜんちたい",
+        "斜線": "しゃせん"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "導流帯（どうりゅうたい）",
+          "en": "Zebra zone"
+        },
+        {
+          "id": "c2",
+          "ja": "路側帯（ろそくたい）",
+          "en": "Roadside strip",
+          "note": {
+            "ja": "道路の端にある、歩行者などのための帯。",
+            "en": "A strip along the edge for pedestrians."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "停止線（ていしせん）",
+          "en": "Stop line",
+          "note": {
+            "ja": "交差点の手前で、車が止まる位置を示す線。",
+            "en": "A line showing where a vehicle must stop."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "安全地帯（あんぜんちたい）",
+          "en": "Safety zone",
+          "note": {
+            "ja": "歩行者を守るために設けられた島状の場所。",
+            "en": "An island-like place set up to protect pedestrians."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "交差点などで、車の流れを導くため、白い斜線で示された路面の表示。",
+          "en": "A road marking of white diagonal lines that guides vehicle flow at junctions."
+        },
+        "trivia": {
+          "ja": "導流帯の上は走ってはいけないとされることが多いが、法的な規制ではなく、安全のための表示である。",
+          "en": "Driving on it is often thought forbidden, but it is a safety marking rather than a legal ban."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/zebra-zone.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": {
+          "ja": "道路の分かれ目にある、白い斜線の三角形の導流帯。",
+          "en": "A triangular zebra zone of white diagonal stripes at a road split."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.45,
+          "cy": 0.82,
+          "rx": 0.1,
+          "ry": 0.1,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Wakamiya_St._%2817092011117%29.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Wakamiya_St._(17092011117).jpg",
+          "author": "ALF K",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "attribution": "“Wakamiya St. (17092011117)” by ALF K, via Wikimedia Commons, CC BY-SA 2.0",
+          "modifications": "Downscaled from 4896x3264 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "474500bc1ae216d08a11122d239dfeae5433e9ac",
+          "shareAlike": true,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service. Share-alike: owner decision pending."
+        }
+      },
+      "references": [
+        {
+          "title": "導流帯 - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B0%8E%E6%B5%81%E5%B8%AF",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "導流帯 - Wikipedia コンテンツにスキップ メインメニュー メインメニュー サイドバーに移動 非表示 案内 メインページ コミュニティ・ポータル 最近の出来事 新しいページ 最近の更新 おまかせ表示 練習用ページ アップロード (ウィキメディア・コモンズ) 特別ページ ヘルプ ヘルプ 利用案内 井戸端 お知らせ バグの報告 ウィキペディアに関するお問い合わせ 検索 検索 表示 寄付 アカウント作成 ログイン 個人用ツール 寄付 アカウント作成 ログイン 目次 サイドバーに移動 非表示"
+        },
+        {
+          "title": "Gore_(road) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gore_(road)",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "sidebar hide From Wikipedia, the free encyclopedia Triangular plot of land used in traffic infrastructure Highway exit gore in Gdańsk, Poland, with a transversely lined \"theoretical gore\", followed by a grass-covered physical one Two diverging white lines demarcate the theoretical gore of this highway exit on Interstate 40 in Arkansas, with a grass-covered physical gore follow"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「導流帯」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「どうりゅうたい」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Zebra zone (channelising island)",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "路側帯の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c3",
+              "claim": "停止線の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            },
+            {
+              "field": "choices.c4",
+              "claim": "安全地帯の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "道路でよく見る白い縞の三角だが、名前を知っている人は少ない。",
+        "en": "A familiar striped triangle on roads, yet few know its name."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "q129",
+      "category": "fashion",
+      "difficulty": 2,
+      "prompt": {
+        "ja": "ファスナーで、2列に並んで噛み合う、歯のような金具の1つひとつは、何と呼ばれるでしょう？",
+        "en": "What are the individual tooth-like pieces that interlock in two rows on a zipper called?"
+      },
+      "answer": {
+        "ja": "務歯（むし）",
+        "reading": "むし",
+        "en": "Zipper teeth"
+      },
+      "furigana": {
+        "務歯": "むし",
+        "引き手": "ひきて",
+        "留め金": "とめがね"
+      },
+      "choices": [
+        {
+          "id": "c1",
+          "ja": "務歯（むし）",
+          "en": "Zipper teeth"
+        },
+        {
+          "id": "c2",
+          "ja": "引き手（ひきて）",
+          "en": "Pull tab",
+          "note": {
+            "ja": "指でつまんで、スライダーを動かす部分。",
+            "en": "The part you pinch to move the slider."
+          }
+        },
+        {
+          "id": "c3",
+          "ja": "テープ",
+          "en": "Tape",
+          "note": {
+            "ja": "務歯を取り付けた、布の帯。",
+            "en": "The fabric band the teeth are attached to."
+          }
+        },
+        {
+          "id": "c4",
+          "ja": "留め金（とめがね）",
+          "en": "Stopper",
+          "note": {
+            "ja": "スライダーが抜けないよう、端に付ける金具。",
+            "en": "A metal piece at the end that stops the slider coming off."
+          }
+        }
+      ],
+      "correctChoiceId": "c1",
+      "explanation": {
+        "usage": {
+          "ja": "ファスナーの、噛み合って閉じる歯にあたる部分。テープに取り付けられている。",
+          "en": "The teeth of a zipper that interlock to close it, fixed to the tape."
+        },
+        "trivia": {
+          "ja": "「務歯」は業界用語で、「ムシ」とも呼ばれる。金属製やコイル状の樹脂製がある。",
+          "en": "The term is trade jargon, also called 'mushi'. They come in metal or coiled resin."
+        }
+      },
+      "image": {
+        "src": "assets/img/q/zipper-teeth.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": {
+          "ja": "2つのスライダーのあいだで噛み合う、ファスナーの歯。",
+          "en": "Zipper teeth interlocking between two sliders."
+        },
+        "marker": {
+          "shape": "ellipse",
+          "cx": 0.5,
+          "cy": 0.55,
+          "rx": 0.1,
+          "ry": 0.12,
+          "rotate": 0
+        },
+        "markerBakedIn": false,
+        "credit": {
+          "kind": "third-party",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Double_Ended_Zip_-_E_X_P_L_O_R_E_D_-_Flickr_-_Clint_Budd.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Double_Ended_Zip_-_E_X_P_L_O_R_E_D_-_Flickr_-_Clint_Budd.jpg",
+          "author": "Clint Budd from About 15 miles North of Swansea, Wales",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "attribution": "“Double Ended Zip - E X P L O R E D - Flickr - Clint Budd” by Clint Budd from About 15 miles North of Swansea, Wales, via Wikimedia Commons, CC BY 2.0",
+          "modifications": "Downscaled from 6000x4000 to 1280 px wide by Wikimedia's thumbnail service, no crop, re-encoded as JPEG with metadata removed. No color change. The red marker is a separate HTML overlay, not part of the file.",
+          "status": "verified",
+          "checkedAt": "2026-10-28",
+          "retrievedAt": "2026-10-28",
+          "originalSha1": "bf49ee5b1bf956e6c4865695a8fb80bb5cfa0502",
+          "shareAlike": false,
+          "note": "License read from the Commons file data (API extmetadata) and the picture was viewed; it carries no text or drawn annotation.  originalSha1 is the SHA-1 of the full-size original as reported by the Commons API; the stored picture was fetched by the project owner from Wikimedia's thumbnail service."
+        }
+      },
+      "references": [
+        {
+          "title": "ファスナー - Wikipedia (ja)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%B9%E3%83%8A%E3%83%BC",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "ー [ 編集 ] 線ファスナー →詳細は「 線ファスナー 」を参照 線上に並んだ務歯が噛み合うことで両側を固定する。 1891年 、アメリカで発明された。 商標 から、 ジッパー 、 チャック とも呼ばれる。 面ファスナー [ 編集 ] 面ファスナーの両面 →詳細は「 面ファスナー 」を参照 草の実が衣類にくっついて取れにくいことにヒントを得て、 1948年 に スイス で発明された。 商標から、 ベルクロ 、 マジックテープ とも呼ばれる。 ベルクロテープはスイス発祥のベルクロ社の登録商標である。日本では クラレ がベルクロのライセンス生産をしていたが、 1999年 にベ"
+        },
+        {
+          "title": "Zipper - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zipper",
+          "publisher": "Wikipedia",
+          "type": "encyclopedia",
+          "accessMethod": "direct",
+          "accessedAt": "2026-10-26",
+          "supports": "or the racehorse, see Zipping (horse) . For the computer function, see Zipping (computer science) . Zippers with common teeth variations: metal teeth (top), coil teeth and plastic teeth A zipper (N. America), zip , zip fastener (UK), formerly known as a clasp locker , is a commonly used device for binding together two edges of fabric or other flexible material. Used in clothing"
+        }
+      ],
+      "verification": {
+        "fact": {
+          "status": "verified",
+          "method": "Every cited page was fetched and read in full text over HTTP, and each claim was compared with the wording of the page (not with a search summary).",
+          "verifiedBy": "Claude (AI) — pages read directly; no human has checked them yet",
+          "verifiedAt": "2026-10-26",
+          "note": "All references were opened directly on 2026-10-26. Claims marked 'partial' are limited by what the sources say. A human spot check before launch is still advised.",
+          "claims": [
+            {
+              "field": "answer.ja",
+              "claim": "答えは「務歯」",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "answer.reading",
+              "claim": "読みは「むし」",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の本文に振り仮名がない。一般的な読み。"
+            },
+            {
+              "field": "answer.en",
+              "claim": "英語表記 Zipper teeth (elements)",
+              "status": "confirmed",
+              "refs": [
+                1
+              ]
+            },
+            {
+              "field": "explanation.usage",
+              "claim": "用法の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述にもとづく要約。"
+            },
+            {
+              "field": "explanation.trivia",
+              "claim": "豆知識",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "出典の記述を要約し、一般的な説明を補った。"
+            },
+            {
+              "field": "choices.c2",
+              "claim": "引き手の説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c3",
+              "claim": "テープの説明",
+              "status": "confirmed",
+              "refs": [
+                0
+              ]
+            },
+            {
+              "field": "choices.c4",
+              "claim": "留め金の説明",
+              "status": "partial",
+              "refs": [
+                0
+              ],
+              "note": "読んだ出典の本文に語がない。一般的な定義。"
+            }
+          ]
+        },
+        "marker": {
+          "status": "reviewed",
+          "note": "Marker position checked visually on the picture."
+        }
+      },
+      "difficultyReason": {
+        "ja": "ファスナーを毎日使うが、あの歯の名前を知っている人はまれである。",
+        "en": "People use zippers daily, yet rarely know the name of the teeth."
+      },
+      "review": {
+        "seenBefore": "high",
+        "nameUnknown": "high",
+        "imageIdentifiable": "high",
+        "guessable": "low",
+        "surprise": "medium",
+        "evidence": "medium",
+        "reviewedAt": "2026-10-26"
+      }
     }
   ]
 }
