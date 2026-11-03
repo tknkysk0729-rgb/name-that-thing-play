@@ -119,7 +119,8 @@ export function createApp(root, deps) {
     const avail = modeAvailability(id, data.questions.length);
     const cta = baseId === 'normal' ? t('start.cta', { count: Math.min(MODES.normal.count, data.questions.length) }) : t(`mode.cta.${baseId}`);
     const record = recordLine(id);
-    return h('li', { class: `mode-card${baseId === 'normal' ? ' is-main' : ''}`, 'data-mode': baseId, 'data-variant': typedOn ? 'typed' : null },
+    return h('li', { class: `mode-card${baseId === 'normal' ? ' is-main' : ''}`, 'data-mode': baseId, 'data-variant': typedOn ? 'typed' : null,
+      'data-night': typedOn || MODES[baseId].typed ? true : null }, // typed cards preview the night look
       h('div', { class: 'mode-head' },
         h('h3', {}, t(`mode.${id}.name`)),
         h('span', { class: 'mode-count' }, t(`mode.${baseId}.count`))),

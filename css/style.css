@@ -28,7 +28,8 @@
 
 /* Night: the look of every typed ("very hard") game. ui.js sets data-night on <html> while one is on screen.
    Only the tokens change; the red ring and the photos stay as they are. */
-:root[data-night] {
+:root[data-night],
+.mode-card[data-night] {
   color-scheme: dark;
   --bg: #0b1020;
   --surface: #141b30;
@@ -51,6 +52,9 @@
   --shadow: 0, 0, 0;
   --bg-clear: rgba(11, 16, 32, 0);
 }
+/* On the start screen only the typed mode cards are at night: a preview of where the game takes you. */
+.mode-card[data-night] { color: var(--ink); }
+
 /* the page fades into the night; everything else is drawn after the switch, so only these persist */
 body, .site-header, .site-footer, .lang { transition: background-color .45s ease, color .45s ease, border-color .45s ease; }
 @media (prefers-reduced-motion: reduce) {
