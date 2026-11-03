@@ -1,5 +1,5 @@
 import {
-  MODES, MODE_IDS, answer, clockElapsed, clockStart, clockStop, createClock, currentQuestion, isFinalStep, lastResult,
+  MODES, MODE_IDS, modeFor, answer, answerText, clockElapsed, clockStart, clockStop, createClock, currentQuestion, isFinalStep, lastResult,
   modeAvailability, next, qualifyingCorrect, skipQuestion, summary, survivalOutcome,
 } from './game.js';
 import { formatTime } from './records.js';
@@ -43,6 +43,7 @@ export function markerStyle(m) {
  */
 export function createApp(root, deps) {
   const { data, t: getT, getLang, setLang, onRoundStart, onRoundEnd, getRecords, shareFn } = deps;
+  const getTyped = () => Boolean(deps.getTyped?.());
   let game = null;
   let clock = createClock(); // time modes: counts only while a question waits for its answer
   let ticker = null;
@@ -90,7 +91,10 @@ export function createApp(root, deps) {
   function recordLine(id) {
     const rec = getRecords?.()?.[id];
     if (id === 'normal') return null;
-    if (id === 'survival') {
+    if (id === 'veryhard') {
+      return rec && rec.plays ? t('mode.record.veryhard', { n: rec.bestCorrect, total: MODES.veryhard.count, perfects: rec.perfects }) : t('mode.record.none');
+    }
+    if (MODES[id]?.suddenDeath) {
       return rec && rec.plays ? t('mode.record.survival', { n: rec.bestCorrect, clears: rec.clears }) : t('mode.record.none');
     }
     if (rec && rec.bestTimeMs != null) {
@@ -99,20 +103,22 @@ export function createApp(root, deps) {
     return t('mode.record.timeNone');
   }
 
-  function modeCard(id) {
+  function modeCard(baseId) {
+    const id = modeFor(baseId, getTyped()); // the mode this card starts right now (its typed variant when the switch is on)
+    const typedOn = id !== baseId;
     const avail = modeAvailability(id, data.questions.length);
-    const cta = id === 'normal' ? t('start.cta', { count: Math.min(MODES.normal.count, data.questions.length) }) : t(`mode.cta.${id}`);
+    const cta = baseId === 'normal' ? t('start.cta', { count: Math.min(MODES.normal.count, data.questions.length) }) : t(`mode.cta.${baseId}`);
     const record = recordLine(id);
-    return h('li', { class: `mode-card${id === 'normal' ? ' is-main' : ''}`, 'data-mode': id },
+    return h('li', { class: `mode-card${baseId === 'normal' ? ' is-main' : ''}`, 'data-mode': baseId, 'data-variant': typedOn ? 'typed' : null },
       h('div', { class: 'mode-head' },
         h('h3', {}, t(`mode.${id}.name`)),
-        h('span', { class: 'mode-count' }, t(`mode.${id}.count`))),
-      h('p', { class: 'mode-rule' }, t(`mode.${id}.rule`)),
-      h('p', { class: 'mode-feature' }, t(`mode.${id}.feature`)),
+        h('span', { class: 'mode-count' }, t(`mode.${baseId}.count`))),
+      h('p', { class: 'mode-rule' }, t(`mode.${baseId}.rule`), typedOn ? ` ${t('mode.typedRule')}` : null),
+      h('p', { class: 'mode-feature' }, t(`mode.${baseId}.feature`)),
       record ? h('p', { class: 'mode-record' }, record) : null,
       avail.ok ? null : h('p', { class: 'mode-unavailable', role: 'status' }, t('mode.unavailable', { need: avail.need, have: avail.have })),
       h('button', {
-        type: 'button', class: `btn ${id === 'normal' ? 'primary' : 'quiet'}`, id: id === 'normal' ? 'start' : `start-${id}`,
+        type: 'button', class: `btn ${baseId === 'normal' ? 'primary' : 'quiet'}`, id: baseId === 'normal' ? 'start' : `start-${baseId}`,
         disabled: !avail.ok, onclick: () => startRound(id),
       }, cta),
     );
@@ -128,6 +134,9 @@ export function createApp(root, deps) {
       ),
       h('ol', { class: 'steps' }, step(1), step(2), step(3)),
       h('h2', { class: 'modes-head' }, t('mode.heading')),
+      h('label', { class: 'typed-toggle', for: 'typed-toggle' },
+        h('input', { type: 'checkbox', id: 'typed-toggle', checked: getTyped() ? true : null, onchange: (e) => { deps.setTyped?.(e.target.checked); renderStart(); document.getElementById('typed-toggle')?.focus({ preventScroll: true }); } }),
+        h('span', {}, h('strong', {}, t('mode.typedToggle')), h('small', {}, t('mode.typedToggleNote')))),
       h('ul', { class: 'modes' }, MODE_IDS.map(modeCard)),
       h('p', { class: 'mode-timerule' }, t('mode.timeRule')),
       h('p', { class: 'pool' }, t('start.pool', { n: data.questions.length })),
@@ -137,6 +146,7 @@ export function createApp(root, deps) {
   /* ------------------------------------------------ clock (time modes) */
   const isTimed = () => Boolean(MODES[game?.mode]?.timed);
   const isSurvival = () => Boolean(MODES[game?.mode]?.suddenDeath);
+  const isTyped = () => Boolean(MODES[game?.mode]?.typed);
 
   function timerText() {
     return t('quiz.time', { time: formatTime(clockElapsed(clock, now())) });
@@ -206,7 +216,7 @@ export function createApp(root, deps) {
     if (img.complete && img.naturalWidth > 0) { frame.dataset.state = 'ok'; startClock(); }
     frame.append(img, markerEl, errorBox);
 
-    const choices = h('div', { class: 'choices', role: 'group', 'aria-label': t('quiz.choices'), id: 'choices' },
+    const choices = isTyped() ? typedForm(q, answered) : h('div', { class: 'choices', role: 'group', 'aria-label': t('quiz.choices'), id: 'choices' },
       q.choices.map((c, i) => h('button', {
         type: 'button', class: 'choice', 'data-id': c.id, 'aria-disabled': answered ? 'true' : null,
         onclick: () => choose(c.id),
@@ -249,7 +259,54 @@ export function createApp(root, deps) {
     }
     if (answered) applyAnswer(q, lastResult(game));
     preloadNext();
-    if (!answered) document.getElementById('prompt').focus({ preventScroll: true });
+    if (!answered) {
+      // typed mode: on a device with a real keyboard go straight to the input; on a phone leave the picture visible
+      const input = document.getElementById('answer-input');
+      if (input && window.matchMedia?.('(pointer: fine)').matches) input.focus({ preventScroll: true });
+      else document.getElementById('prompt').focus({ preventScroll: true });
+    }
+  }
+
+  /** Very-hard mode: an input instead of four buttons. A <form> so that Enter submits and an IME's Enter (confirming a conversion) does not. */
+  function typedForm(q, answered) {
+    const input = h('input', {
+      type: 'text', id: 'answer-input', class: 'typed-input', name: 'answer', lang: lang(),
+      autocomplete: 'off', autocapitalize: 'off', autocorrect: 'off', spellcheck: 'false', enterkeyhint: 'done',
+      placeholder: t('typed.placeholder'), 'aria-label': t('typed.label'), 'aria-describedby': 'typed-hint', maxlength: 60,
+    });
+    return h('form', {
+      class: 'typed', id: 'choices', novalidate: true,
+      onsubmit: (e) => { e.preventDefault(); submitTyped(input.value); },
+    },
+    h('label', { class: 'typed-label', for: 'answer-input' }, t('typed.label')),
+    h('div', { class: 'typed-row' },
+      input,
+      h('button', { type: 'submit', class: 'btn primary typed-submit', id: 'typed-submit' }, t('typed.submit'))),
+    h('p', { class: 'typed-hint', id: 'typed-hint' }, t('typed.hint')),
+    h('p', { class: 'typed-empty', id: 'typed-empty', role: 'alert', hidden: true }, t('typed.empty')),
+    h('button', { type: 'button', class: 'btn quiet typed-giveup', id: 'typed-giveup', onclick: () => submitTyped(null) }, t('typed.giveUp')),
+    );
+  }
+
+  function submitTyped(text) {
+    if (game.phase !== 'asking') return;
+    const frame = root.querySelector('.frame');
+    if (frame && frame.dataset.state !== 'ok') return; // cannot answer a question whose image is not visible
+    const after = answerText(game, text);
+    if (after === game) { // nothing typed: say so and keep the question open
+      const empty = document.getElementById('typed-empty');
+      if (empty) empty.hidden = false;
+      document.getElementById('answer-input')?.focus();
+      return;
+    }
+    game = after;
+    stopClock();
+    const q = currentQuestion(game);
+    applyAnswer(q, lastResult(game));
+    document.getElementById('score').textContent = scoreText();
+    const reveal = document.getElementById('reveal');
+    reveal.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth', block: 'nearest' });
+    reveal.querySelector('.next')?.focus({ preventScroll: true });
   }
 
   function scoreText() {
@@ -264,6 +321,7 @@ export function createApp(root, deps) {
     const box = document.getElementById('choices');
     if (!box) return;
     if (locked) box.dataset.locked = 'image'; else delete box.dataset.locked;
+    if (box.tagName === 'FORM') for (const el of box.querySelectorAll('input, button')) el.disabled = locked;
   }
 
   function preloadNext() {
@@ -288,7 +346,26 @@ export function createApp(root, deps) {
     reveal.querySelector('.next')?.focus({ preventScroll: true });
   }
 
+  function applyTypedAnswer(q, result) {
+    const form = document.getElementById('choices');
+    const input = form.querySelector('input');
+    input.value = result.gaveUp ? '' : result.input;
+    if (result.gaveUp) input.placeholder = t('typed.gaveUp');
+    input.readOnly = true;
+    input.classList.add(result.correct ? 'is-correct' : 'is-wrong');
+    input.setAttribute('aria-invalid', result.correct ? 'false' : 'true');
+    for (const el of form.querySelectorAll('button, .typed-hint, .typed-empty')) el.hidden = true;
+    form.classList.add('is-done');
+    form.querySelector('.typed-row').append(h('span', { class: `state ${result.correct ? 'ok' : 'ng'}` },
+      result.correct ? `✓ ${t('quiz.correctMark')}` : `✕ ${t('quiz.wrongMark')}`));
+  }
+
   function applyAnswer(q, result) {
+    if (isTyped()) {
+      applyTypedAnswer(q, result);
+      finishAnswerPanel(q, result);
+      return;
+    }
     const box = document.getElementById('choices');
     for (const btn of box.querySelectorAll('.choice')) {
       const id = btn.dataset.id;
@@ -306,6 +383,11 @@ export function createApp(root, deps) {
         state.textContent = '';
       }
     }
+    finishAnswerPanel(q, result);
+  }
+
+  /** Progress bar + the explanation block, shared by 4-choice and typed answers. */
+  function finishAnswerPanel(q, result) {
     const bar = root.querySelector('.bar');
     bar.setAttribute('aria-valuenow', game.index + 1);
     bar.firstElementChild.style.width = `${((game.index + 1) / game.questions.length) * 100}%`;
@@ -324,7 +406,7 @@ export function createApp(root, deps) {
     const isLast = isFinalStep(game);
     const gameOver = isSurvival() && !result.correct;
 
-    const others = q.choices.filter((c) => c.id !== q.correctChoiceId && c.note);
+    const others = isTyped() ? [] : q.choices.filter((c) => c.id !== q.correctChoiceId && c.note);
     const othersBlock = others.length ? h('div', { class: 'others' },
       h('h4', {}, t('quiz.others')),
       h('ul', {}, others.map((c) => h('li', {}, h('strong', { lang: lang() }, R(c, q)), h('span', {}, R(c.note, q))))),
@@ -345,6 +427,7 @@ export function createApp(root, deps) {
         h('p', { class: 'eyebrow' }, t('quiz.answerIs')),
         h('p', { class: 'answer-main', lang: lang() }, R(a, q)),
         h('p', { class: 'answer-sub', lang: second }, a[second], readingOf(second) ? h('span', { class: 'reading' }, ` (${readingOf(second)})`) : null),
+        isTyped() && !ok ? h('p', { class: 'typed-yours' }, `${t('quiz.yourPick')}: `, h('span', {}, result.gaveUp ? t('typed.gaveUp') : result.input)) : null,
       ),
       h('dl', { class: 'facts' },
         h('div', {}, h('dt', {}, t('quiz.usage')), h('dd', {}, R(q.explanation.usage, q))),
@@ -374,7 +457,7 @@ export function createApp(root, deps) {
 
   /* ------------------------------------------------ result */
   function renderResult() {
-    if (game.mode === 'survival' && summary(game).total) return renderSurvivalResult();
+    if (isSurvival() && summary(game).total) return renderSurvivalResult();
     renderScoreResult();
   }
 
@@ -388,6 +471,7 @@ export function createApp(root, deps) {
         h('div', {},
           h('div', { class: 'name', lang: lang() }, R(q.answer, q)),
           h('div', { class: 'sub', lang: sec }, q.answer[sec]),
+          !r.correct && 'input' in r ? h('div', { class: 'sub typed-yours' }, `${t('quiz.yourPick')}: ${r.gaveUp ? t('typed.gaveUp') : r.input}`) : null,
         ),
       );
     });
@@ -417,10 +501,21 @@ export function createApp(root, deps) {
     );
   }
 
+  function typedBlock(s) {
+    const rec = getRecords?.()?.veryhard;
+    const f = outcome ?? {};
+    return h('div', { class: 'time-result typed-result' },
+      f.newBestCorrect && !f.firstPlay ? h('p', { class: 'badge-best', id: 'new-best' }, t('result.vh.newBest')) : null,
+      f.firstPlay ? h('p', { class: 'time-note' }, t('result.time.first')) : null,
+      rec ? h('p', { class: 'time-note', id: 'best-veryhard' }, `${t('result.vh.best', { n: rec.bestCorrect, total: MODES.veryhard.count })} · ${t('result.vh.perfects', { n: rec.perfects })}`) : null,
+      h('p', { class: 'time-note' }, t('result.vh.note')),
+    );
+  }
+
   function renderSurvivalResult() {
     const o = survivalOutcome(game);
     const f = outcome ?? {};
-    const rec = getRecords?.()?.survival;
+    const rec = getRecords?.()?.[game.mode];
     const missed = o.wrongQuestionId ? game.questions.find((q) => q.id === o.wrongQuestionId) : null;
     const missedResult = game.results.find((r) => !r.correct);
     const sec = other();
@@ -428,11 +523,11 @@ export function createApp(root, deps) {
     root.replaceChildren(
       h('section', { class: `result survival ${o.cleared ? 'is-clear' : 'is-over'}` },
         h('h2', { tabindex: '-1', id: 'result-title' }, o.cleared ? t('result.sv.clear') : t('result.sv.over')),
-        h('p', { class: 'mode-badge' }, t('mode.survival.name')),
-        h('div', { class: 'score-ring', style: `--p:${Math.round((o.correct / MODES.survival.count) * 100)}`, role: 'img', 'aria-label': t('result.sv.correctCount', { n: o.correct }) },
+        h('p', { class: 'mode-badge' }, t(`mode.${game.mode}.name`)),
+        h('div', { class: 'score-ring', style: `--p:${Math.round((o.correct / MODES[game.mode].count) * 100)}`, role: 'img', 'aria-label': t('result.sv.correctCount', { n: o.correct }) },
           h('div', {},
             h('span', { class: 'score-num' }, `${o.correct}`),
-            h('span', { class: 'score-sub' }, `/ ${MODES.survival.count}`),
+            h('span', { class: 'score-sub' }, `/ ${MODES[game.mode].count}`),
           )),
         h('p', { class: 'accuracy' }, o.cleared ? t('result.sv.correctCount', { n: o.correct }) : `${t('result.sv.reached', { n: o.reached })} · ${t('result.sv.correctCount', { n: o.correct })}`),
         h('p', { class: 'message' }, o.cleared ? t('result.sv.clearMsg') : t('result.sv.overMsg')),
@@ -445,6 +540,7 @@ export function createApp(root, deps) {
           h('p', { class: 'answer-main', lang: lang() }, R(missed.answer, missed)),
           h('p', { class: 'answer-sub', lang: sec }, missed.answer[sec]),
           pickedChoice ? h('p', { class: 'picked' }, `${t('result.sv.yourPick')}: `, h('span', { lang: lang() }, R(pickedChoice, missed))) : null,
+          !pickedChoice && missedResult && 'input' in missedResult ? h('p', { class: 'picked' }, `${t('result.sv.yourPick')}: `, h('span', {}, missedResult.gaveUp ? t('typed.gaveUp') : missedResult.input)) : null,
           h('p', { class: 'trivia' }, R(missed.explanation.usage, missed)),
         ) : null,
         resultActions(),
@@ -464,11 +560,12 @@ export function createApp(root, deps) {
     }
     const tier = s.percent === 100 ? 'perfect' : s.percent >= 70 ? 'high' : s.percent >= 40 ? 'mid' : 'low';
     const timed = isTimed();
+    const typed = isTyped();
 
     root.replaceChildren(
       h('section', { class: 'result' },
         h('h2', { tabindex: '-1', id: 'result-title' }, timed ? t('result.time.title') : t('result.title')),
-        timed ? h('p', { class: 'mode-badge' }, t(`mode.${game.mode}.name`)) : null,
+        timed || typed ? h('p', { class: 'mode-badge' }, t(`mode.${game.mode}.name`)) : null,
         h('div', { class: 'score-ring', style: `--p:${s.percent}`, role: 'img', 'aria-label': `${t('result.scoreLabel')}: ${t('result.score', { correct: s.correct, total: s.answered })}` },
           h('div', {},
             h('span', { class: 'score-num' }, t('result.score', { correct: s.correct, total: s.answered })),
@@ -477,6 +574,7 @@ export function createApp(root, deps) {
         h('p', { class: 'accuracy' }, t('result.accuracy', { percent: s.percent })),
         h('p', { class: 'message' }, t(`result.msg.${tier}`)),
         timed ? timedBlock(s) : null,
+        game.mode === 'veryhard' ? typedBlock(s) : null,
         resultActions(),
         h('p', { class: 'review-head' }, t('result.review')),
         h('ul', { class: 'review' }, reviewList()),
@@ -489,7 +587,8 @@ export function createApp(root, deps) {
     const s = summary(game);
     let text = t('result.shareText', { correct: s.correct, total: s.answered });
     if (isTimed()) text = t('result.shareTime', { mode: t(`mode.${game.mode}.name`), correct: s.correct, total: s.answered, time: formatTime(finalTimeMs) });
-    if (game.mode === 'survival') text = survivalOutcome(game).cleared ? t('result.shareSurvivalClear') : t('result.shareSurvival', { n: s.correct });
+    if (game.mode === 'veryhard') text = t('result.shareVeryHard', { correct: s.correct, total: s.answered });
+    if (isSurvival()) text = survivalOutcome(game).cleared ? t('result.shareSurvivalClear') : t('result.shareSurvival', { n: s.correct });
     const url = location.href.split('#')[0];
     const outcome = await shareFn({ title: 'Name That Thing', text, url });
     if (outcome === 'copied') toast(t('result.copied'));
@@ -529,7 +628,7 @@ export function createApp(root, deps) {
     const s = summary(game);
     outcome = onRoundEnd(game, {
       timeMs: finalTimeMs,
-      cleared: game.mode === 'survival' && survivalOutcome(game).cleared,
+      cleared: isSurvival() && survivalOutcome(game).cleared,
       total: s.total, correct: s.correct, answered: s.answered,
     }) ?? null;
     screen = 'result';
@@ -561,7 +660,7 @@ export function createApp(root, deps) {
   }
 
   document.addEventListener('keydown', (e) => {
-    if (screen !== 'quiz' || !game || game.phase !== 'asking' || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (screen !== 'quiz' || !game || game.phase !== 'asking' || isTyped() || e.ctrlKey || e.metaKey || e.altKey) return;
     const idx = '1234'.indexOf(e.key) >= 0 ? '1234'.indexOf(e.key) : 'abcd'.indexOf(e.key.toLowerCase());
     if (idx < 0 || e.key.length !== 1) return;
     const q = currentQuestion(game);

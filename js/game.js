@@ -1,18 +1,31 @@
 // Pure game logic. No DOM, no storage: everything is testable in Node.
+import { judgeTyped } from './match.js';
 
 export const DEFAULT_ROUND_SIZE = 10;
 
 /**
  * Game modes. `normal` is the original round; the others reuse the same pick/answer code and differ in size and rules.
  * `timed`: the clock runs while a question waits for an answer. `suddenDeath`: the first wrong answer ends the game.
+ * `typed`: no choices are shown, the player types the name (judged by match.js).
  */
 export const MODES = {
   normal: { id: 'normal', count: DEFAULT_ROUND_SIZE },
   time10: { id: 'time10', count: 10, timed: true },
   time30: { id: 'time30', count: 30, timed: true },
   survival: { id: 'survival', count: 100, suddenDeath: true },
+  veryhard: { id: 'veryhard', count: 10, typed: true },
+  // typed ("very hard") variants of the three challenge modes: same rules, no choices, records kept apart
+  time10vh: { id: 'time10vh', count: 10, timed: true, typed: true, variantOf: 'time10' },
+  time30vh: { id: 'time30vh', count: 30, timed: true, typed: true, variantOf: 'time30' },
+  survivalvh: { id: 'survivalvh', count: 100, suddenDeath: true, typed: true, variantOf: 'survival' },
 };
-export const MODE_IDS = Object.keys(MODES);
+/** The modes that get a card on the start screen (the typed variants are reached with the typed switch). */
+export const MODE_IDS = Object.keys(MODES).filter((id) => !MODES[id].variantOf);
+/** The mode to start for a card: its typed variant when the typed switch is on and one exists. */
+export function modeFor(id, typed) {
+  const vh = `${id}vh`;
+  return typed && MODES[vh]?.variantOf === id ? vh : id;
+}
 /** A time record only counts when at least this share of the questions was answered correctly. */
 export const TIME_QUALIFY_RATIO = 0.7;
 
@@ -104,6 +117,28 @@ export function answer(game, choiceId) {
   };
 }
 
+/**
+ * Locks in a typed answer (very-hard mode). The result keeps what was typed so the answer screen can show it.
+ * Returns the same object when the call must be ignored (wrong phase, wrong mode, empty input).
+ * `give up` (null input) counts as a wrong answer.
+ */
+export function answerText(game, input) {
+  if (game.phase !== 'asking' || !MODES[game.mode]?.typed) return game;
+  const q = currentQuestion(game);
+  if (!q) return game;
+  const gaveUp = input == null;
+  const verdict = gaveUp ? { correct: false, empty: true } : judgeTyped(q, input);
+  if (verdict.empty && !gaveUp) return game; // nothing typed: ask again instead of burning the question
+  return {
+    ...game,
+    phase: 'answered',
+    results: [
+      ...game.results,
+      { questionId: q.id, choiceId: null, input: gaveUp ? '' : String(input).trim(), gaveUp, correct: verdict.correct },
+    ],
+  };
+}
+
 export function next(game) {
   if (game.phase !== 'answered') return game;
   const index = game.index + 1;
@@ -123,7 +158,7 @@ export function isFinalStep(game) {
 export function survivalOutcome(game) {
   const s = summary(game);
   const wrong = game.results.find((r) => !r.correct) ?? null;
-  const target = MODES.survival.count;
+  const target = MODES[game.mode]?.count ?? MODES.survival.count;
   return {
     cleared: !wrong && s.correct === target && game.questions.length === target,
     reached: Math.min(game.results.length, game.questions.length),

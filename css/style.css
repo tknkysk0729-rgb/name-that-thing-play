@@ -187,6 +187,42 @@ main { flex: 1; padding-block: 20px 40px; }
 .choice.is-dim { opacity: .55; }
 .choices[data-locked="image"] .choice { opacity: .5; }
 
+/* ---------- typed answer (very hard mode) ---------- */
+.typed { margin-top: 16px; display: grid; gap: 10px; }
+.typed-label { font-weight: 700; font-size: .95rem; }
+.typed-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+.typed-input {
+  width: 100%; min-height: 56px; padding: 10px 14px; border-radius: 12px;
+  border: 1.5px solid var(--line-strong); background: var(--surface); color: var(--ink);
+  font: inherit; font-size: 1.15rem; /* 16px+ stops iOS from zooming in on focus */
+}
+.typed-input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-color: var(--ink); }
+.typed-input.is-correct { border-color: var(--ok); background: var(--ok-bg); color: var(--ok); font-weight: 700; }
+.typed-input.is-wrong { border-color: var(--ng); background: var(--ng-bg); color: var(--ng); font-weight: 700; }
+.typed-submit { width: auto; min-width: 96px; }
+.typed-hint { margin: 0; font-size: .85rem; color: var(--muted); line-height: 1.5; }
+.typed-empty { margin: 0; font-size: .9rem; font-weight: 700; color: var(--ng); }
+.typed-giveup { min-height: 48px; font-size: .95rem; }
+.typed .state { font-size: .85rem; font-weight: 700; white-space: nowrap; }
+.typed .state.ok { color: var(--ok); }
+.typed .state.ng { color: var(--ng); }
+.typed.is-done .typed-row { grid-template-columns: 1fr auto; }
+.typed[data-locked="image"] { opacity: .5; }
+/* start screen: switch that turns the challenge modes into typed ones */
+.typed-toggle {
+  display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; margin: 0 0 14px; padding: 12px 14px;
+  background: var(--surface); border: 1.5px solid var(--line-strong); border-radius: 12px; cursor: pointer;
+}
+.typed-toggle input { width: 24px; height: 24px; margin: 2px 0 0; accent-color: var(--ink); }
+.typed-toggle strong { display: block; font-size: 1rem; }
+.typed-toggle small { display: block; margin-top: 2px; color: var(--muted); font-size: .85rem; line-height: 1.5; }
+.typed-toggle:has(input:checked) { border-color: var(--ink); }
+.typed-toggle:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+/* .btn sets display:flex, which would otherwise beat the hidden attribute used after an answer */
+.typed [hidden] { display: none !important; }
+.typed-yours { margin: 6px 0 0; font-size: .9rem; color: var(--ng); overflow-wrap: anywhere; }
+.review .typed-yours { margin: 2px 0 0; }
+
 /* ---------- reveal ---------- */
 .reveal { margin-top: 20px; animation: rise .25s ease-out both; }
 @keyframes rise { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }

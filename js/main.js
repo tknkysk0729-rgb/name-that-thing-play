@@ -49,6 +49,8 @@ async function boot() {
       setLang: (code) => { lang = code; save('lang', code); },
       shareFn: share,
       getRecords: () => normalizeRecords(load('records', null)),
+      getTyped: () => load('typed', false) === true,
+      setTyped: (on) => save('typed', Boolean(on)),
       onRoundStart: (modeId = 'normal') => {
         if (forced) {
           const game = createGame([forced], { count: 1 });
@@ -57,7 +59,7 @@ async function boot() {
           return game;
         }
         if (modeId !== 'normal') {
-          // Time attack / survival: a fresh random draw of distinct questions, never padded with repeats.
+          // Time attack / survival / very hard: a fresh random draw of distinct questions, never padded with repeats.
           const mode = MODES[modeId];
           if (!mode || !modeAvailability(modeId, pool.length).ok) return createGame([], { count: 0, mode: modeId });
           return createGame(pool, { count: mode.count, mode: modeId });

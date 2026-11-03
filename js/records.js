@@ -3,12 +3,13 @@
 import { qualifyingCorrect } from './game.js';
 
 export const RECORDS_VERSION = 1;
-const TIMED = ['time10', 'time30'];
+const TIMED = ['time10', 'time30', 'time10vh', 'time30vh'];
+const SURVIVAL = ['survival', 'survivalvh'];
 
 const num = (v, min = 0) => (Number.isFinite(v) && v >= min ? v : null);
 
 export function emptyRecords() {
-  return { v: RECORDS_VERSION, time10: null, time30: null, survival: null };
+  return { v: RECORDS_VERSION, time10: null, time30: null, survival: null, veryhard: null, time10vh: null, time30vh: null, survivalvh: null };
 }
 
 function cleanTimed(r) {
@@ -30,11 +31,21 @@ function cleanSurvival(r) {
   };
 }
 
+function cleanScore(r) {
+  if (!r || typeof r !== 'object') return null;
+  return {
+    plays: Math.floor(num(r.plays) ?? 0),
+    bestCorrect: Math.floor(num(r.bestCorrect) ?? 0),
+    perfects: Math.floor(num(r.perfects) ?? 0),
+  };
+}
+
 export function normalizeRecords(raw) {
   const out = emptyRecords();
   if (!raw || typeof raw !== 'object') return out;
   for (const id of TIMED) out[id] = cleanTimed(raw[id]);
-  out.survival = cleanSurvival(raw.survival);
+  for (const id of SURVIVAL) out[id] = cleanSurvival(raw[id]);
+  out.veryhard = cleanScore(raw.veryhard);
   return out;
 }
 
@@ -43,6 +54,7 @@ export function normalizeRecords(raw) {
  * Time modes: the best time only counts plays with at least 70% correct (so rushing through with wrong answers is not a record);
  * "most correct" is kept separately, ties broken by the shorter time.
  * Survival: best = most consecutive correct answers; clears counts full 100/100 runs.
+ * Very hard (typed): best = most correct answers in one play; perfects counts plays with every answer right.
  * Returns { records, flags }.
  */
 export function applyPlay(records, play) {
@@ -63,14 +75,25 @@ export function applyPlay(records, play) {
       flags.newBestCorrect = prev.bestCorrect == null || play.correct > prev.bestCorrect;
     }
     rec[play.mode] = next;
-  } else if (play.mode === 'survival') {
-    const prev = rec.survival ?? { plays: 0, bestCorrect: 0, clears: 0 };
+  } else if (SURVIVAL.includes(play.mode)) {
+    const prev = rec[play.mode] ?? { plays: 0, bestCorrect: 0, clears: 0 };
     flags.firstPlay = prev.plays === 0;
     flags.previous = { ...prev };
-    rec.survival = {
+    rec[play.mode] = {
       plays: prev.plays + 1,
       bestCorrect: Math.max(prev.bestCorrect, play.correct),
       clears: prev.clears + (play.cleared ? 1 : 0),
+    };
+    flags.newBestCorrect = play.correct > prev.bestCorrect;
+  } else if (play.mode === 'veryhard') {
+    const prev = rec.veryhard ?? { plays: 0, bestCorrect: 0, perfects: 0 };
+    flags.firstPlay = prev.plays === 0;
+    flags.previous = { ...prev };
+    const perfect = play.total > 0 && play.correct === play.total;
+    rec.veryhard = {
+      plays: prev.plays + 1,
+      bestCorrect: Math.max(prev.bestCorrect, play.correct),
+      perfects: prev.perfects + (perfect ? 1 : 0),
     };
     flags.newBestCorrect = play.correct > prev.bestCorrect;
   }
