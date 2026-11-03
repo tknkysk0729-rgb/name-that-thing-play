@@ -62,6 +62,16 @@ export function createApp(root, deps) {
   const categoryName = (q) => L(data.categories[q.category]);
   const stars = (q) => '★'.repeat(q.difficulty) + '☆'.repeat(3 - q.difficulty);
 
+  /* ------------------------------------------------ night (typed games) */
+  const DAY_COLOR = '#faf8f3';
+  const NIGHT_COLOR = '#0b1020';
+  /** Typed games (very hard, and the typed time attacks / survival) are played at night; the start screen is always day. */
+  function applyTheme() {
+    const night = (screen === 'quiz' || screen === 'result') && Boolean(game) && isTyped();
+    document.documentElement.toggleAttribute('data-night', night);
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', night ? NIGHT_COLOR : DAY_COLOR);
+  }
+
   /* ------------------------------------------------ chrome */
   function renderChrome() {
     document.documentElement.lang = lang();
@@ -125,6 +135,7 @@ export function createApp(root, deps) {
   }
 
   function renderStart() {
+    applyTheme();
     const step = (n) => h('li', {}, h('strong', {}, t(`start.step${n}.title`)), h('span', {}, t(`start.step${n}.body`)));
     root.replaceChildren(
       h('section', { class: 'hero' },
@@ -175,6 +186,7 @@ export function createApp(root, deps) {
 
   /* ------------------------------------------------ quiz */
   function renderQuiz() {
+    applyTheme();
     const q = currentQuestion(game);
     const total = game.questions.length;
     const answered = game.phase === 'answered';
@@ -457,6 +469,7 @@ export function createApp(root, deps) {
 
   /* ------------------------------------------------ result */
   function renderResult() {
+    applyTheme();
     if (isSurvival() && summary(game).total) return renderSurvivalResult();
     renderScoreResult();
   }
